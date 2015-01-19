@@ -1,0 +1,2091 @@
+"Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+type(
+  outcome list ref
+)
+ident(
+  def outcomes "Hwk6FINAL/assert.ml" 13 228 228 --
+)
+"Hwk6FINAL/assert.ml" 12 188 221 "Hwk6FINAL/assert.ml" 12 188 224
+type(
+  outcome list -> outcome list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/assert.ml" 12 188 225 "Hwk6FINAL/assert.ml" 12 188 227
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 12 188 221 "Hwk6FINAL/assert.ml" 12 188 227
+type(
+  outcome list ref
+)
+type(
+  outcome list ref
+)
+"Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+type(
+  string ref
+)
+ident(
+  def first_fail "Hwk6FINAL/assert.ml" 17 270 270 --
+)
+"Hwk6FINAL/assert.ml" 13 228 257 "Hwk6FINAL/assert.ml" 13 228 260
+type(
+  string -> string ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/assert.ml" 13 228 261 "Hwk6FINAL/assert.ml" 13 228 266
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 13 228 257 "Hwk6FINAL/assert.ml" 13 228 266
+type(
+  string ref
+)
+type(
+  string ref
+)
+"Hwk6FINAL/assert.ml" 17 270 274 "Hwk6FINAL/assert.ml" 17 270 287
+type(
+  string -> unit
+)
+ident(
+  def start_problem "Hwk6FINAL/assert.ml" 22 440 440 --
+)
+"Hwk6FINAL/assert.ml" 17 270 289 "Hwk6FINAL/assert.ml" 17 270 293
+type(
+  string
+)
+ident(
+  def name "Hwk6FINAL/assert.ml" 17 270 302 "Hwk6FINAL/assert.ml" 20 367 438
+)
+"Hwk6FINAL/assert.ml" 18 311 313 "Hwk6FINAL/assert.ml" 18 311 319
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 18 311 320 "Hwk6FINAL/assert.ml" 18 311 357
+type(
+  (string -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 18 311 358 "Hwk6FINAL/assert.ml" 18 311 362
+type(
+  string
+)
+ident(
+  int_ref name "Hwk6FINAL/assert.ml" 17 270 289 "Hwk6FINAL/assert.ml" 17 270 293
+)
+"Hwk6FINAL/assert.ml" 18 311 313 "Hwk6FINAL/assert.ml" 18 311 362
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 20 367 369 "Hwk6FINAL/assert.ml" 20 367 377
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 20 367 378 "Hwk6FINAL/assert.ml" 20 367 380
+type(
+  outcome list ref -> outcome list -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/assert.ml" 20 367 390 "Hwk6FINAL/assert.ml" 20 367 394
+type(
+  string
+)
+ident(
+  int_ref name "Hwk6FINAL/assert.ml" 17 270 289 "Hwk6FINAL/assert.ml" 17 270 293
+)
+"Hwk6FINAL/assert.ml" 20 367 403 "Hwk6FINAL/assert.ml" 20 367 404
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 20 367 413 "Hwk6FINAL/assert.ml" 20 367 414
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 20 367 422 "Hwk6FINAL/assert.ml" 20 367 423
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 20 367 381 "Hwk6FINAL/assert.ml" 20 367 425
+type(
+  outcome
+)
+"Hwk6FINAL/assert.ml" 20 367 429 "Hwk6FINAL/assert.ml" 20 367 430
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 20 367 430 "Hwk6FINAL/assert.ml" 20 367 438
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 20 367 429 "Hwk6FINAL/assert.ml" 20 367 438
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 20 367 381 "Hwk6FINAL/assert.ml" 20 367 438
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 20 367 369 "Hwk6FINAL/assert.ml" 20 367 438
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 18 311 313 "Hwk6FINAL/assert.ml" 20 367 438
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 25 484 488 "Hwk6FINAL/assert.ml" 25 484 498
+type(
+  string -> (unit -> 'a) -> 'a -> unit
+)
+ident(
+  def assert_eqf "Hwk6FINAL/assert.ml" 52 1647 1647 --
+)
+"Hwk6FINAL/assert.ml" 25 484 500 "Hwk6FINAL/assert.ml" 25 484 503
+type(
+  string
+)
+ident(
+  def msg "Hwk6FINAL/assert.ml" 25 484 513 "Hwk6FINAL/assert.ml" 49 1633 1644
+)
+"Hwk6FINAL/assert.ml" 25 484 513 "Hwk6FINAL/assert.ml" 25 484 523
+type(
+  unit -> 'a
+)
+ident(
+  def actual_fcn "Hwk6FINAL/assert.ml" 25 484 524 "Hwk6FINAL/assert.ml" 49 1633 1644
+)
+"Hwk6FINAL/assert.ml" 25 484 524 "Hwk6FINAL/assert.ml" 25 484 532
+type(
+  'a
+)
+ident(
+  def expected "Hwk6FINAL/assert.ml" 25 484 533 "Hwk6FINAL/assert.ml" 49 1633 1644
+)
+"Hwk6FINAL/assert.ml" 26 542 548 "Hwk6FINAL/assert.ml" 26 542 549
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 26 542 552 "Hwk6FINAL/assert.ml" 26 542 564
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Hwk6FINAL/assert.ml" 26 542 566 "Hwk6FINAL/assert.ml" 26 542 577
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 26 542 577 "Hwk6FINAL/assert.ml" 26 542 578
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 26 542 578 "Hwk6FINAL/assert.ml" 26 542 581
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 25 484 500 "Hwk6FINAL/assert.ml" 25 484 503
+)
+"Hwk6FINAL/assert.ml" 26 542 581 "Hwk6FINAL/assert.ml" 26 542 582
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 26 542 582 "Hwk6FINAL/assert.ml" 26 542 589
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 26 542 578 "Hwk6FINAL/assert.ml" 26 542 589
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 26 542 565 "Hwk6FINAL/assert.ml" 26 542 590
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 26 542 552 "Hwk6FINAL/assert.ml" 26 542 590
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 27 594 600 "Hwk6FINAL/assert.ml" 27 594 601
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 27 594 604 "Hwk6FINAL/assert.ml" 27 594 613
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"Hwk6FINAL/assert.ml" 27 594 614 "Hwk6FINAL/assert.ml" 27 594 616
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 27 594 604 "Hwk6FINAL/assert.ml" 27 594 616
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 28 620 626 "Hwk6FINAL/assert.ml" 28 620 633
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 28 620 643 "Hwk6FINAL/assert.ml" 28 620 651
+type(
+  'a
+)
+ident(
+  int_ref expected "Hwk6FINAL/assert.ml" 25 484 524 "Hwk6FINAL/assert.ml" 25 484 532
+)
+"Hwk6FINAL/assert.ml" 28 620 652 "Hwk6FINAL/assert.ml" 28 620 653
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Hwk6FINAL/assert.ml" 28 620 655 "Hwk6FINAL/assert.ml" 28 620 665
+type(
+  unit -> 'a
+)
+ident(
+  int_ref actual_fcn "Hwk6FINAL/assert.ml" 25 484 513 "Hwk6FINAL/assert.ml" 25 484 523
+)
+"Hwk6FINAL/assert.ml" 28 620 666 "Hwk6FINAL/assert.ml" 28 620 668
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 28 620 654 "Hwk6FINAL/assert.ml" 28 620 669
+call(
+  stack
+)
+type(
+  'a
+)
+"Hwk6FINAL/assert.ml" 28 620 643 "Hwk6FINAL/assert.ml" 28 620 669
+type(
+  bool
+)
+"Hwk6FINAL/assert.ml" 28 620 675 "Hwk6FINAL/assert.ml" 28 620 679
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 28 620 685 "Hwk6FINAL/assert.ml" 28 620 689
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 28 620 640 "Hwk6FINAL/assert.ml" 28 620 689
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 29 691 720 "Hwk6FINAL/assert.ml" 29 691 721
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/assert.ml" 29 691 725 "Hwk6FINAL/assert.ml" 29 691 730
+)
+"Hwk6FINAL/assert.ml" 29 691 712 "Hwk6FINAL/assert.ml" 29 691 721
+type(
+  exn
+)
+"Hwk6FINAL/assert.ml" 29 691 729 "Hwk6FINAL/assert.ml" 29 691 730
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/assert.ml" 29 691 720 "Hwk6FINAL/assert.ml" 29 691 721
+)
+"Hwk6FINAL/assert.ml" 29 691 725 "Hwk6FINAL/assert.ml" 29 691 730
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 30 731 752 "Hwk6FINAL/assert.ml" 30 731 753
+type(
+  exn
+)
+ident(
+  def e "Hwk6FINAL/assert.ml" 30 731 765 "Hwk6FINAL/assert.ml" 30 731 791
+)
+"Hwk6FINAL/assert.ml" 30 731 770 "Hwk6FINAL/assert.ml" 30 731 788
+type(
+  exn -> string
+)
+ident(
+  ext_ref Printexc.to_string
+)
+"Hwk6FINAL/assert.ml" 30 731 789 "Hwk6FINAL/assert.ml" 30 731 790
+type(
+  exn
+)
+ident(
+  int_ref e "Hwk6FINAL/assert.ml" 30 731 752 "Hwk6FINAL/assert.ml" 30 731 753
+)
+"Hwk6FINAL/assert.ml" 30 731 769 "Hwk6FINAL/assert.ml" 30 731 791
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 30 731 765 "Hwk6FINAL/assert.ml" 30 731 791
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 28 620 636 "Hwk6FINAL/assert.ml" 30 731 791
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 31 795 803 "Hwk6FINAL/assert.ml" 31 795 804
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 31 795 804 "Hwk6FINAL/assert.ml" 31 795 812
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 31 795 803 "Hwk6FINAL/assert.ml" 31 795 812
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 32 818 824 "Hwk6FINAL/assert.ml" 32 818 826
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 32 818 842 "Hwk6FINAL/assert.ml" 32 818 849
+type(
+  result
+)
+ident(
+  int_ref outcome "Hwk6FINAL/assert.ml" 28 620 626 "Hwk6FINAL/assert.ml" 28 620 633
+)
+"Hwk6FINAL/assert.ml" 33 856 871 "Hwk6FINAL/assert.ml" 33 856 875
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 33 856 879 "Hwk6FINAL/assert.ml" 33 856 892
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 33 856 893 "Hwk6FINAL/assert.ml" 33 856 909
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 33 856 879 "Hwk6FINAL/assert.ml" 33 856 909
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 34 910 925 "Hwk6FINAL/assert.ml" 34 910 929
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 35 933 949 "Hwk6FINAL/assert.ml" 35 933 962
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"Hwk6FINAL/assert.ml" 35 933 963 "Hwk6FINAL/assert.ml" 35 933 965
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 35 933 949 "Hwk6FINAL/assert.ml" 35 933 965
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 36 967 983 "Hwk6FINAL/assert.ml" 36 967 996
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 36 967 998 "Hwk6FINAL/assert.ml" 36 967 1013
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 36 967 1013 "Hwk6FINAL/assert.ml" 36 967 1014
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 36 967 1014 "Hwk6FINAL/assert.ml" 36 967 1017
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 25 484 500 "Hwk6FINAL/assert.ml" 25 484 503
+)
+"Hwk6FINAL/assert.ml" 36 967 1017 "Hwk6FINAL/assert.ml" 36 967 1018
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 36 967 1018 "Hwk6FINAL/assert.ml" 36 967 1022
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 36 967 1014 "Hwk6FINAL/assert.ml" 36 967 1022
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 36 967 997 "Hwk6FINAL/assert.ml" 36 967 1023
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 36 967 983 "Hwk6FINAL/assert.ml" 36 967 1023
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 35 933 949 "Hwk6FINAL/assert.ml" 36 967 1023
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 37 1024 1043 "Hwk6FINAL/assert.ml" 37 1024 1044
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/assert.ml" 38 1049 1065 "Hwk6FINAL/assert.ml" 39 1083 1161
+)
+"Hwk6FINAL/assert.ml" 37 1024 1039 "Hwk6FINAL/assert.ml" 37 1024 1044
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 38 1049 1065 "Hwk6FINAL/assert.ml" 38 1049 1078
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"Hwk6FINAL/assert.ml" 38 1049 1079 "Hwk6FINAL/assert.ml" 38 1049 1081
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 38 1049 1065 "Hwk6FINAL/assert.ml" 38 1049 1081
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 39 1083 1099 "Hwk6FINAL/assert.ml" 39 1083 1112
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 39 1083 1114 "Hwk6FINAL/assert.ml" 39 1083 1129
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1129 "Hwk6FINAL/assert.ml" 39 1083 1130
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 39 1083 1130 "Hwk6FINAL/assert.ml" 39 1083 1133
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 25 484 500 "Hwk6FINAL/assert.ml" 25 484 503
+)
+"Hwk6FINAL/assert.ml" 39 1083 1133 "Hwk6FINAL/assert.ml" 39 1083 1134
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 39 1083 1134 "Hwk6FINAL/assert.ml" 39 1083 1148
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1149 "Hwk6FINAL/assert.ml" 39 1083 1150
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 39 1083 1151 "Hwk6FINAL/assert.ml" 39 1083 1152
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/assert.ml" 37 1024 1043 "Hwk6FINAL/assert.ml" 37 1024 1044
+)
+"Hwk6FINAL/assert.ml" 39 1083 1153 "Hwk6FINAL/assert.ml" 39 1083 1154
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 39 1083 1155 "Hwk6FINAL/assert.ml" 39 1083 1160
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1151 "Hwk6FINAL/assert.ml" 39 1083 1160
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1134 "Hwk6FINAL/assert.ml" 39 1083 1160
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1130 "Hwk6FINAL/assert.ml" 39 1083 1160
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1113 "Hwk6FINAL/assert.ml" 39 1083 1161
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 39 1083 1099 "Hwk6FINAL/assert.ml" 39 1083 1161
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 38 1049 1065 "Hwk6FINAL/assert.ml" 39 1083 1161
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 32 818 830 "Hwk6FINAL/assert.ml" 40 1162 1177
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+type(
+  outcome
+)
+ident(
+  def current "Hwk6FINAL/assert.ml" 42 1198 1206 "Hwk6FINAL/assert.ml" 49 1633 1644
+)
+"Hwk6FINAL/assert.ml" 41 1178 1193 "Hwk6FINAL/assert.ml" 41 1178 1194
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1194
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 42 1198 1206 "Hwk6FINAL/assert.ml" 42 1198 1219
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.print_newline
+)
+"Hwk6FINAL/assert.ml" 42 1198 1220 "Hwk6FINAL/assert.ml" 42 1198 1222
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 42 1198 1206 "Hwk6FINAL/assert.ml" 42 1198 1222
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 43 1224 1244 "Hwk6FINAL/assert.ml" 43 1224 1251
+type(
+  result
+)
+ident(
+  int_ref outcome "Hwk6FINAL/assert.ml" 28 620 626 "Hwk6FINAL/assert.ml" 28 620 633
+)
+"Hwk6FINAL/assert.ml" 44 1258 1270 "Hwk6FINAL/assert.ml" 44 1258 1274
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 44 1258 1280 "Hwk6FINAL/assert.ml" 44 1258 1287
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 44 1258 1296 "Hwk6FINAL/assert.ml" 44 1258 1303
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 44 1258 1296 "Hwk6FINAL/assert.ml" 44 1258 1308
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 44 1258 1309 "Hwk6FINAL/assert.ml" 44 1258 1310
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 44 1258 1311 "Hwk6FINAL/assert.ml" 44 1258 1312
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 44 1258 1296 "Hwk6FINAL/assert.ml" 44 1258 1312
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 44 1258 1278 "Hwk6FINAL/assert.ml" 44 1258 1314
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 45 1315 1327 "Hwk6FINAL/assert.ml" 45 1315 1331
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 45 1315 1337 "Hwk6FINAL/assert.ml" 45 1315 1344
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 45 1315 1353 "Hwk6FINAL/assert.ml" 45 1315 1360
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 45 1315 1353 "Hwk6FINAL/assert.ml" 45 1315 1365
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 45 1315 1366 "Hwk6FINAL/assert.ml" 45 1315 1367
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 45 1315 1368 "Hwk6FINAL/assert.ml" 45 1315 1369
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 45 1315 1353 "Hwk6FINAL/assert.ml" 45 1315 1369
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 45 1315 1337 "Hwk6FINAL/assert.ml" 45 1315 1369
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 46 1371 1393 "Hwk6FINAL/assert.ml" 46 1371 1403
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 46 1371 1404 "Hwk6FINAL/assert.ml" 46 1371 1406
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/assert.ml" 46 1371 1410 "Hwk6FINAL/assert.ml" 46 1371 1411
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 46 1371 1411 "Hwk6FINAL/assert.ml" 46 1371 1421
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 46 1371 1410 "Hwk6FINAL/assert.ml" 46 1371 1421
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 46 1371 1422 "Hwk6FINAL/assert.ml" 46 1371 1423
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Hwk6FINAL/assert.ml" 46 1371 1424 "Hwk6FINAL/assert.ml" 46 1371 1429
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 46 1371 1410 "Hwk6FINAL/assert.ml" 46 1371 1429
+type(
+  bool
+)
+"Hwk6FINAL/assert.ml" 46 1371 1435 "Hwk6FINAL/assert.ml" 46 1371 1438
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 25 484 500 "Hwk6FINAL/assert.ml" 25 484 503
+)
+"Hwk6FINAL/assert.ml" 46 1371 1444 "Hwk6FINAL/assert.ml" 46 1371 1445
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 46 1371 1445 "Hwk6FINAL/assert.ml" 46 1371 1455
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 46 1371 1444 "Hwk6FINAL/assert.ml" 46 1371 1455
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 46 1371 1407 "Hwk6FINAL/assert.ml" 46 1371 1455
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 46 1371 1393 "Hwk6FINAL/assert.ml" 46 1371 1455
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 45 1315 1335 "Hwk6FINAL/assert.ml" 46 1371 1457
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 47 1479 1495 "Hwk6FINAL/assert.ml" 47 1479 1496
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/assert.ml" 47 1479 1500 "Hwk6FINAL/assert.ml" 48 1534 1618
+)
+"Hwk6FINAL/assert.ml" 47 1479 1491 "Hwk6FINAL/assert.ml" 47 1479 1496
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 47 1479 1502 "Hwk6FINAL/assert.ml" 47 1479 1509
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 47 1479 1517 "Hwk6FINAL/assert.ml" 47 1479 1524
+type(
+  outcome
+)
+ident(
+  int_ref current "Hwk6FINAL/assert.ml" 41 1178 1184 "Hwk6FINAL/assert.ml" 41 1178 1191
+)
+"Hwk6FINAL/assert.ml" 47 1479 1517 "Hwk6FINAL/assert.ml" 47 1479 1528
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 47 1479 1529 "Hwk6FINAL/assert.ml" 47 1479 1530
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 47 1479 1531 "Hwk6FINAL/assert.ml" 47 1479 1532
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 47 1479 1517 "Hwk6FINAL/assert.ml" 47 1479 1532
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 47 1479 1502 "Hwk6FINAL/assert.ml" 47 1479 1532
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 48 1534 1556 "Hwk6FINAL/assert.ml" 48 1534 1566
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 48 1534 1567 "Hwk6FINAL/assert.ml" 48 1534 1569
+type(
+  string ref -> string -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/assert.ml" 48 1534 1573 "Hwk6FINAL/assert.ml" 48 1534 1574
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 48 1534 1574 "Hwk6FINAL/assert.ml" 48 1534 1584
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 48 1534 1573 "Hwk6FINAL/assert.ml" 48 1534 1584
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 48 1534 1585 "Hwk6FINAL/assert.ml" 48 1534 1586
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Hwk6FINAL/assert.ml" 48 1534 1587 "Hwk6FINAL/assert.ml" 48 1534 1592
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 48 1534 1573 "Hwk6FINAL/assert.ml" 48 1534 1592
+type(
+  bool
+)
+"Hwk6FINAL/assert.ml" 48 1534 1598 "Hwk6FINAL/assert.ml" 48 1534 1599
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/assert.ml" 47 1479 1495 "Hwk6FINAL/assert.ml" 47 1479 1496
+)
+"Hwk6FINAL/assert.ml" 48 1534 1605 "Hwk6FINAL/assert.ml" 48 1534 1606
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 48 1534 1606 "Hwk6FINAL/assert.ml" 48 1534 1616
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 48 1534 1605 "Hwk6FINAL/assert.ml" 48 1534 1616
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 48 1534 1570 "Hwk6FINAL/assert.ml" 48 1534 1616
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 48 1534 1556 "Hwk6FINAL/assert.ml" 48 1534 1616
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 47 1479 1500 "Hwk6FINAL/assert.ml" 48 1534 1618
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 43 1224 1232 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 42 1198 1206 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 31 795 797 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 28 620 622 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 27 594 596 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 26 542 544 "Hwk6FINAL/assert.ml" 49 1633 1644
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 52 1647 1651 "Hwk6FINAL/assert.ml" 52 1647 1660
+type(
+  string -> 'a -> 'a -> unit
+)
+ident(
+  def assert_eq "Hwk6FINAL/assert.ml" 55 1745 1745 --
+)
+"Hwk6FINAL/assert.ml" 52 1647 1662 "Hwk6FINAL/assert.ml" 52 1647 1665
+type(
+  string
+)
+ident(
+  def msg "Hwk6FINAL/assert.ml" 52 1647 1674 "Hwk6FINAL/assert.ml" 53 1699 1743
+)
+"Hwk6FINAL/assert.ml" 52 1647 1674 "Hwk6FINAL/assert.ml" 52 1647 1680
+type(
+  'a
+)
+ident(
+  def actual "Hwk6FINAL/assert.ml" 52 1647 1681 "Hwk6FINAL/assert.ml" 53 1699 1743
+)
+"Hwk6FINAL/assert.ml" 52 1647 1681 "Hwk6FINAL/assert.ml" 52 1647 1689
+type(
+  'a
+)
+ident(
+  def expected "Hwk6FINAL/assert.ml" 52 1647 1690 "Hwk6FINAL/assert.ml" 53 1699 1743
+)
+"Hwk6FINAL/assert.ml" 53 1699 1701 "Hwk6FINAL/assert.ml" 53 1699 1711
+type(
+  string -> (unit -> 'a) -> 'a -> unit
+)
+ident(
+  int_ref assert_eqf "Hwk6FINAL/assert.ml" 25 484 488 "Hwk6FINAL/assert.ml" 25 484 498
+)
+"Hwk6FINAL/assert.ml" 53 1699 1712 "Hwk6FINAL/assert.ml" 53 1699 1715
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 52 1647 1662 "Hwk6FINAL/assert.ml" 52 1647 1665
+)
+"Hwk6FINAL/assert.ml" 53 1699 1721 "Hwk6FINAL/assert.ml" 53 1699 1723
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 53 1699 1727 "Hwk6FINAL/assert.ml" 53 1699 1733
+type(
+  'a
+)
+ident(
+  int_ref actual "Hwk6FINAL/assert.ml" 52 1647 1674 "Hwk6FINAL/assert.ml" 52 1647 1680
+)
+"Hwk6FINAL/assert.ml" 53 1699 1716 "Hwk6FINAL/assert.ml" 53 1699 1734
+type(
+  unit -> 'a
+)
+"Hwk6FINAL/assert.ml" 53 1699 1735 "Hwk6FINAL/assert.ml" 53 1699 1743
+type(
+  'a
+)
+ident(
+  int_ref expected "Hwk6FINAL/assert.ml" 52 1647 1681 "Hwk6FINAL/assert.ml" 52 1647 1689
+)
+"Hwk6FINAL/assert.ml" 53 1699 1701 "Hwk6FINAL/assert.ml" 53 1699 1743
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 55 1745 1749 "Hwk6FINAL/assert.ml" 55 1745 1757
+type(
+  string -> (unit -> bool) -> unit
+)
+ident(
+  def run_test "Hwk6FINAL/assert.ml" 57 1789 1789 --
+)
+"Hwk6FINAL/assert.ml" 55 1745 1758 "Hwk6FINAL/assert.ml" 55 1745 1761
+type(
+  string
+)
+ident(
+  def msg "Hwk6FINAL/assert.ml" 55 1745 1762 "Hwk6FINAL/assert.ml" 55 1745 1787
+)
+"Hwk6FINAL/assert.ml" 55 1745 1762 "Hwk6FINAL/assert.ml" 55 1745 1763
+type(
+  unit -> bool
+)
+ident(
+  def f "Hwk6FINAL/assert.ml" 55 1745 1766 "Hwk6FINAL/assert.ml" 55 1745 1787
+)
+"Hwk6FINAL/assert.ml" 55 1745 1766 "Hwk6FINAL/assert.ml" 55 1745 1776
+type(
+  string -> (unit -> bool) -> bool -> unit
+)
+ident(
+  int_ref assert_eqf "Hwk6FINAL/assert.ml" 25 484 488 "Hwk6FINAL/assert.ml" 25 484 498
+)
+"Hwk6FINAL/assert.ml" 55 1745 1777 "Hwk6FINAL/assert.ml" 55 1745 1780
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 55 1745 1758 "Hwk6FINAL/assert.ml" 55 1745 1761
+)
+"Hwk6FINAL/assert.ml" 55 1745 1781 "Hwk6FINAL/assert.ml" 55 1745 1782
+type(
+  unit -> bool
+)
+ident(
+  int_ref f "Hwk6FINAL/assert.ml" 55 1745 1762 "Hwk6FINAL/assert.ml" 55 1745 1763
+)
+"Hwk6FINAL/assert.ml" 55 1745 1783 "Hwk6FINAL/assert.ml" 55 1745 1787
+type(
+  bool
+)
+"Hwk6FINAL/assert.ml" 55 1745 1766 "Hwk6FINAL/assert.ml" 55 1745 1787
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 57 1789 1793 "Hwk6FINAL/assert.ml" 57 1789 1809
+type(
+  string -> (unit -> 'a) -> unit
+)
+ident(
+  def run_failing_test "Hwk6FINAL/assert.ml" 68 2186 2186 --
+)
+"Hwk6FINAL/assert.ml" 57 1789 1810 "Hwk6FINAL/assert.ml" 57 1789 1813
+type(
+  string
+)
+ident(
+  def msg "Hwk6FINAL/assert.ml" 57 1789 1814 "Hwk6FINAL/assert.ml" 66 2112 2184
+)
+"Hwk6FINAL/assert.ml" 57 1789 1814 "Hwk6FINAL/assert.ml" 57 1789 1815
+type(
+  unit -> 'a
+)
+ident(
+  def f "Hwk6FINAL/assert.ml" 58 1819 1821 "Hwk6FINAL/assert.ml" 66 2112 2184
+)
+"Hwk6FINAL/assert.ml" 58 1819 1825 "Hwk6FINAL/assert.ml" 58 1819 1826
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 58 1819 1829 "Hwk6FINAL/assert.ml" 58 1819 1841
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_string
+)
+"Hwk6FINAL/assert.ml" 58 1819 1843 "Hwk6FINAL/assert.ml" 58 1819 1854
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 58 1819 1854 "Hwk6FINAL/assert.ml" 58 1819 1855
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 58 1819 1855 "Hwk6FINAL/assert.ml" 58 1819 1858
+type(
+  string
+)
+ident(
+  int_ref msg "Hwk6FINAL/assert.ml" 57 1789 1810 "Hwk6FINAL/assert.ml" 57 1789 1813
+)
+"Hwk6FINAL/assert.ml" 58 1819 1858 "Hwk6FINAL/assert.ml" 58 1819 1859
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"Hwk6FINAL/assert.ml" 58 1819 1859 "Hwk6FINAL/assert.ml" 58 1819 1866
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 58 1819 1855 "Hwk6FINAL/assert.ml" 58 1819 1866
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 58 1819 1842 "Hwk6FINAL/assert.ml" 58 1819 1867
+call(
+  stack
+)
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 58 1819 1829 "Hwk6FINAL/assert.ml" 58 1819 1867
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 59 1871 1877 "Hwk6FINAL/assert.ml" 59 1871 1878
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 59 1871 1881 "Hwk6FINAL/assert.ml" 59 1871 1890
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Pervasives.flush_all
+)
+"Hwk6FINAL/assert.ml" 59 1871 1891 "Hwk6FINAL/assert.ml" 59 1871 1893
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 59 1871 1881 "Hwk6FINAL/assert.ml" 59 1871 1893
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 60 1897 1903 "Hwk6FINAL/assert.ml" 60 1897 1909
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 60 1897 1918 "Hwk6FINAL/assert.ml" 60 1897 1924
+type(
+  'a -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Hwk6FINAL/assert.ml" 60 1897 1926 "Hwk6FINAL/assert.ml" 60 1897 1927
+type(
+  unit -> 'a
+)
+ident(
+  int_ref f "Hwk6FINAL/assert.ml" 57 1789 1814 "Hwk6FINAL/assert.ml" 57 1789 1815
+)
+"Hwk6FINAL/assert.ml" 60 1897 1928 "Hwk6FINAL/assert.ml" 60 1897 1930
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 60 1897 1925 "Hwk6FINAL/assert.ml" 60 1897 1931
+call(
+  stack
+)
+type(
+  'a
+)
+"Hwk6FINAL/assert.ml" 60 1897 1918 "Hwk6FINAL/assert.ml" 60 1897 1931
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 60 1897 1934 "Hwk6FINAL/assert.ml" 60 1897 1938
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 60 1897 1917 "Hwk6FINAL/assert.ml" 60 1897 1939
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 61 1945 1957 "Hwk6FINAL/assert.ml" 61 1945 1958
+type(
+  string
+)
+ident(
+  def x "Hwk6FINAL/assert.ml" 61 1945 1962 "Hwk6FINAL/assert.ml" 61 1945 1966
+)
+"Hwk6FINAL/assert.ml" 61 1945 1949 "Hwk6FINAL/assert.ml" 61 1945 1958
+type(
+  exn
+)
+"Hwk6FINAL/assert.ml" 61 1945 1962 "Hwk6FINAL/assert.ml" 61 1945 1966
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 62 1967 1971 "Hwk6FINAL/assert.ml" 62 1967 1972
+type(
+  exn
+)
+"Hwk6FINAL/assert.ml" 62 1967 1976 "Hwk6FINAL/assert.ml" 62 1967 1980
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 60 1897 1912 "Hwk6FINAL/assert.ml" 62 1967 1981
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 63 1985 1993 "Hwk6FINAL/assert.ml" 63 1985 1999
+type(
+  result
+)
+ident(
+  int_ref result "Hwk6FINAL/assert.ml" 60 1897 1903 "Hwk6FINAL/assert.ml" 60 1897 1909
+)
+"Hwk6FINAL/assert.ml" 64 2006 2010 "Hwk6FINAL/assert.ml" 64 2006 2014
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 64 2006 2018 "Hwk6FINAL/assert.ml" 64 2006 2031
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 64 2006 2032 "Hwk6FINAL/assert.ml" 64 2006 2048
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 64 2006 2018 "Hwk6FINAL/assert.ml" 64 2006 2048
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 65 2049 2053 "Hwk6FINAL/assert.ml" 65 2049 2057
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 65 2049 2061 "Hwk6FINAL/assert.ml" 65 2049 2074
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 65 2049 2075 "Hwk6FINAL/assert.ml" 65 2049 2110
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 65 2049 2061 "Hwk6FINAL/assert.ml" 65 2049 2110
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 66 2112 2120 "Hwk6FINAL/assert.ml" 66 2112 2121
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/assert.ml" 66 2112 2125 "Hwk6FINAL/assert.ml" 66 2112 2184
+)
+"Hwk6FINAL/assert.ml" 66 2112 2116 "Hwk6FINAL/assert.ml" 66 2112 2121
+type(
+  result
+)
+"Hwk6FINAL/assert.ml" 66 2112 2125 "Hwk6FINAL/assert.ml" 66 2112 2138
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"Hwk6FINAL/assert.ml" 66 2112 2139 "Hwk6FINAL/assert.ml" 66 2112 2184
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 66 2112 2125 "Hwk6FINAL/assert.ml" 66 2112 2184
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 63 1985 1987 "Hwk6FINAL/assert.ml" 66 2112 2184
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 60 1897 1899 "Hwk6FINAL/assert.ml" 66 2112 2184
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 59 1871 1873 "Hwk6FINAL/assert.ml" 66 2112 2184
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 58 1819 1821 "Hwk6FINAL/assert.ml" 66 2112 2184
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 68 2186 2194 "Hwk6FINAL/assert.ml" 68 2186 2208
+type(
+  outcome list -> unit
+)
+ident(
+  def print_outcomes "Hwk6FINAL/assert.ml" 68 2186 2186 --
+)
+"Hwk6FINAL/assert.ml" 68 2186 2210 "Hwk6FINAL/assert.ml" 68 2186 2212
+type(
+  outcome list
+)
+ident(
+  def os "Hwk6FINAL/assert.ml" 68 2186 2227 "Hwk6FINAL/assert.ml" 77 2426 2463
+)
+"Hwk6FINAL/assert.ml" 69 2236 2244 "Hwk6FINAL/assert.ml" 69 2236 2246
+type(
+  outcome list
+)
+ident(
+  int_ref os "Hwk6FINAL/assert.ml" 68 2186 2210 "Hwk6FINAL/assert.ml" 68 2186 2212
+)
+"Hwk6FINAL/assert.ml" 70 2252 2256 "Hwk6FINAL/assert.ml" 70 2252 2258
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 70 2252 2262 "Hwk6FINAL/assert.ml" 70 2252 2264
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2270
+type(
+  outcome
+)
+ident(
+  def h "Hwk6FINAL/assert.ml" 72 2279 2285 "Hwk6FINAL/assert.ml" 77 2426 2463
+)
+"Hwk6FINAL/assert.ml" 71 2265 2274 "Hwk6FINAL/assert.ml" 71 2265 2275
+type(
+  outcome list
+)
+ident(
+  def t "Hwk6FINAL/assert.ml" 72 2279 2285 "Hwk6FINAL/assert.ml" 77 2426 2463
+)
+"Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2275
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 72 2279 2285 "Hwk6FINAL/assert.ml" 72 2279 2299
+type(
+  outcome list -> unit
+)
+ident(
+  int_ref print_outcomes "Hwk6FINAL/assert.ml" 68 2186 2194 "Hwk6FINAL/assert.ml" 68 2186 2208
+)
+"Hwk6FINAL/assert.ml" 72 2279 2300 "Hwk6FINAL/assert.ml" 72 2279 2301
+type(
+  outcome list
+)
+ident(
+  int_ref t "Hwk6FINAL/assert.ml" 71 2265 2274 "Hwk6FINAL/assert.ml" 71 2265 2275
+)
+"Hwk6FINAL/assert.ml" 72 2279 2285 "Hwk6FINAL/assert.ml" 72 2279 2301
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 73 2303 2309 "Hwk6FINAL/assert.ml" 73 2303 2315
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 73 2303 2316 "Hwk6FINAL/assert.ml" 73 2303 2325
+type(
+  (string -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 73 2303 2326 "Hwk6FINAL/assert.ml" 73 2303 2327
+type(
+  outcome
+)
+ident(
+  int_ref h "Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2270
+)
+"Hwk6FINAL/assert.ml" 73 2303 2326 "Hwk6FINAL/assert.ml" 73 2303 2332
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 73 2303 2309 "Hwk6FINAL/assert.ml" 73 2303 2332
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 75 2341 2347 "Hwk6FINAL/assert.ml" 75 2341 2353
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 75 2341 2354 "Hwk6FINAL/assert.ml" 75 2341 2375
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 75 2341 2376 "Hwk6FINAL/assert.ml" 75 2341 2377
+type(
+  outcome
+)
+ident(
+  int_ref h "Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2270
+)
+"Hwk6FINAL/assert.ml" 75 2341 2376 "Hwk6FINAL/assert.ml" 75 2341 2382
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 75 2341 2347 "Hwk6FINAL/assert.ml" 75 2341 2382
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 76 2384 2390 "Hwk6FINAL/assert.ml" 76 2384 2396
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 76 2384 2397 "Hwk6FINAL/assert.ml" 76 2384 2417
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 76 2384 2418 "Hwk6FINAL/assert.ml" 76 2384 2419
+type(
+  outcome
+)
+ident(
+  int_ref h "Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2270
+)
+"Hwk6FINAL/assert.ml" 76 2384 2418 "Hwk6FINAL/assert.ml" 76 2384 2424
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 76 2384 2390 "Hwk6FINAL/assert.ml" 76 2384 2424
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 77 2426 2432 "Hwk6FINAL/assert.ml" 77 2426 2438
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 77 2426 2439 "Hwk6FINAL/assert.ml" 77 2426 2457
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 77 2426 2458 "Hwk6FINAL/assert.ml" 77 2426 2459
+type(
+  outcome
+)
+ident(
+  int_ref h "Hwk6FINAL/assert.ml" 71 2265 2269 "Hwk6FINAL/assert.ml" 71 2265 2270
+)
+"Hwk6FINAL/assert.ml" 77 2426 2458 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 77 2426 2432 "Hwk6FINAL/assert.ml" 77 2426 2463
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 76 2384 2390 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 75 2341 2347 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 73 2303 2309 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 72 2279 2285 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 69 2236 2238 "Hwk6FINAL/assert.ml" 77 2426 2463
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 80 2472 2476 "Hwk6FINAL/assert.ml" 80 2472 2484
+type(
+  unit -> unit
+)
+ident(
+  def end_test "Hwk6FINAL/assert.ml" 91 2846 2890 --
+)
+"Hwk6FINAL/assert.ml" 80 2472 2485 "Hwk6FINAL/assert.ml" 80 2472 2487
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 82 2500 2502 "Hwk6FINAL/assert.ml" 82 2500 2516
+type(
+  outcome list -> unit
+)
+ident(
+  int_ref print_outcomes "Hwk6FINAL/assert.ml" 68 2186 2194 "Hwk6FINAL/assert.ml" 68 2186 2208
+)
+"Hwk6FINAL/assert.ml" 82 2500 2517 "Hwk6FINAL/assert.ml" 82 2500 2518
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 82 2500 2518 "Hwk6FINAL/assert.ml" 82 2500 2526
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 82 2500 2517 "Hwk6FINAL/assert.ml" 82 2500 2526
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 82 2500 2502 "Hwk6FINAL/assert.ml" 82 2500 2526
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 83 2528 2530 "Hwk6FINAL/assert.ml" 83 2528 2536
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 83 2528 2537 "Hwk6FINAL/assert.ml" 83 2528 2551
+type(
+  (unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 83 2528 2530 "Hwk6FINAL/assert.ml" 83 2528 2551
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 85 2556 2562 "Hwk6FINAL/assert.ml" 85 2556 2563
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 85 2556 2571 "Hwk6FINAL/assert.ml" 85 2556 2580
+type(
+  (int -> outcome -> int) -> int -> outcome list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"Hwk6FINAL/assert.ml" 85 2556 2586 "Hwk6FINAL/assert.ml" 85 2556 2587
+type(
+  int
+)
+ident(
+  def x "Hwk6FINAL/assert.ml" 85 2556 2588 "Hwk6FINAL/assert.ml" 85 2556 2603
+)
+"Hwk6FINAL/assert.ml" 85 2556 2588 "Hwk6FINAL/assert.ml" 85 2556 2589
+type(
+  outcome
+)
+ident(
+  def y "Hwk6FINAL/assert.ml" 85 2556 2593 "Hwk6FINAL/assert.ml" 85 2556 2603
+)
+"Hwk6FINAL/assert.ml" 85 2556 2593 "Hwk6FINAL/assert.ml" 85 2556 2594
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/assert.ml" 85 2556 2586 "Hwk6FINAL/assert.ml" 85 2556 2587
+)
+"Hwk6FINAL/assert.ml" 85 2556 2595 "Hwk6FINAL/assert.ml" 85 2556 2596
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 85 2556 2597 "Hwk6FINAL/assert.ml" 85 2556 2598
+type(
+  outcome
+)
+ident(
+  int_ref y "Hwk6FINAL/assert.ml" 85 2556 2588 "Hwk6FINAL/assert.ml" 85 2556 2589
+)
+"Hwk6FINAL/assert.ml" 85 2556 2597 "Hwk6FINAL/assert.ml" 85 2556 2603
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 85 2556 2593 "Hwk6FINAL/assert.ml" 85 2556 2603
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 85 2556 2581 "Hwk6FINAL/assert.ml" 85 2556 2604
+type(
+  int -> outcome -> int
+)
+"Hwk6FINAL/assert.ml" 85 2556 2605 "Hwk6FINAL/assert.ml" 85 2556 2606
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 85 2556 2607 "Hwk6FINAL/assert.ml" 85 2556 2608
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 85 2556 2608 "Hwk6FINAL/assert.ml" 85 2556 2616
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 85 2556 2607 "Hwk6FINAL/assert.ml" 85 2556 2616
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 85 2556 2571 "Hwk6FINAL/assert.ml" 85 2556 2616
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 86 2620 2622 "Hwk6FINAL/assert.ml" 86 2620 2628
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 86 2620 2629 "Hwk6FINAL/assert.ml" 86 2620 2650
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 86 2620 2651 "Hwk6FINAL/assert.ml" 86 2620 2652
+type(
+  int
+)
+ident(
+  int_ref s "Hwk6FINAL/assert.ml" 85 2556 2562 "Hwk6FINAL/assert.ml" 85 2556 2563
+)
+"Hwk6FINAL/assert.ml" 86 2620 2622 "Hwk6FINAL/assert.ml" 86 2620 2652
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 87 2654 2660 "Hwk6FINAL/assert.ml" 87 2654 2661
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 87 2654 2669 "Hwk6FINAL/assert.ml" 87 2654 2678
+type(
+  (int -> outcome -> int) -> int -> outcome list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"Hwk6FINAL/assert.ml" 87 2654 2684 "Hwk6FINAL/assert.ml" 87 2654 2685
+type(
+  int
+)
+ident(
+  def x "Hwk6FINAL/assert.ml" 87 2654 2686 "Hwk6FINAL/assert.ml" 87 2654 2701
+)
+"Hwk6FINAL/assert.ml" 87 2654 2686 "Hwk6FINAL/assert.ml" 87 2654 2687
+type(
+  outcome
+)
+ident(
+  def y "Hwk6FINAL/assert.ml" 87 2654 2691 "Hwk6FINAL/assert.ml" 87 2654 2701
+)
+"Hwk6FINAL/assert.ml" 87 2654 2691 "Hwk6FINAL/assert.ml" 87 2654 2692
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/assert.ml" 87 2654 2684 "Hwk6FINAL/assert.ml" 87 2654 2685
+)
+"Hwk6FINAL/assert.ml" 87 2654 2693 "Hwk6FINAL/assert.ml" 87 2654 2694
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 87 2654 2695 "Hwk6FINAL/assert.ml" 87 2654 2696
+type(
+  outcome
+)
+ident(
+  int_ref y "Hwk6FINAL/assert.ml" 87 2654 2686 "Hwk6FINAL/assert.ml" 87 2654 2687
+)
+"Hwk6FINAL/assert.ml" 87 2654 2695 "Hwk6FINAL/assert.ml" 87 2654 2701
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 87 2654 2691 "Hwk6FINAL/assert.ml" 87 2654 2701
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 87 2654 2679 "Hwk6FINAL/assert.ml" 87 2654 2702
+type(
+  int -> outcome -> int
+)
+"Hwk6FINAL/assert.ml" 87 2654 2703 "Hwk6FINAL/assert.ml" 87 2654 2704
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 87 2654 2705 "Hwk6FINAL/assert.ml" 87 2654 2706
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 87 2654 2706 "Hwk6FINAL/assert.ml" 87 2654 2714
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 87 2654 2705 "Hwk6FINAL/assert.ml" 87 2654 2714
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 87 2654 2669 "Hwk6FINAL/assert.ml" 87 2654 2714
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 88 2718 2720 "Hwk6FINAL/assert.ml" 88 2718 2726
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 88 2718 2727 "Hwk6FINAL/assert.ml" 88 2718 2747
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 88 2718 2748 "Hwk6FINAL/assert.ml" 88 2718 2749
+type(
+  int
+)
+ident(
+  int_ref f "Hwk6FINAL/assert.ml" 87 2654 2660 "Hwk6FINAL/assert.ml" 87 2654 2661
+)
+"Hwk6FINAL/assert.ml" 88 2718 2720 "Hwk6FINAL/assert.ml" 88 2718 2749
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 89 2751 2757 "Hwk6FINAL/assert.ml" 89 2751 2758
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 89 2751 2766 "Hwk6FINAL/assert.ml" 89 2751 2775
+type(
+  (int -> outcome -> int) -> int -> outcome list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"Hwk6FINAL/assert.ml" 89 2751 2781 "Hwk6FINAL/assert.ml" 89 2751 2782
+type(
+  int
+)
+ident(
+  def x "Hwk6FINAL/assert.ml" 89 2751 2783 "Hwk6FINAL/assert.ml" 89 2751 2797
+)
+"Hwk6FINAL/assert.ml" 89 2751 2783 "Hwk6FINAL/assert.ml" 89 2751 2784
+type(
+  outcome
+)
+ident(
+  def y "Hwk6FINAL/assert.ml" 89 2751 2788 "Hwk6FINAL/assert.ml" 89 2751 2797
+)
+"Hwk6FINAL/assert.ml" 89 2751 2788 "Hwk6FINAL/assert.ml" 89 2751 2789
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/assert.ml" 89 2751 2781 "Hwk6FINAL/assert.ml" 89 2751 2782
+)
+"Hwk6FINAL/assert.ml" 89 2751 2790 "Hwk6FINAL/assert.ml" 89 2751 2791
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/assert.ml" 89 2751 2792 "Hwk6FINAL/assert.ml" 89 2751 2793
+type(
+  outcome
+)
+ident(
+  int_ref y "Hwk6FINAL/assert.ml" 89 2751 2783 "Hwk6FINAL/assert.ml" 89 2751 2784
+)
+"Hwk6FINAL/assert.ml" 89 2751 2792 "Hwk6FINAL/assert.ml" 89 2751 2797
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 89 2751 2788 "Hwk6FINAL/assert.ml" 89 2751 2797
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 89 2751 2776 "Hwk6FINAL/assert.ml" 89 2751 2798
+type(
+  int -> outcome -> int
+)
+"Hwk6FINAL/assert.ml" 89 2751 2799 "Hwk6FINAL/assert.ml" 89 2751 2800
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 89 2751 2801 "Hwk6FINAL/assert.ml" 89 2751 2802
+type(
+  outcome list ref -> outcome list
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 89 2751 2802 "Hwk6FINAL/assert.ml" 89 2751 2810
+type(
+  outcome list ref
+)
+ident(
+  int_ref outcomes "Hwk6FINAL/assert.ml" 12 188 192 "Hwk6FINAL/assert.ml" 12 188 200
+)
+"Hwk6FINAL/assert.ml" 89 2751 2801 "Hwk6FINAL/assert.ml" 89 2751 2810
+type(
+  outcome list
+)
+"Hwk6FINAL/assert.ml" 89 2751 2766 "Hwk6FINAL/assert.ml" 89 2751 2810
+call(
+  stack
+)
+type(
+  int
+)
+type(
+  int
+)
+"Hwk6FINAL/assert.ml" 90 2814 2816 "Hwk6FINAL/assert.ml" 90 2814 2822
+type(
+  (int -> unit, out_channel, unit) format -> int -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 90 2814 2823 "Hwk6FINAL/assert.ml" 90 2814 2841
+type(
+  (int -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 90 2814 2842 "Hwk6FINAL/assert.ml" 90 2814 2843
+type(
+  int
+)
+ident(
+  int_ref e "Hwk6FINAL/assert.ml" 89 2751 2757 "Hwk6FINAL/assert.ml" 89 2751 2758
+)
+"Hwk6FINAL/assert.ml" 90 2814 2816 "Hwk6FINAL/assert.ml" 90 2814 2843
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 91 2846 2848 "Hwk6FINAL/assert.ml" 91 2846 2854
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"Hwk6FINAL/assert.ml" 91 2846 2855 "Hwk6FINAL/assert.ml" 91 2846 2878
+type(
+  (string -> unit, out_channel, unit) format
+)
+"Hwk6FINAL/assert.ml" 91 2846 2879 "Hwk6FINAL/assert.ml" 91 2846 2880
+type(
+  string ref -> string
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/assert.ml" 91 2846 2880 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  string ref
+)
+ident(
+  int_ref first_fail "Hwk6FINAL/assert.ml" 13 228 232 "Hwk6FINAL/assert.ml" 13 228 242
+)
+"Hwk6FINAL/assert.ml" 91 2846 2879 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  string
+)
+"Hwk6FINAL/assert.ml" 91 2846 2848 "Hwk6FINAL/assert.ml" 91 2846 2890
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 90 2814 2816 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 89 2751 2753 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 88 2718 2720 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 87 2654 2656 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 86 2620 2622 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 85 2556 2558 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 83 2528 2530 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+"Hwk6FINAL/assert.ml" 82 2500 2502 "Hwk6FINAL/assert.ml" 91 2846 2890
+type(
+  unit
+)
+type(
+  unit
+)

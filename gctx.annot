@@ -1,0 +1,2942 @@
+"Hwk6FINAL/gctx.ml" 33 1045 1049 "Hwk6FINAL/gctx.ml" 33 1045 1055
+type(
+  unit -> t
+)
+ident(
+  def create "Hwk6FINAL/gctx.ml" 40 1161 1161 --
+)
+"Hwk6FINAL/gctx.ml" 33 1045 1056 "Hwk6FINAL/gctx.ml" 33 1045 1058
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 34 1066 1071 "Hwk6FINAL/gctx.ml" 34 1066 1072
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 34 1066 1076 "Hwk6FINAL/gctx.ml" 34 1066 1077
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 35 1080 1089 "Hwk6FINAL/gctx.ml" 35 1080 1103
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.black
+)
+"Hwk6FINAL/gctx.ml" 36 1105 1115 "Hwk6FINAL/gctx.ml" 36 1105 1120
+type(
+  bool
+)
+"Hwk6FINAL/gctx.ml" 34 1066 1068 "Hwk6FINAL/gctx.ml" 37 1121 1125
+type(
+  t
+)
+type(
+  t
+)
+"Hwk6FINAL/gctx.ml" 40 1161 1165 "Hwk6FINAL/gctx.ml" 40 1161 1174
+type(
+  t -> int * int -> t
+)
+ident(
+  def translate "Hwk6FINAL/gctx.ml" 46 1411 1411 --
+)
+"Hwk6FINAL/gctx.ml" 40 1161 1176 "Hwk6FINAL/gctx.ml" 40 1161 1177
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 40 1161 1181 "Hwk6FINAL/gctx.ml" 41 1206 1237
+)
+"Hwk6FINAL/gctx.ml" 40 1161 1183 "Hwk6FINAL/gctx.ml" 40 1161 1185
+type(
+  int
+)
+ident(
+  def dx "Hwk6FINAL/gctx.ml" 40 1161 1199 "Hwk6FINAL/gctx.ml" 41 1206 1237
+)
+"Hwk6FINAL/gctx.ml" 40 1161 1186 "Hwk6FINAL/gctx.ml" 40 1161 1188
+type(
+  int
+)
+ident(
+  def dy "Hwk6FINAL/gctx.ml" 40 1161 1199 "Hwk6FINAL/gctx.ml" 41 1206 1237
+)
+"Hwk6FINAL/gctx.ml" 40 1161 1182 "Hwk6FINAL/gctx.ml" 40 1161 1189
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1210 "Hwk6FINAL/gctx.ml" 41 1206 1211
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 40 1161 1176 "Hwk6FINAL/gctx.ml" 40 1161 1177
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1219 "Hwk6FINAL/gctx.ml" 41 1206 1220
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 40 1161 1176 "Hwk6FINAL/gctx.ml" 40 1161 1177
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1219 "Hwk6FINAL/gctx.ml" 41 1206 1222
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1222 "Hwk6FINAL/gctx.ml" 41 1206 1223
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1223 "Hwk6FINAL/gctx.ml" 41 1206 1225
+type(
+  int
+)
+ident(
+  int_ref dx "Hwk6FINAL/gctx.ml" 40 1161 1183 "Hwk6FINAL/gctx.ml" 40 1161 1185
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1219 "Hwk6FINAL/gctx.ml" 41 1206 1225
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1229 "Hwk6FINAL/gctx.ml" 41 1206 1230
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 40 1161 1176 "Hwk6FINAL/gctx.ml" 40 1161 1177
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1229 "Hwk6FINAL/gctx.ml" 41 1206 1232
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1232 "Hwk6FINAL/gctx.ml" 41 1206 1233
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1233 "Hwk6FINAL/gctx.ml" 41 1206 1235
+type(
+  int
+)
+ident(
+  int_ref dy "Hwk6FINAL/gctx.ml" 40 1161 1186 "Hwk6FINAL/gctx.ml" 40 1161 1188
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1229 "Hwk6FINAL/gctx.ml" 41 1206 1235
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 41 1206 1208 "Hwk6FINAL/gctx.ml" 41 1206 1237
+type(
+  t
+)
+type(
+  t
+)
+"Hwk6FINAL/gctx.ml" 46 1411 1415 "Hwk6FINAL/gctx.ml" 46 1411 1424
+type(
+  t -> color -> t
+)
+ident(
+  def set_color "Hwk6FINAL/gctx.ml" 56 1686 1686 --
+)
+"Hwk6FINAL/gctx.ml" 46 1411 1426 "Hwk6FINAL/gctx.ml" 46 1411 1427
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 46 1411 1431 "Hwk6FINAL/gctx.ml" 47 1447 1465
+)
+"Hwk6FINAL/gctx.ml" 46 1411 1432 "Hwk6FINAL/gctx.ml" 46 1411 1433
+type(
+  color
+)
+ident(
+  def c "Hwk6FINAL/gctx.ml" 46 1411 1441 "Hwk6FINAL/gctx.ml" 47 1447 1465
+)
+"Hwk6FINAL/gctx.ml" 47 1447 1450 "Hwk6FINAL/gctx.ml" 47 1447 1451
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 46 1411 1426 "Hwk6FINAL/gctx.ml" 46 1411 1427
+)
+"Hwk6FINAL/gctx.ml" 47 1447 1463 "Hwk6FINAL/gctx.ml" 47 1447 1464
+type(
+  color
+)
+ident(
+  int_ref c "Hwk6FINAL/gctx.ml" 46 1411 1432 "Hwk6FINAL/gctx.ml" 46 1411 1433
+)
+"Hwk6FINAL/gctx.ml" 47 1447 1449 "Hwk6FINAL/gctx.ml" 47 1447 1465
+type(
+  t
+)
+type(
+  t
+)
+"Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+type(
+  t -> unit
+)
+ident(
+  def set_graphics_state "Hwk6FINAL/gctx.ml" 61 1838 1838 --
+)
+"Hwk6FINAL/gctx.ml" 56 1686 1710 "Hwk6FINAL/gctx.ml" 56 1686 1711
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 56 1686 1715 "Hwk6FINAL/gctx.ml" 59 1800 1834
+)
+"Hwk6FINAL/gctx.ml" 57 1724 1726 "Hwk6FINAL/gctx.ml" 57 1724 1744
+type(
+  Graphics.color -> unit
+)
+ident(
+  ext_ref Graphics.set_color
+)
+"Hwk6FINAL/gctx.ml" 57 1724 1745 "Hwk6FINAL/gctx.ml" 57 1724 1746
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 56 1686 1710 "Hwk6FINAL/gctx.ml" 56 1686 1711
+)
+"Hwk6FINAL/gctx.ml" 57 1724 1745 "Hwk6FINAL/gctx.ml" 57 1724 1752
+type(
+  Graphics.color
+)
+"Hwk6FINAL/gctx.ml" 57 1724 1726 "Hwk6FINAL/gctx.ml" 57 1724 1752
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1761 "Hwk6FINAL/gctx.ml" 58 1754 1762
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 56 1686 1710 "Hwk6FINAL/gctx.ml" 56 1686 1711
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1761 "Hwk6FINAL/gctx.ml" 58 1754 1768
+type(
+  bool
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1774 "Hwk6FINAL/gctx.ml" 58 1754 1797
+type(
+  int -> unit
+)
+ident(
+  ext_ref Graphics.set_line_width
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1798 "Hwk6FINAL/gctx.ml" 58 1754 1799
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1774 "Hwk6FINAL/gctx.ml" 58 1754 1799
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 59 1800 1809 "Hwk6FINAL/gctx.ml" 59 1800 1832
+type(
+  int -> unit
+)
+ident(
+  ext_ref Graphics.set_line_width
+)
+"Hwk6FINAL/gctx.ml" 59 1800 1833 "Hwk6FINAL/gctx.ml" 59 1800 1834
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 59 1800 1809 "Hwk6FINAL/gctx.ml" 59 1800 1834
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 58 1754 1758 "Hwk6FINAL/gctx.ml" 59 1800 1834
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 57 1724 1726 "Hwk6FINAL/gctx.ml" 59 1800 1834
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 61 1838 1842 "Hwk6FINAL/gctx.ml" 61 1838 1851
+type(
+  t -> bool -> t
+)
+ident(
+  def set_thick "Hwk6FINAL/gctx.ml" 84 2615 2615 --
+)
+"Hwk6FINAL/gctx.ml" 61 1838 1853 "Hwk6FINAL/gctx.ml" 61 1838 1854
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 61 1838 1858 "Hwk6FINAL/gctx.ml" 62 1874 1895
+)
+"Hwk6FINAL/gctx.ml" 61 1838 1859 "Hwk6FINAL/gctx.ml" 61 1838 1861
+type(
+  bool
+)
+ident(
+  def th "Hwk6FINAL/gctx.ml" 61 1838 1868 "Hwk6FINAL/gctx.ml" 62 1874 1895
+)
+"Hwk6FINAL/gctx.ml" 62 1874 1879 "Hwk6FINAL/gctx.ml" 62 1874 1880
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 61 1838 1853 "Hwk6FINAL/gctx.ml" 61 1838 1854
+)
+"Hwk6FINAL/gctx.ml" 62 1874 1892 "Hwk6FINAL/gctx.ml" 62 1874 1894
+type(
+  bool
+)
+ident(
+  int_ref th "Hwk6FINAL/gctx.ml" 61 1838 1859 "Hwk6FINAL/gctx.ml" 61 1838 1861
+)
+"Hwk6FINAL/gctx.ml" 62 1874 1878 "Hwk6FINAL/gctx.ml" 62 1874 1895
+type(
+  t
+)
+type(
+  t
+)
+"Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+type(
+  t -> position -> int * int
+)
+ident(
+  def ocaml_coords "Hwk6FINAL/gctx.ml" 96 3123 3123 --
+)
+"Hwk6FINAL/gctx.ml" 91 2893 2911 "Hwk6FINAL/gctx.ml" 91 2893 2912
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 91 2893 2916 "Hwk6FINAL/gctx.ml" 92 2947 2987
+)
+"Hwk6FINAL/gctx.ml" 91 2893 2918 "Hwk6FINAL/gctx.ml" 91 2893 2919
+type(
+  int
+)
+ident(
+  def x "Hwk6FINAL/gctx.ml" 91 2893 2933 "Hwk6FINAL/gctx.ml" 92 2947 2987
+)
+"Hwk6FINAL/gctx.ml" 91 2893 2920 "Hwk6FINAL/gctx.ml" 91 2893 2921
+type(
+  int
+)
+ident(
+  def y "Hwk6FINAL/gctx.ml" 91 2893 2933 "Hwk6FINAL/gctx.ml" 92 2947 2987
+)
+"Hwk6FINAL/gctx.ml" 91 2893 2917 "Hwk6FINAL/gctx.ml" 91 2893 2922
+type(
+  position
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2950 "Hwk6FINAL/gctx.ml" 92 2947 2951
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 91 2893 2911 "Hwk6FINAL/gctx.ml" 91 2893 2912
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2950 "Hwk6FINAL/gctx.ml" 92 2947 2953
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2954 "Hwk6FINAL/gctx.ml" 92 2947 2955
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2956 "Hwk6FINAL/gctx.ml" 92 2947 2957
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/gctx.ml" 91 2893 2918 "Hwk6FINAL/gctx.ml" 91 2893 2919
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2950 "Hwk6FINAL/gctx.ml" 92 2947 2957
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2959 "Hwk6FINAL/gctx.ml" 92 2947 2974
+type(
+  unit -> int
+)
+ident(
+  ext_ref Graphics.size_y
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2974 "Hwk6FINAL/gctx.ml" 92 2947 2976
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2959 "Hwk6FINAL/gctx.ml" 92 2947 2976
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2976 "Hwk6FINAL/gctx.ml" 92 2947 2977
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2978 "Hwk6FINAL/gctx.ml" 92 2947 2979
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 91 2893 2911 "Hwk6FINAL/gctx.ml" 91 2893 2912
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2978 "Hwk6FINAL/gctx.ml" 92 2947 2981
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2982 "Hwk6FINAL/gctx.ml" 92 2947 2983
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2984 "Hwk6FINAL/gctx.ml" 92 2947 2985
+type(
+  int
+)
+ident(
+  int_ref y "Hwk6FINAL/gctx.ml" 91 2893 2920 "Hwk6FINAL/gctx.ml" 91 2893 2921
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2977 "Hwk6FINAL/gctx.ml" 92 2947 2986
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2959 "Hwk6FINAL/gctx.ml" 92 2947 2986
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 92 2947 2949 "Hwk6FINAL/gctx.ml" 92 2947 2987
+type(
+  int * int
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 96 3123 3127 "Hwk6FINAL/gctx.ml" 96 3123 3139
+type(
+  t -> int * int -> position
+)
+ident(
+  def local_coords "Hwk6FINAL/gctx.ml" 104 3278 3278 --
+)
+"Hwk6FINAL/gctx.ml" 96 3123 3141 "Hwk6FINAL/gctx.ml" 96 3123 3142
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 96 3123 3146 "Hwk6FINAL/gctx.ml" 97 3175 3217
+)
+"Hwk6FINAL/gctx.ml" 96 3123 3148 "Hwk6FINAL/gctx.ml" 96 3123 3149
+type(
+  int
+)
+ident(
+  def x "Hwk6FINAL/gctx.ml" 96 3123 3162 "Hwk6FINAL/gctx.ml" 97 3175 3217
+)
+"Hwk6FINAL/gctx.ml" 96 3123 3150 "Hwk6FINAL/gctx.ml" 96 3123 3151
+type(
+  int
+)
+ident(
+  def y "Hwk6FINAL/gctx.ml" 96 3123 3162 "Hwk6FINAL/gctx.ml" 97 3175 3217
+)
+"Hwk6FINAL/gctx.ml" 96 3123 3147 "Hwk6FINAL/gctx.ml" 96 3123 3152
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3178 "Hwk6FINAL/gctx.ml" 97 3175 3179
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/gctx.ml" 96 3123 3148 "Hwk6FINAL/gctx.ml" 96 3123 3149
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3180 "Hwk6FINAL/gctx.ml" 97 3175 3181
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3182 "Hwk6FINAL/gctx.ml" 97 3175 3183
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 96 3123 3141 "Hwk6FINAL/gctx.ml" 96 3123 3142
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3182 "Hwk6FINAL/gctx.ml" 97 3175 3185
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3178 "Hwk6FINAL/gctx.ml" 97 3175 3185
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3188 "Hwk6FINAL/gctx.ml" 97 3175 3203
+type(
+  unit -> int
+)
+ident(
+  ext_ref Graphics.size_y
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3203 "Hwk6FINAL/gctx.ml" 97 3175 3205
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3188 "Hwk6FINAL/gctx.ml" 97 3175 3205
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3206 "Hwk6FINAL/gctx.ml" 97 3175 3207
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3208 "Hwk6FINAL/gctx.ml" 97 3175 3209
+type(
+  int
+)
+ident(
+  int_ref y "Hwk6FINAL/gctx.ml" 96 3123 3150 "Hwk6FINAL/gctx.ml" 96 3123 3151
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3187 "Hwk6FINAL/gctx.ml" 97 3175 3210
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3211 "Hwk6FINAL/gctx.ml" 97 3175 3212
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3213 "Hwk6FINAL/gctx.ml" 97 3175 3214
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 96 3123 3141 "Hwk6FINAL/gctx.ml" 96 3123 3142
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3213 "Hwk6FINAL/gctx.ml" 97 3175 3216
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3187 "Hwk6FINAL/gctx.ml" 97 3175 3216
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 97 3175 3177 "Hwk6FINAL/gctx.ml" 97 3175 3217
+type(
+  position
+)
+type(
+  position
+)
+"Hwk6FINAL/gctx.ml" 104 3278 3283 "Hwk6FINAL/gctx.ml" 104 3278 3288
+type(
+  Graphics.color
+)
+ident(
+  def black "Hwk6FINAL/gctx.ml" 106 3370 3370 --
+)
+"Hwk6FINAL/gctx.ml" 104 3278 3289 "Hwk6FINAL/gctx.ml" 104 3278 3294
+type(
+  Graphics.color
+)
+ident(
+  def white "Hwk6FINAL/gctx.ml" 106 3370 3370 --
+)
+"Hwk6FINAL/gctx.ml" 104 3278 3295 "Hwk6FINAL/gctx.ml" 104 3278 3298
+type(
+  Graphics.color
+)
+ident(
+  def red "Hwk6FINAL/gctx.ml" 106 3370 3370 --
+)
+"Hwk6FINAL/gctx.ml" 104 3278 3299 "Hwk6FINAL/gctx.ml" 104 3278 3304
+type(
+  Graphics.color
+)
+ident(
+  def green "Hwk6FINAL/gctx.ml" 106 3370 3370 --
+)
+"Hwk6FINAL/gctx.ml" 104 3278 3282 "Hwk6FINAL/gctx.ml" 104 3278 3305
+type(
+  Graphics.color * Graphics.color * Graphics.color * Graphics.color
+)
+"Hwk6FINAL/gctx.ml" 105 3308 3311 "Hwk6FINAL/gctx.ml" 105 3308 3325
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.black
+)
+"Hwk6FINAL/gctx.ml" 105 3308 3326 "Hwk6FINAL/gctx.ml" 105 3308 3340
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.white
+)
+"Hwk6FINAL/gctx.ml" 105 3308 3341 "Hwk6FINAL/gctx.ml" 105 3308 3353
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.red
+)
+"Hwk6FINAL/gctx.ml" 105 3308 3354 "Hwk6FINAL/gctx.ml" 105 3308 3368
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.green
+)
+"Hwk6FINAL/gctx.ml" 105 3308 3310 "Hwk6FINAL/gctx.ml" 105 3308 3369
+type(
+  Graphics.color * Graphics.color * Graphics.color * Graphics.color
+)
+"Hwk6FINAL/gctx.ml" 106 3370 3375 "Hwk6FINAL/gctx.ml" 106 3370 3379
+type(
+  Graphics.color
+)
+ident(
+  def blue "Hwk6FINAL/gctx.ml" 115 3576 3576 --
+)
+"Hwk6FINAL/gctx.ml" 106 3370 3380 "Hwk6FINAL/gctx.ml" 106 3370 3386
+type(
+  Graphics.color
+)
+ident(
+  def yellow "Hwk6FINAL/gctx.ml" 115 3576 3576 --
+)
+"Hwk6FINAL/gctx.ml" 106 3370 3387 "Hwk6FINAL/gctx.ml" 106 3370 3391
+type(
+  Graphics.color
+)
+ident(
+  def cyan "Hwk6FINAL/gctx.ml" 115 3576 3576 --
+)
+"Hwk6FINAL/gctx.ml" 106 3370 3392 "Hwk6FINAL/gctx.ml" 106 3370 3399
+type(
+  Graphics.color
+)
+ident(
+  def magenta "Hwk6FINAL/gctx.ml" 115 3576 3576 --
+)
+"Hwk6FINAL/gctx.ml" 106 3370 3374 "Hwk6FINAL/gctx.ml" 106 3370 3400
+type(
+  Graphics.color * Graphics.color * Graphics.color * Graphics.color
+)
+"Hwk6FINAL/gctx.ml" 107 3403 3406 "Hwk6FINAL/gctx.ml" 107 3403 3419
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.blue
+)
+"Hwk6FINAL/gctx.ml" 107 3403 3420 "Hwk6FINAL/gctx.ml" 107 3403 3435
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.yellow
+)
+"Hwk6FINAL/gctx.ml" 107 3403 3436 "Hwk6FINAL/gctx.ml" 107 3403 3449
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.cyan
+)
+"Hwk6FINAL/gctx.ml" 107 3403 3450 "Hwk6FINAL/gctx.ml" 107 3403 3466
+type(
+  Graphics.color
+)
+ident(
+  ext_ref Graphics.magenta
+)
+"Hwk6FINAL/gctx.ml" 107 3403 3405 "Hwk6FINAL/gctx.ml" 107 3403 3467
+type(
+  Graphics.color * Graphics.color * Graphics.color * Graphics.color
+)
+"Hwk6FINAL/gctx.ml" 126 3847 3851 "Hwk6FINAL/gctx.ml" 126 3847 3860
+type(
+  t -> position -> position -> unit
+)
+ident(
+  def draw_line "Hwk6FINAL/gctx.ml" 134 4098 4098 --
+)
+"Hwk6FINAL/gctx.ml" 126 3847 3862 "Hwk6FINAL/gctx.ml" 126 3847 3863
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 126 3847 3867 "Hwk6FINAL/gctx.ml" 131 4029 4054
+)
+"Hwk6FINAL/gctx.ml" 126 3847 3868 "Hwk6FINAL/gctx.ml" 126 3847 3870
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 126 3847 3881 "Hwk6FINAL/gctx.ml" 131 4029 4054
+)
+"Hwk6FINAL/gctx.ml" 126 3847 3882 "Hwk6FINAL/gctx.ml" 126 3847 3884
+type(
+  position
+)
+ident(
+  def p2 "Hwk6FINAL/gctx.ml" 126 3847 3895 "Hwk6FINAL/gctx.ml" 131 4029 4054
+)
+"Hwk6FINAL/gctx.ml" 127 3904 3906 "Hwk6FINAL/gctx.ml" 127 3904 3924
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 127 3904 3925 "Hwk6FINAL/gctx.ml" 127 3904 3926
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 126 3847 3862 "Hwk6FINAL/gctx.ml" 126 3847 3863
+)
+"Hwk6FINAL/gctx.ml" 127 3904 3906 "Hwk6FINAL/gctx.ml" 127 3904 3926
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3935 "Hwk6FINAL/gctx.ml" 128 3928 3937
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3938 "Hwk6FINAL/gctx.ml" 128 3928 3940
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3934 "Hwk6FINAL/gctx.ml" 128 3928 3941
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3944 "Hwk6FINAL/gctx.ml" 128 3928 3956
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3957 "Hwk6FINAL/gctx.ml" 128 3928 3958
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 126 3847 3862 "Hwk6FINAL/gctx.ml" 126 3847 3863
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3959 "Hwk6FINAL/gctx.ml" 128 3928 3961
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 126 3847 3868 "Hwk6FINAL/gctx.ml" 126 3847 3870
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3944 "Hwk6FINAL/gctx.ml" 128 3928 3961
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3972 "Hwk6FINAL/gctx.ml" 129 3965 3974
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3975 "Hwk6FINAL/gctx.ml" 129 3965 3977
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3971 "Hwk6FINAL/gctx.ml" 129 3965 3978
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3981 "Hwk6FINAL/gctx.ml" 129 3965 3993
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3994 "Hwk6FINAL/gctx.ml" 129 3965 3995
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 126 3847 3862 "Hwk6FINAL/gctx.ml" 126 3847 3863
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3996 "Hwk6FINAL/gctx.ml" 129 3965 3998
+type(
+  position
+)
+ident(
+  int_ref p2 "Hwk6FINAL/gctx.ml" 126 3847 3882 "Hwk6FINAL/gctx.ml" 126 3847 3884
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3981 "Hwk6FINAL/gctx.ml" 129 3965 3998
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 130 4002 4006 "Hwk6FINAL/gctx.ml" 130 4002 4021
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.moveto
+)
+"Hwk6FINAL/gctx.ml" 130 4002 4022 "Hwk6FINAL/gctx.ml" 130 4002 4024
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 128 3928 3935 "Hwk6FINAL/gctx.ml" 128 3928 3937
+)
+"Hwk6FINAL/gctx.ml" 130 4002 4025 "Hwk6FINAL/gctx.ml" 130 4002 4027
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 128 3928 3938 "Hwk6FINAL/gctx.ml" 128 3928 3940
+)
+"Hwk6FINAL/gctx.ml" 130 4002 4006 "Hwk6FINAL/gctx.ml" 130 4002 4027
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 131 4029 4033 "Hwk6FINAL/gctx.ml" 131 4029 4048
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.lineto
+)
+"Hwk6FINAL/gctx.ml" 131 4029 4049 "Hwk6FINAL/gctx.ml" 131 4029 4051
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 129 3965 3972 "Hwk6FINAL/gctx.ml" 129 3965 3974
+)
+"Hwk6FINAL/gctx.ml" 131 4029 4052 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 129 3965 3975 "Hwk6FINAL/gctx.ml" 129 3965 3977
+)
+"Hwk6FINAL/gctx.ml" 131 4029 4033 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 130 4002 4006 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 129 3965 3967 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 128 3928 3930 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 127 3904 3906 "Hwk6FINAL/gctx.ml" 131 4029 4054
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 134 4098 4102 "Hwk6FINAL/gctx.ml" 134 4098 4113
+type(
+  t -> position -> string -> unit
+)
+ident(
+  def draw_string "Hwk6FINAL/gctx.ml" 146 4554 4554 --
+)
+"Hwk6FINAL/gctx.ml" 134 4098 4115 "Hwk6FINAL/gctx.ml" 134 4098 4116
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 134 4098 4120 "Hwk6FINAL/gctx.ml" 140 4343 4369
+)
+"Hwk6FINAL/gctx.ml" 134 4098 4121 "Hwk6FINAL/gctx.ml" 134 4098 4122
+type(
+  position
+)
+ident(
+  def p "Hwk6FINAL/gctx.ml" 134 4098 4133 "Hwk6FINAL/gctx.ml" 140 4343 4369
+)
+"Hwk6FINAL/gctx.ml" 134 4098 4134 "Hwk6FINAL/gctx.ml" 134 4098 4135
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/gctx.ml" 134 4098 4144 "Hwk6FINAL/gctx.ml" 140 4343 4369
+)
+"Hwk6FINAL/gctx.ml" 135 4153 4155 "Hwk6FINAL/gctx.ml" 135 4153 4173
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 135 4153 4174 "Hwk6FINAL/gctx.ml" 135 4153 4175
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 134 4098 4115 "Hwk6FINAL/gctx.ml" 134 4098 4116
+)
+"Hwk6FINAL/gctx.ml" 135 4153 4155 "Hwk6FINAL/gctx.ml" 135 4153 4175
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4184 "Hwk6FINAL/gctx.ml" 136 4177 4185
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4187 "Hwk6FINAL/gctx.ml" 136 4177 4193
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4183 "Hwk6FINAL/gctx.ml" 136 4177 4194
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4197 "Hwk6FINAL/gctx.ml" 136 4177 4215
+type(
+  string -> int * int
+)
+ident(
+  ext_ref Graphics.text_size
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4216 "Hwk6FINAL/gctx.ml" 136 4177 4217
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/gctx.ml" 134 4098 4134 "Hwk6FINAL/gctx.ml" 134 4098 4135
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4197 "Hwk6FINAL/gctx.ml" 136 4177 4217
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4228 "Hwk6FINAL/gctx.ml" 137 4221 4229
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4230 "Hwk6FINAL/gctx.ml" 137 4221 4231
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4227 "Hwk6FINAL/gctx.ml" 137 4221 4232
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4235 "Hwk6FINAL/gctx.ml" 137 4221 4247
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4248 "Hwk6FINAL/gctx.ml" 137 4221 4249
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 134 4098 4115 "Hwk6FINAL/gctx.ml" 134 4098 4116
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4250 "Hwk6FINAL/gctx.ml" 137 4221 4251
+type(
+  position
+)
+ident(
+  int_ref p "Hwk6FINAL/gctx.ml" 134 4098 4121 "Hwk6FINAL/gctx.ml" 134 4098 4122
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4235 "Hwk6FINAL/gctx.ml" 137 4221 4251
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4310 "Hwk6FINAL/gctx.ml" 139 4306 4325
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.moveto
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4326 "Hwk6FINAL/gctx.ml" 139 4306 4327
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/gctx.ml" 137 4221 4228 "Hwk6FINAL/gctx.ml" 137 4221 4229
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4329 "Hwk6FINAL/gctx.ml" 139 4306 4330
+type(
+  int
+)
+ident(
+  int_ref y "Hwk6FINAL/gctx.ml" 137 4221 4230 "Hwk6FINAL/gctx.ml" 137 4221 4231
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4331 "Hwk6FINAL/gctx.ml" 139 4306 4332
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4333 "Hwk6FINAL/gctx.ml" 139 4306 4339
+type(
+  int
+)
+ident(
+  int_ref height "Hwk6FINAL/gctx.ml" 136 4177 4187 "Hwk6FINAL/gctx.ml" 136 4177 4193
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4328 "Hwk6FINAL/gctx.ml" 139 4306 4340
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4310 "Hwk6FINAL/gctx.ml" 139 4306 4340
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 140 4343 4347 "Hwk6FINAL/gctx.ml" 140 4343 4367
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.draw_string
+)
+"Hwk6FINAL/gctx.ml" 140 4343 4368 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/gctx.ml" 134 4098 4134 "Hwk6FINAL/gctx.ml" 134 4098 4135
+)
+"Hwk6FINAL/gctx.ml" 140 4343 4347 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 139 4306 4310 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 137 4221 4223 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 136 4177 4179 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 135 4153 4155 "Hwk6FINAL/gctx.ml" 140 4343 4369
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4558 "Hwk6FINAL/gctx.ml" 146 4554 4567
+type(
+  t -> position -> dimension -> unit
+)
+ident(
+  def draw_rect "Hwk6FINAL/gctx.ml" 162 5069 5069 --
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4569 "Hwk6FINAL/gctx.ml" 146 4554 4570
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 146 4554 4574 "Hwk6FINAL/gctx.ml" 158 4938 4967
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4575 "Hwk6FINAL/gctx.ml" 146 4554 4577
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 146 4554 4588 "Hwk6FINAL/gctx.ml" 158 4938 4967
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4589 "Hwk6FINAL/gctx.ml" 146 4554 4590
+type(
+  int
+)
+ident(
+  def w "Hwk6FINAL/gctx.ml" 146 4554 4604 "Hwk6FINAL/gctx.ml" 158 4938 4967
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4591 "Hwk6FINAL/gctx.ml" 146 4554 4592
+type(
+  int
+)
+ident(
+  def h "Hwk6FINAL/gctx.ml" 146 4554 4604 "Hwk6FINAL/gctx.ml" 158 4938 4967
+)
+"Hwk6FINAL/gctx.ml" 146 4554 4589 "Hwk6FINAL/gctx.ml" 146 4554 4592
+type(
+  dimension
+)
+"Hwk6FINAL/gctx.ml" 147 4613 4615 "Hwk6FINAL/gctx.ml" 147 4613 4633
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 147 4613 4634 "Hwk6FINAL/gctx.ml" 147 4613 4635
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 146 4554 4569 "Hwk6FINAL/gctx.ml" 146 4554 4570
+)
+"Hwk6FINAL/gctx.ml" 147 4613 4615 "Hwk6FINAL/gctx.ml" 147 4613 4635
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4644 "Hwk6FINAL/gctx.ml" 148 4637 4646
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4647 "Hwk6FINAL/gctx.ml" 148 4637 4649
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4643 "Hwk6FINAL/gctx.ml" 148 4637 4650
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4653 "Hwk6FINAL/gctx.ml" 148 4637 4665
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4666 "Hwk6FINAL/gctx.ml" 148 4637 4667
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 146 4554 4569 "Hwk6FINAL/gctx.ml" 146 4554 4570
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4668 "Hwk6FINAL/gctx.ml" 148 4637 4670
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 146 4554 4575 "Hwk6FINAL/gctx.ml" 146 4554 4577
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4653 "Hwk6FINAL/gctx.ml" 148 4637 4670
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4681 "Hwk6FINAL/gctx.ml" 149 4674 4683
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4684 "Hwk6FINAL/gctx.ml" 149 4674 4686
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4680 "Hwk6FINAL/gctx.ml" 149 4674 4687
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4690 "Hwk6FINAL/gctx.ml" 149 4674 4702
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4703 "Hwk6FINAL/gctx.ml" 149 4674 4704
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 146 4554 4569 "Hwk6FINAL/gctx.ml" 146 4554 4570
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4706 "Hwk6FINAL/gctx.ml" 149 4674 4707
+type(
+  int
+)
+ident(
+  int_ref w "Hwk6FINAL/gctx.ml" 146 4554 4589 "Hwk6FINAL/gctx.ml" 146 4554 4590
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4708 "Hwk6FINAL/gctx.ml" 149 4674 4709
+type(
+  int
+)
+ident(
+  int_ref h "Hwk6FINAL/gctx.ml" 146 4554 4591 "Hwk6FINAL/gctx.ml" 146 4554 4592
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4705 "Hwk6FINAL/gctx.ml" 149 4674 4710
+type(
+  position
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4690 "Hwk6FINAL/gctx.ml" 149 4674 4710
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4722 "Hwk6FINAL/gctx.ml" 150 4714 4724
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4727 "Hwk6FINAL/gctx.ml" 150 4714 4730
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4731 "Hwk6FINAL/gctx.ml" 150 4714 4733
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 148 4637 4644 "Hwk6FINAL/gctx.ml" 148 4637 4646
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4734 "Hwk6FINAL/gctx.ml" 150 4714 4736
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 149 4674 4681 "Hwk6FINAL/gctx.ml" 149 4674 4683
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4727 "Hwk6FINAL/gctx.ml" 150 4714 4736
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4748 "Hwk6FINAL/gctx.ml" 151 4740 4750
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4753 "Hwk6FINAL/gctx.ml" 151 4740 4756
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4757 "Hwk6FINAL/gctx.ml" 151 4740 4759
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 148 4637 4647 "Hwk6FINAL/gctx.ml" 148 4637 4649
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4760 "Hwk6FINAL/gctx.ml" 151 4740 4762
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 149 4674 4684 "Hwk6FINAL/gctx.ml" 149 4674 4686
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4753 "Hwk6FINAL/gctx.ml" 151 4740 4762
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4774 "Hwk6FINAL/gctx.ml" 152 4766 4776
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4779 "Hwk6FINAL/gctx.ml" 152 4766 4782
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4783 "Hwk6FINAL/gctx.ml" 152 4766 4785
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 148 4637 4644 "Hwk6FINAL/gctx.ml" 148 4637 4646
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4786 "Hwk6FINAL/gctx.ml" 152 4766 4788
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 149 4674 4681 "Hwk6FINAL/gctx.ml" 149 4674 4683
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4779 "Hwk6FINAL/gctx.ml" 152 4766 4788
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4800 "Hwk6FINAL/gctx.ml" 153 4792 4802
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4805 "Hwk6FINAL/gctx.ml" 153 4792 4808
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4809 "Hwk6FINAL/gctx.ml" 153 4792 4811
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 148 4637 4647 "Hwk6FINAL/gctx.ml" 148 4637 4649
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4812 "Hwk6FINAL/gctx.ml" 153 4792 4814
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 149 4674 4684 "Hwk6FINAL/gctx.ml" 149 4674 4686
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4805 "Hwk6FINAL/gctx.ml" 153 4792 4814
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 154 4818 4822 "Hwk6FINAL/gctx.ml" 154 4818 4837
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.moveto
+)
+"Hwk6FINAL/gctx.ml" 154 4818 4838 "Hwk6FINAL/gctx.ml" 154 4818 4840
+type(
+  int
+)
+ident(
+  int_ref lh "Hwk6FINAL/gctx.ml" 150 4714 4722 "Hwk6FINAL/gctx.ml" 150 4714 4724
+)
+"Hwk6FINAL/gctx.ml" 154 4818 4841 "Hwk6FINAL/gctx.ml" 154 4818 4843
+type(
+  int
+)
+ident(
+  int_ref lv "Hwk6FINAL/gctx.ml" 151 4740 4748 "Hwk6FINAL/gctx.ml" 151 4740 4750
+)
+"Hwk6FINAL/gctx.ml" 154 4818 4822 "Hwk6FINAL/gctx.ml" 154 4818 4843
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 155 4845 4853 "Hwk6FINAL/gctx.ml" 155 4845 4868
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.lineto
+)
+"Hwk6FINAL/gctx.ml" 155 4845 4869 "Hwk6FINAL/gctx.ml" 155 4845 4871
+type(
+  int
+)
+ident(
+  int_ref lh "Hwk6FINAL/gctx.ml" 150 4714 4722 "Hwk6FINAL/gctx.ml" 150 4714 4724
+)
+"Hwk6FINAL/gctx.ml" 155 4845 4872 "Hwk6FINAL/gctx.ml" 155 4845 4874
+type(
+  int
+)
+ident(
+  int_ref uv "Hwk6FINAL/gctx.ml" 153 4792 4800 "Hwk6FINAL/gctx.ml" 153 4792 4802
+)
+"Hwk6FINAL/gctx.ml" 155 4845 4853 "Hwk6FINAL/gctx.ml" 155 4845 4874
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 156 4876 4884 "Hwk6FINAL/gctx.ml" 156 4876 4899
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.lineto
+)
+"Hwk6FINAL/gctx.ml" 156 4876 4900 "Hwk6FINAL/gctx.ml" 156 4876 4902
+type(
+  int
+)
+ident(
+  int_ref uh "Hwk6FINAL/gctx.ml" 152 4766 4774 "Hwk6FINAL/gctx.ml" 152 4766 4776
+)
+"Hwk6FINAL/gctx.ml" 156 4876 4903 "Hwk6FINAL/gctx.ml" 156 4876 4905
+type(
+  int
+)
+ident(
+  int_ref uv "Hwk6FINAL/gctx.ml" 153 4792 4800 "Hwk6FINAL/gctx.ml" 153 4792 4802
+)
+"Hwk6FINAL/gctx.ml" 156 4876 4884 "Hwk6FINAL/gctx.ml" 156 4876 4905
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 157 4907 4915 "Hwk6FINAL/gctx.ml" 157 4907 4930
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.lineto
+)
+"Hwk6FINAL/gctx.ml" 157 4907 4931 "Hwk6FINAL/gctx.ml" 157 4907 4933
+type(
+  int
+)
+ident(
+  int_ref uh "Hwk6FINAL/gctx.ml" 152 4766 4774 "Hwk6FINAL/gctx.ml" 152 4766 4776
+)
+"Hwk6FINAL/gctx.ml" 157 4907 4934 "Hwk6FINAL/gctx.ml" 157 4907 4936
+type(
+  int
+)
+ident(
+  int_ref lv "Hwk6FINAL/gctx.ml" 151 4740 4748 "Hwk6FINAL/gctx.ml" 151 4740 4750
+)
+"Hwk6FINAL/gctx.ml" 157 4907 4915 "Hwk6FINAL/gctx.ml" 157 4907 4936
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 158 4938 4946 "Hwk6FINAL/gctx.ml" 158 4938 4961
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.lineto
+)
+"Hwk6FINAL/gctx.ml" 158 4938 4962 "Hwk6FINAL/gctx.ml" 158 4938 4964
+type(
+  int
+)
+ident(
+  int_ref lh "Hwk6FINAL/gctx.ml" 150 4714 4722 "Hwk6FINAL/gctx.ml" 150 4714 4724
+)
+"Hwk6FINAL/gctx.ml" 158 4938 4965 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  int
+)
+ident(
+  int_ref lv "Hwk6FINAL/gctx.ml" 151 4740 4748 "Hwk6FINAL/gctx.ml" 151 4740 4750
+)
+"Hwk6FINAL/gctx.ml" 158 4938 4946 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 157 4907 4915 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 156 4876 4884 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 155 4845 4853 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 154 4818 4822 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 153 4792 4796 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 152 4766 4770 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 151 4740 4744 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 150 4714 4718 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 149 4674 4676 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 148 4637 4639 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 147 4613 4615 "Hwk6FINAL/gctx.ml" 158 4938 4967
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5073 "Hwk6FINAL/gctx.ml" 162 5069 5082
+type(
+  t -> position -> dimension -> unit
+)
+ident(
+  def fill_rect "Hwk6FINAL/gctx.ml" 172 5393 5393 --
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5084 "Hwk6FINAL/gctx.ml" 162 5069 5085
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 162 5069 5089 "Hwk6FINAL/gctx.ml" 165 5191 5223
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5090 "Hwk6FINAL/gctx.ml" 162 5069 5092
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 162 5069 5103 "Hwk6FINAL/gctx.ml" 165 5191 5223
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5105 "Hwk6FINAL/gctx.ml" 162 5069 5106
+type(
+  int
+)
+ident(
+  def w "Hwk6FINAL/gctx.ml" 162 5069 5121 "Hwk6FINAL/gctx.ml" 165 5191 5223
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5107 "Hwk6FINAL/gctx.ml" 162 5069 5108
+type(
+  int
+)
+ident(
+  def h "Hwk6FINAL/gctx.ml" 162 5069 5121 "Hwk6FINAL/gctx.ml" 165 5191 5223
+)
+"Hwk6FINAL/gctx.ml" 162 5069 5104 "Hwk6FINAL/gctx.ml" 162 5069 5109
+type(
+  dimension
+)
+"Hwk6FINAL/gctx.ml" 163 5130 5132 "Hwk6FINAL/gctx.ml" 163 5130 5150
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 163 5130 5151 "Hwk6FINAL/gctx.ml" 163 5130 5152
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 162 5069 5084 "Hwk6FINAL/gctx.ml" 162 5069 5085
+)
+"Hwk6FINAL/gctx.ml" 163 5130 5132 "Hwk6FINAL/gctx.ml" 163 5130 5152
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5161 "Hwk6FINAL/gctx.ml" 164 5154 5163
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5164 "Hwk6FINAL/gctx.ml" 164 5154 5166
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5160 "Hwk6FINAL/gctx.ml" 164 5154 5167
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5170 "Hwk6FINAL/gctx.ml" 164 5154 5182
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5183 "Hwk6FINAL/gctx.ml" 164 5154 5184
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 162 5069 5084 "Hwk6FINAL/gctx.ml" 162 5069 5085
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5185 "Hwk6FINAL/gctx.ml" 164 5154 5187
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 162 5069 5090 "Hwk6FINAL/gctx.ml" 162 5069 5092
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5170 "Hwk6FINAL/gctx.ml" 164 5154 5187
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5195 "Hwk6FINAL/gctx.ml" 165 5191 5213
+type(
+  int -> int -> int -> int -> unit
+)
+ident(
+  ext_ref Graphics.fill_rect
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5214 "Hwk6FINAL/gctx.ml" 165 5191 5216
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 164 5154 5161 "Hwk6FINAL/gctx.ml" 164 5154 5163
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5217 "Hwk6FINAL/gctx.ml" 165 5191 5219
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 164 5154 5164 "Hwk6FINAL/gctx.ml" 164 5154 5166
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5220 "Hwk6FINAL/gctx.ml" 165 5191 5221
+type(
+  int
+)
+ident(
+  int_ref w "Hwk6FINAL/gctx.ml" 162 5069 5105 "Hwk6FINAL/gctx.ml" 162 5069 5106
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5222 "Hwk6FINAL/gctx.ml" 165 5191 5223
+type(
+  int
+)
+ident(
+  int_ref h "Hwk6FINAL/gctx.ml" 162 5069 5107 "Hwk6FINAL/gctx.ml" 162 5069 5108
+)
+"Hwk6FINAL/gctx.ml" 165 5191 5195 "Hwk6FINAL/gctx.ml" 165 5191 5223
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 164 5154 5156 "Hwk6FINAL/gctx.ml" 165 5191 5223
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 163 5130 5132 "Hwk6FINAL/gctx.ml" 165 5191 5223
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 172 5393 5397 "Hwk6FINAL/gctx.ml" 172 5393 5409
+type(
+  t -> position -> position -> unit
+)
+ident(
+  def draw_ellipse "Hwk6FINAL/gctx.ml" 184 5821 5821 --
+)
+"Hwk6FINAL/gctx.ml" 172 5393 5411 "Hwk6FINAL/gctx.ml" 172 5393 5412
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 172 5393 5416 "Hwk6FINAL/gctx.ml" 181 5704 5741
+)
+"Hwk6FINAL/gctx.ml" 172 5393 5417 "Hwk6FINAL/gctx.ml" 172 5393 5419
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 172 5393 5430 "Hwk6FINAL/gctx.ml" 181 5704 5741
+)
+"Hwk6FINAL/gctx.ml" 172 5393 5431 "Hwk6FINAL/gctx.ml" 172 5393 5433
+type(
+  position
+)
+ident(
+  def p2 "Hwk6FINAL/gctx.ml" 172 5393 5444 "Hwk6FINAL/gctx.ml" 181 5704 5741
+)
+"Hwk6FINAL/gctx.ml" 173 5453 5457 "Hwk6FINAL/gctx.ml" 173 5453 5475
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 173 5453 5476 "Hwk6FINAL/gctx.ml" 173 5453 5477
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 172 5393 5411 "Hwk6FINAL/gctx.ml" 172 5393 5412
+)
+"Hwk6FINAL/gctx.ml" 173 5453 5457 "Hwk6FINAL/gctx.ml" 173 5453 5477
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5488 "Hwk6FINAL/gctx.ml" 174 5479 5490
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5491 "Hwk6FINAL/gctx.ml" 174 5479 5493
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5487 "Hwk6FINAL/gctx.ml" 174 5479 5494
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5497 "Hwk6FINAL/gctx.ml" 174 5479 5509
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5510 "Hwk6FINAL/gctx.ml" 174 5479 5511
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 172 5393 5411 "Hwk6FINAL/gctx.ml" 172 5393 5412
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5512 "Hwk6FINAL/gctx.ml" 174 5479 5514
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 172 5393 5417 "Hwk6FINAL/gctx.ml" 172 5393 5419
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5497 "Hwk6FINAL/gctx.ml" 174 5479 5514
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5527 "Hwk6FINAL/gctx.ml" 175 5518 5529
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5530 "Hwk6FINAL/gctx.ml" 175 5518 5532
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5526 "Hwk6FINAL/gctx.ml" 175 5518 5533
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5536 "Hwk6FINAL/gctx.ml" 175 5518 5548
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5549 "Hwk6FINAL/gctx.ml" 175 5518 5550
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 172 5393 5411 "Hwk6FINAL/gctx.ml" 172 5393 5412
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5551 "Hwk6FINAL/gctx.ml" 175 5518 5553
+type(
+  position
+)
+ident(
+  int_ref p2 "Hwk6FINAL/gctx.ml" 172 5393 5431 "Hwk6FINAL/gctx.ml" 172 5393 5433
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5536 "Hwk6FINAL/gctx.ml" 175 5518 5553
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5565 "Hwk6FINAL/gctx.ml" 176 5557 5567
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5570 "Hwk6FINAL/gctx.ml" 176 5557 5573
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5575 "Hwk6FINAL/gctx.ml" 176 5557 5577
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 175 5518 5527 "Hwk6FINAL/gctx.ml" 175 5518 5529
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5578 "Hwk6FINAL/gctx.ml" 176 5557 5579
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5580 "Hwk6FINAL/gctx.ml" 176 5557 5582
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 174 5479 5488 "Hwk6FINAL/gctx.ml" 174 5479 5490
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5574 "Hwk6FINAL/gctx.ml" 176 5557 5583
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5570 "Hwk6FINAL/gctx.ml" 176 5557 5583
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5595 "Hwk6FINAL/gctx.ml" 177 5587 5597
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5600 "Hwk6FINAL/gctx.ml" 177 5587 5603
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5605 "Hwk6FINAL/gctx.ml" 177 5587 5607
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 175 5518 5530 "Hwk6FINAL/gctx.ml" 175 5518 5532
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5608 "Hwk6FINAL/gctx.ml" 177 5587 5609
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5610 "Hwk6FINAL/gctx.ml" 177 5587 5612
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 174 5479 5491 "Hwk6FINAL/gctx.ml" 174 5479 5493
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5604 "Hwk6FINAL/gctx.ml" 177 5587 5613
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5600 "Hwk6FINAL/gctx.ml" 177 5587 5613
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5625 "Hwk6FINAL/gctx.ml" 178 5617 5627
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5631 "Hwk6FINAL/gctx.ml" 178 5617 5633
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 174 5479 5488 "Hwk6FINAL/gctx.ml" 174 5479 5490
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5634 "Hwk6FINAL/gctx.ml" 178 5617 5635
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5636 "Hwk6FINAL/gctx.ml" 178 5617 5638
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 175 5518 5527 "Hwk6FINAL/gctx.ml" 175 5518 5529
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5630 "Hwk6FINAL/gctx.ml" 178 5617 5639
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5640 "Hwk6FINAL/gctx.ml" 178 5617 5641
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5642 "Hwk6FINAL/gctx.ml" 178 5617 5643
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5630 "Hwk6FINAL/gctx.ml" 178 5617 5643
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5655 "Hwk6FINAL/gctx.ml" 179 5647 5657
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5661 "Hwk6FINAL/gctx.ml" 179 5647 5663
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 174 5479 5491 "Hwk6FINAL/gctx.ml" 174 5479 5493
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5664 "Hwk6FINAL/gctx.ml" 179 5647 5665
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5666 "Hwk6FINAL/gctx.ml" 179 5647 5668
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 175 5518 5530 "Hwk6FINAL/gctx.ml" 175 5518 5532
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5660 "Hwk6FINAL/gctx.ml" 179 5647 5669
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5670 "Hwk6FINAL/gctx.ml" 179 5647 5671
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5672 "Hwk6FINAL/gctx.ml" 179 5647 5673
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5660 "Hwk6FINAL/gctx.ml" 179 5647 5673
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 180 5677 5681 "Hwk6FINAL/gctx.ml" 180 5677 5696
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.moveto
+)
+"Hwk6FINAL/gctx.ml" 180 5677 5697 "Hwk6FINAL/gctx.ml" 180 5677 5699
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 174 5479 5488 "Hwk6FINAL/gctx.ml" 174 5479 5490
+)
+"Hwk6FINAL/gctx.ml" 180 5677 5700 "Hwk6FINAL/gctx.ml" 180 5677 5702
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 174 5479 5491 "Hwk6FINAL/gctx.ml" 174 5479 5493
+)
+"Hwk6FINAL/gctx.ml" 180 5677 5681 "Hwk6FINAL/gctx.ml" 180 5677 5702
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5708 "Hwk6FINAL/gctx.ml" 181 5704 5729
+type(
+  int -> int -> int -> int -> unit
+)
+ident(
+  ext_ref Graphics.draw_ellipse
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5730 "Hwk6FINAL/gctx.ml" 181 5704 5732
+type(
+  int
+)
+ident(
+  int_ref cx "Hwk6FINAL/gctx.ml" 178 5617 5625 "Hwk6FINAL/gctx.ml" 178 5617 5627
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5733 "Hwk6FINAL/gctx.ml" 181 5704 5735
+type(
+  int
+)
+ident(
+  int_ref cy "Hwk6FINAL/gctx.ml" 179 5647 5655 "Hwk6FINAL/gctx.ml" 179 5647 5657
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5736 "Hwk6FINAL/gctx.ml" 181 5704 5738
+type(
+  int
+)
+ident(
+  int_ref rx "Hwk6FINAL/gctx.ml" 176 5557 5565 "Hwk6FINAL/gctx.ml" 176 5557 5567
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5739 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  int
+)
+ident(
+  int_ref ry "Hwk6FINAL/gctx.ml" 177 5587 5595 "Hwk6FINAL/gctx.ml" 177 5587 5597
+)
+"Hwk6FINAL/gctx.ml" 181 5704 5708 "Hwk6FINAL/gctx.ml" 181 5704 5741
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 180 5677 5681 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 179 5647 5651 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 178 5617 5621 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 177 5587 5591 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 176 5557 5561 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 175 5518 5522 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 174 5479 5483 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 173 5453 5457 "Hwk6FINAL/gctx.ml" 181 5704 5741
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 184 5821 5825 "Hwk6FINAL/gctx.ml" 184 5821 5834
+type(
+  t -> string -> dimension
+)
+ident(
+  def text_size "Hwk6FINAL/gctx.ml" 192 6053 6053 --
+)
+"Hwk6FINAL/gctx.ml" 184 5821 5836 "Hwk6FINAL/gctx.ml" 184 5821 5837
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 184 5821 5841 "Hwk6FINAL/gctx.ml" 186 5890 5912
+)
+"Hwk6FINAL/gctx.ml" 184 5821 5842 "Hwk6FINAL/gctx.ml" 184 5821 5843
+type(
+  string
+)
+ident(
+  def s "Hwk6FINAL/gctx.ml" 184 5821 5852 "Hwk6FINAL/gctx.ml" 186 5890 5912
+)
+"Hwk6FINAL/gctx.ml" 185 5866 5868 "Hwk6FINAL/gctx.ml" 185 5866 5886
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 185 5866 5887 "Hwk6FINAL/gctx.ml" 185 5866 5888
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 184 5821 5836 "Hwk6FINAL/gctx.ml" 184 5821 5837
+)
+"Hwk6FINAL/gctx.ml" 185 5866 5868 "Hwk6FINAL/gctx.ml" 185 5866 5888
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 186 5890 5892 "Hwk6FINAL/gctx.ml" 186 5890 5910
+type(
+  string -> dimension
+)
+ident(
+  ext_ref Graphics.text_size
+)
+"Hwk6FINAL/gctx.ml" 186 5890 5911 "Hwk6FINAL/gctx.ml" 186 5890 5912
+type(
+  string
+)
+ident(
+  int_ref s "Hwk6FINAL/gctx.ml" 184 5821 5842 "Hwk6FINAL/gctx.ml" 184 5821 5843
+)
+"Hwk6FINAL/gctx.ml" 186 5890 5892 "Hwk6FINAL/gctx.ml" 186 5890 5912
+type(
+  dimension
+)
+"Hwk6FINAL/gctx.ml" 185 5866 5868 "Hwk6FINAL/gctx.ml" 186 5890 5912
+type(
+  dimension
+)
+type(
+  dimension
+)
+"Hwk6FINAL/gctx.ml" 192 6053 6057 "Hwk6FINAL/gctx.ml" 192 6053 6067
+type(
+  t -> position -> unit
+)
+ident(
+  def draw_point "Hwk6FINAL/gctx.ml" 197 6183 6183 --
+)
+"Hwk6FINAL/gctx.ml" 192 6053 6069 "Hwk6FINAL/gctx.ml" 192 6053 6070
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 192 6053 6074 "Hwk6FINAL/gctx.ml" 195 6158 6179
+)
+"Hwk6FINAL/gctx.ml" 192 6053 6075 "Hwk6FINAL/gctx.ml" 192 6053 6076
+type(
+  position
+)
+ident(
+  def p "Hwk6FINAL/gctx.ml" 192 6053 6086 "Hwk6FINAL/gctx.ml" 195 6158 6179
+)
+"Hwk6FINAL/gctx.ml" 193 6096 6100 "Hwk6FINAL/gctx.ml" 193 6096 6118
+type(
+  t -> unit
+)
+ident(
+  int_ref set_graphics_state "Hwk6FINAL/gctx.ml" 56 1686 1690 "Hwk6FINAL/gctx.ml" 56 1686 1708
+)
+"Hwk6FINAL/gctx.ml" 193 6096 6119 "Hwk6FINAL/gctx.ml" 193 6096 6120
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 192 6053 6069 "Hwk6FINAL/gctx.ml" 192 6053 6070
+)
+"Hwk6FINAL/gctx.ml" 193 6096 6100 "Hwk6FINAL/gctx.ml" 193 6096 6120
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6131 "Hwk6FINAL/gctx.ml" 194 6122 6132
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6133 "Hwk6FINAL/gctx.ml" 194 6122 6134
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6130 "Hwk6FINAL/gctx.ml" 194 6122 6135
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6138 "Hwk6FINAL/gctx.ml" 194 6122 6150
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6151 "Hwk6FINAL/gctx.ml" 194 6122 6152
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 192 6053 6069 "Hwk6FINAL/gctx.ml" 192 6053 6070
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6153 "Hwk6FINAL/gctx.ml" 194 6122 6154
+type(
+  position
+)
+ident(
+  int_ref p "Hwk6FINAL/gctx.ml" 192 6053 6075 "Hwk6FINAL/gctx.ml" 192 6053 6076
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6138 "Hwk6FINAL/gctx.ml" 194 6122 6154
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 195 6158 6162 "Hwk6FINAL/gctx.ml" 195 6158 6175
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.plot
+)
+"Hwk6FINAL/gctx.ml" 195 6158 6176 "Hwk6FINAL/gctx.ml" 195 6158 6177
+type(
+  int
+)
+ident(
+  int_ref x "Hwk6FINAL/gctx.ml" 194 6122 6131 "Hwk6FINAL/gctx.ml" 194 6122 6132
+)
+"Hwk6FINAL/gctx.ml" 195 6158 6178 "Hwk6FINAL/gctx.ml" 195 6158 6179
+type(
+  int
+)
+ident(
+  int_ref y "Hwk6FINAL/gctx.ml" 194 6122 6133 "Hwk6FINAL/gctx.ml" 194 6122 6134
+)
+"Hwk6FINAL/gctx.ml" 195 6158 6162 "Hwk6FINAL/gctx.ml" 195 6158 6179
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 194 6122 6126 "Hwk6FINAL/gctx.ml" 195 6158 6179
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 193 6096 6100 "Hwk6FINAL/gctx.ml" 195 6158 6179
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 197 6183 6187 "Hwk6FINAL/gctx.ml" 197 6183 6197
+type(
+  t -> image -> position -> unit
+)
+ident(
+  def draw_image "Hwk6FINAL/gctx.ml" 201 6317 6317 --
+)
+"Hwk6FINAL/gctx.ml" 197 6183 6199 "Hwk6FINAL/gctx.ml" 197 6183 6200
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 197 6183 6204 "Hwk6FINAL/gctx.ml" 199 6280 6313
+)
+"Hwk6FINAL/gctx.ml" 197 6183 6205 "Hwk6FINAL/gctx.ml" 197 6183 6208
+type(
+  image
+)
+ident(
+  def img "Hwk6FINAL/gctx.ml" 197 6183 6217 "Hwk6FINAL/gctx.ml" 199 6280 6313
+)
+"Hwk6FINAL/gctx.ml" 197 6183 6218 "Hwk6FINAL/gctx.ml" 197 6183 6220
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 197 6183 6231 "Hwk6FINAL/gctx.ml" 199 6280 6313
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6250 "Hwk6FINAL/gctx.ml" 198 6241 6252
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6253 "Hwk6FINAL/gctx.ml" 198 6241 6255
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6249 "Hwk6FINAL/gctx.ml" 198 6241 6256
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6259 "Hwk6FINAL/gctx.ml" 198 6241 6271
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6272 "Hwk6FINAL/gctx.ml" 198 6241 6273
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 197 6183 6199 "Hwk6FINAL/gctx.ml" 197 6183 6200
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6274 "Hwk6FINAL/gctx.ml" 198 6241 6276
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 197 6183 6218 "Hwk6FINAL/gctx.ml" 197 6183 6220
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6259 "Hwk6FINAL/gctx.ml" 198 6241 6276
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 199 6280 6284 "Hwk6FINAL/gctx.ml" 199 6280 6303
+type(
+  image -> int -> int -> unit
+)
+ident(
+  ext_ref Graphics.draw_image
+)
+"Hwk6FINAL/gctx.ml" 199 6280 6304 "Hwk6FINAL/gctx.ml" 199 6280 6307
+type(
+  image
+)
+ident(
+  int_ref img "Hwk6FINAL/gctx.ml" 197 6183 6205 "Hwk6FINAL/gctx.ml" 197 6183 6208
+)
+"Hwk6FINAL/gctx.ml" 199 6280 6308 "Hwk6FINAL/gctx.ml" 199 6280 6310
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 198 6241 6250 "Hwk6FINAL/gctx.ml" 198 6241 6252
+)
+"Hwk6FINAL/gctx.ml" 199 6280 6311 "Hwk6FINAL/gctx.ml" 199 6280 6313
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 198 6241 6253 "Hwk6FINAL/gctx.ml" 198 6241 6255
+)
+"Hwk6FINAL/gctx.ml" 199 6280 6284 "Hwk6FINAL/gctx.ml" 199 6280 6313
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 198 6241 6245 "Hwk6FINAL/gctx.ml" 199 6280 6313
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gctx.ml" 201 6317 6321 "Hwk6FINAL/gctx.ml" 201 6317 6334
+type(
+  t -> position -> position -> image
+)
+ident(
+  def capture_image "Hwk6FINAL/gctx.ml" 215 6686 6686 --
+)
+"Hwk6FINAL/gctx.ml" 201 6317 6336 "Hwk6FINAL/gctx.ml" 201 6317 6337
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 201 6317 6341 "Hwk6FINAL/gctx.ml" 208 6569 6601
+)
+"Hwk6FINAL/gctx.ml" 201 6317 6342 "Hwk6FINAL/gctx.ml" 201 6317 6344
+type(
+  position
+)
+ident(
+  def p1 "Hwk6FINAL/gctx.ml" 201 6317 6354 "Hwk6FINAL/gctx.ml" 208 6569 6601
+)
+"Hwk6FINAL/gctx.ml" 201 6317 6355 "Hwk6FINAL/gctx.ml" 201 6317 6357
+type(
+  position
+)
+ident(
+  def p2 "Hwk6FINAL/gctx.ml" 201 6317 6367 "Hwk6FINAL/gctx.ml" 208 6569 6601
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6386 "Hwk6FINAL/gctx.ml" 202 6377 6388
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6389 "Hwk6FINAL/gctx.ml" 202 6377 6391
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6385 "Hwk6FINAL/gctx.ml" 202 6377 6392
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6395 "Hwk6FINAL/gctx.ml" 202 6377 6407
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6408 "Hwk6FINAL/gctx.ml" 202 6377 6409
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 201 6317 6336 "Hwk6FINAL/gctx.ml" 201 6317 6337
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6410 "Hwk6FINAL/gctx.ml" 202 6377 6412
+type(
+  position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gctx.ml" 201 6317 6342 "Hwk6FINAL/gctx.ml" 201 6317 6344
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6395 "Hwk6FINAL/gctx.ml" 202 6377 6412
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6425 "Hwk6FINAL/gctx.ml" 203 6416 6427
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6428 "Hwk6FINAL/gctx.ml" 203 6416 6430
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6424 "Hwk6FINAL/gctx.ml" 203 6416 6431
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6434 "Hwk6FINAL/gctx.ml" 203 6416 6446
+type(
+  t -> position -> int * int
+)
+ident(
+  int_ref ocaml_coords "Hwk6FINAL/gctx.ml" 91 2893 2897 "Hwk6FINAL/gctx.ml" 91 2893 2909
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6447 "Hwk6FINAL/gctx.ml" 203 6416 6448
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 201 6317 6336 "Hwk6FINAL/gctx.ml" 201 6317 6337
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6449 "Hwk6FINAL/gctx.ml" 203 6416 6451
+type(
+  position
+)
+ident(
+  int_ref p2 "Hwk6FINAL/gctx.ml" 201 6317 6355 "Hwk6FINAL/gctx.ml" 201 6317 6357
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6434 "Hwk6FINAL/gctx.ml" 203 6416 6451
+call(
+  stack
+)
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6463 "Hwk6FINAL/gctx.ml" 204 6455 6465
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6469 "Hwk6FINAL/gctx.ml" 204 6455 6472
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6473 "Hwk6FINAL/gctx.ml" 204 6455 6475
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 202 6377 6386 "Hwk6FINAL/gctx.ml" 202 6377 6388
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6476 "Hwk6FINAL/gctx.ml" 204 6455 6478
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 203 6416 6425 "Hwk6FINAL/gctx.ml" 203 6416 6427
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6468 "Hwk6FINAL/gctx.ml" 204 6455 6479
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6491 "Hwk6FINAL/gctx.ml" 205 6483 6493
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6497 "Hwk6FINAL/gctx.ml" 205 6483 6500
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6501 "Hwk6FINAL/gctx.ml" 205 6483 6503
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 202 6377 6389 "Hwk6FINAL/gctx.ml" 202 6377 6391
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6504 "Hwk6FINAL/gctx.ml" 205 6483 6506
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 203 6416 6428 "Hwk6FINAL/gctx.ml" 203 6416 6430
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6496 "Hwk6FINAL/gctx.ml" 205 6483 6507
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6519 "Hwk6FINAL/gctx.ml" 206 6511 6520
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6523 "Hwk6FINAL/gctx.ml" 206 6511 6526
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6528 "Hwk6FINAL/gctx.ml" 206 6511 6530
+type(
+  int
+)
+ident(
+  int_ref y2 "Hwk6FINAL/gctx.ml" 203 6416 6428 "Hwk6FINAL/gctx.ml" 203 6416 6430
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6531 "Hwk6FINAL/gctx.ml" 206 6511 6532
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6533 "Hwk6FINAL/gctx.ml" 206 6511 6535
+type(
+  int
+)
+ident(
+  int_ref y1 "Hwk6FINAL/gctx.ml" 202 6377 6389 "Hwk6FINAL/gctx.ml" 202 6377 6391
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6527 "Hwk6FINAL/gctx.ml" 206 6511 6536
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6523 "Hwk6FINAL/gctx.ml" 206 6511 6536
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6548 "Hwk6FINAL/gctx.ml" 207 6540 6549
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6552 "Hwk6FINAL/gctx.ml" 207 6540 6555
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6557 "Hwk6FINAL/gctx.ml" 207 6540 6559
+type(
+  int
+)
+ident(
+  int_ref x2 "Hwk6FINAL/gctx.ml" 203 6416 6425 "Hwk6FINAL/gctx.ml" 203 6416 6427
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6560 "Hwk6FINAL/gctx.ml" 207 6540 6561
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6562 "Hwk6FINAL/gctx.ml" 207 6540 6564
+type(
+  int
+)
+ident(
+  int_ref x1 "Hwk6FINAL/gctx.ml" 202 6377 6386 "Hwk6FINAL/gctx.ml" 202 6377 6388
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6556 "Hwk6FINAL/gctx.ml" 207 6540 6565
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6552 "Hwk6FINAL/gctx.ml" 207 6540 6565
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6573 "Hwk6FINAL/gctx.ml" 208 6569 6591
+type(
+  int -> int -> int -> int -> image
+)
+ident(
+  ext_ref Graphics.get_image
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6592 "Hwk6FINAL/gctx.ml" 208 6569 6594
+type(
+  int
+)
+ident(
+  int_ref lx "Hwk6FINAL/gctx.ml" 204 6455 6463 "Hwk6FINAL/gctx.ml" 204 6455 6465
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6595 "Hwk6FINAL/gctx.ml" 208 6569 6597
+type(
+  int
+)
+ident(
+  int_ref ly "Hwk6FINAL/gctx.ml" 205 6483 6491 "Hwk6FINAL/gctx.ml" 205 6483 6493
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6598 "Hwk6FINAL/gctx.ml" 208 6569 6599
+type(
+  int
+)
+ident(
+  int_ref w "Hwk6FINAL/gctx.ml" 207 6540 6548 "Hwk6FINAL/gctx.ml" 207 6540 6549
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6600 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  int
+)
+ident(
+  int_ref h "Hwk6FINAL/gctx.ml" 206 6511 6519 "Hwk6FINAL/gctx.ml" 206 6511 6520
+)
+"Hwk6FINAL/gctx.ml" 208 6569 6573 "Hwk6FINAL/gctx.ml" 208 6569 6601
+call(
+  tail
+)
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 207 6540 6544 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 206 6511 6515 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 205 6483 6487 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 204 6455 6459 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 203 6416 6420 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 202 6377 6381 "Hwk6FINAL/gctx.ml" 208 6569 6601
+type(
+  image
+)
+type(
+  image
+)
+"Hwk6FINAL/gctx.ml" 218 6754 6758 "Hwk6FINAL/gctx.ml" 218 6754 6772
+type(
+  t -> event
+)
+ident(
+  def wait_for_event "Hwk6FINAL/gctx.ml" 223 6971 6971 --
+)
+"Hwk6FINAL/gctx.ml" 218 6754 6774 "Hwk6FINAL/gctx.ml" 218 6754 6775
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 218 6754 6779 "Hwk6FINAL/gctx.ml" 220 6863 6911
+)
+"Hwk6FINAL/gctx.ml" 219 6790 6792 "Hwk6FINAL/gctx.ml" 219 6790 6816
+type(
+  Graphics.event list -> event
+)
+ident(
+  ext_ref Graphics.wait_next_event
+)
+"Hwk6FINAL/gctx.ml" 219 6790 6818 "Hwk6FINAL/gctx.ml" 219 6790 6839
+type(
+  Graphics.event
+)
+"Hwk6FINAL/gctx.ml" 219 6790 6841 "Hwk6FINAL/gctx.ml" 219 6790 6861
+type(
+  Graphics.event
+)
+"Hwk6FINAL/gctx.ml" 220 6863 6870 "Hwk6FINAL/gctx.ml" 220 6863 6888
+type(
+  Graphics.event
+)
+"Hwk6FINAL/gctx.ml" 220 6863 6890 "Hwk6FINAL/gctx.ml" 220 6863 6910
+type(
+  Graphics.event
+)
+"Hwk6FINAL/gctx.ml" 219 6790 6817 "Hwk6FINAL/gctx.ml" 220 6863 6911
+type(
+  Graphics.event list
+)
+"Hwk6FINAL/gctx.ml" 219 6790 6792 "Hwk6FINAL/gctx.ml" 220 6863 6911
+type(
+  event
+)
+type(
+  event
+)
+"Hwk6FINAL/gctx.ml" 223 6971 6975 "Hwk6FINAL/gctx.ml" 223 6971 6989
+type(
+  t -> event -> bool
+)
+ident(
+  def button_pressed "Hwk6FINAL/gctx.ml" 227 7088 7088 --
+)
+"Hwk6FINAL/gctx.ml" 223 6971 6991 "Hwk6FINAL/gctx.ml" 223 6971 6992
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 223 6971 6996 "Hwk6FINAL/gctx.ml" 224 7015 7034
+)
+"Hwk6FINAL/gctx.ml" 223 6971 6997 "Hwk6FINAL/gctx.ml" 223 6971 6998
+type(
+  event
+)
+ident(
+  def e "Hwk6FINAL/gctx.ml" 223 6971 7006 "Hwk6FINAL/gctx.ml" 224 7015 7034
+)
+"Hwk6FINAL/gctx.ml" 224 7015 7017 "Hwk6FINAL/gctx.ml" 224 7015 7018
+type(
+  event
+)
+ident(
+  int_ref e "Hwk6FINAL/gctx.ml" 223 6971 6997 "Hwk6FINAL/gctx.ml" 223 6971 6998
+)
+"Hwk6FINAL/gctx.ml" 224 7015 7017 "Hwk6FINAL/gctx.ml" 224 7015 7034
+type(
+  bool
+)
+type(
+  bool
+)
+"Hwk6FINAL/gctx.ml" 227 7088 7092 "Hwk6FINAL/gctx.ml" 227 7088 7101
+type(
+  t -> event -> position
+)
+ident(
+  def event_pos "Hwk6FINAL/gctx.ml" 231 7250 7250 --
+)
+"Hwk6FINAL/gctx.ml" 227 7088 7103 "Hwk6FINAL/gctx.ml" 227 7088 7104
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 227 7088 7108 "Hwk6FINAL/gctx.ml" 228 7132 7189
+)
+"Hwk6FINAL/gctx.ml" 227 7088 7109 "Hwk6FINAL/gctx.ml" 227 7088 7110
+type(
+  event
+)
+ident(
+  def e "Hwk6FINAL/gctx.ml" 227 7088 7118 "Hwk6FINAL/gctx.ml" 228 7132 7189
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7134 "Hwk6FINAL/gctx.ml" 228 7132 7146
+type(
+  t -> int * int -> position
+)
+ident(
+  int_ref local_coords "Hwk6FINAL/gctx.ml" 96 3123 3127 "Hwk6FINAL/gctx.ml" 96 3123 3139
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7147 "Hwk6FINAL/gctx.ml" 228 7132 7148
+type(
+  t
+)
+ident(
+  int_ref g "Hwk6FINAL/gctx.ml" 227 7088 7103 "Hwk6FINAL/gctx.ml" 227 7088 7104
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7150 "Hwk6FINAL/gctx.ml" 228 7132 7151
+type(
+  event
+)
+ident(
+  int_ref e "Hwk6FINAL/gctx.ml" 227 7088 7109 "Hwk6FINAL/gctx.ml" 227 7088 7110
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7150 "Hwk6FINAL/gctx.ml" 228 7132 7168
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7170 "Hwk6FINAL/gctx.ml" 228 7132 7171
+type(
+  event
+)
+ident(
+  int_ref e "Hwk6FINAL/gctx.ml" 227 7088 7109 "Hwk6FINAL/gctx.ml" 227 7088 7110
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7170 "Hwk6FINAL/gctx.ml" 228 7132 7188
+type(
+  int
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7149 "Hwk6FINAL/gctx.ml" 228 7132 7189
+type(
+  int * int
+)
+"Hwk6FINAL/gctx.ml" 228 7132 7134 "Hwk6FINAL/gctx.ml" 228 7132 7189
+call(
+  tail
+)
+type(
+  position
+)
+type(
+  position
+)
+"Hwk6FINAL/gctx.ml" 231 7250 7254 "Hwk6FINAL/gctx.ml" 231 7250 7267
+type(
+  t -> event -> bool
+)
+ident(
+  def is_keypressed "Hwk6FINAL/gctx.ml" 235 7377 7377 --
+)
+"Hwk6FINAL/gctx.ml" 231 7250 7269 "Hwk6FINAL/gctx.ml" 231 7250 7270
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 231 7250 7274 "Hwk6FINAL/gctx.ml" 232 7293 7316
+)
+"Hwk6FINAL/gctx.ml" 231 7250 7275 "Hwk6FINAL/gctx.ml" 231 7250 7276
+type(
+  event
+)
+ident(
+  def e "Hwk6FINAL/gctx.ml" 231 7250 7284 "Hwk6FINAL/gctx.ml" 232 7293 7316
+)
+"Hwk6FINAL/gctx.ml" 232 7293 7295 "Hwk6FINAL/gctx.ml" 232 7293 7296
+type(
+  event
+)
+ident(
+  int_ref e "Hwk6FINAL/gctx.ml" 231 7250 7275 "Hwk6FINAL/gctx.ml" 231 7250 7276
+)
+"Hwk6FINAL/gctx.ml" 232 7293 7295 "Hwk6FINAL/gctx.ml" 232 7293 7316
+type(
+  bool
+)
+type(
+  bool
+)
+"Hwk6FINAL/gctx.ml" 235 7377 7381 "Hwk6FINAL/gctx.ml" 235 7377 7388
+type(
+  t -> event -> char
+)
+ident(
+  def get_key "Hwk6FINAL/gctx.ml" 236 7414 7430 --
+)
+"Hwk6FINAL/gctx.ml" 235 7377 7390 "Hwk6FINAL/gctx.ml" 235 7377 7391
+type(
+  t
+)
+ident(
+  def g "Hwk6FINAL/gctx.ml" 235 7377 7395 "Hwk6FINAL/gctx.ml" 236 7414 7430
+)
+"Hwk6FINAL/gctx.ml" 235 7377 7396 "Hwk6FINAL/gctx.ml" 235 7377 7397
+type(
+  event
+)
+ident(
+  def e "Hwk6FINAL/gctx.ml" 235 7377 7405 "Hwk6FINAL/gctx.ml" 236 7414 7430
+)
+"Hwk6FINAL/gctx.ml" 236 7414 7416 "Hwk6FINAL/gctx.ml" 236 7414 7417
+type(
+  event
+)
+ident(
+  int_ref e "Hwk6FINAL/gctx.ml" 235 7377 7396 "Hwk6FINAL/gctx.ml" 235 7377 7397
+)
+"Hwk6FINAL/gctx.ml" 236 7414 7416 "Hwk6FINAL/gctx.ml" 236 7414 7430
+type(
+  char
+)
+type(
+  char
+)

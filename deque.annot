@@ -1,0 +1,1324 @@
+"Hwk6FINAL/deque.ml" 46 1376 1380 "Hwk6FINAL/deque.ml" 46 1376 1386
+type(
+  unit -> 'a deque
+)
+ident(
+  def create "Hwk6FINAL/deque.ml" 51 1473 1473 --
+)
+"Hwk6FINAL/deque.ml" 46 1376 1387 "Hwk6FINAL/deque.ml" 46 1376 1389
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 47 1403 1414 "Hwk6FINAL/deque.ml" 47 1403 1418
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 48 1420 1431 "Hwk6FINAL/deque.ml" 48 1420 1435
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 47 1403 1405 "Hwk6FINAL/deque.ml" 48 1420 1437
+type(
+  'a deque
+)
+type(
+  'a deque
+)
+"Hwk6FINAL/deque.ml" 51 1473 1477 "Hwk6FINAL/deque.ml" 51 1473 1485
+type(
+  'a deque -> bool
+)
+ident(
+  def is_empty "Hwk6FINAL/deque.ml" 55 1581 1581 --
+)
+"Hwk6FINAL/deque.ml" 51 1473 1487 "Hwk6FINAL/deque.ml" 51 1473 1488
+type(
+  'a deque
+)
+ident(
+  def d "Hwk6FINAL/deque.ml" 51 1473 1501 "Hwk6FINAL/deque.ml" 52 1510 1542
+)
+"Hwk6FINAL/deque.ml" 52 1510 1512 "Hwk6FINAL/deque.ml" 52 1510 1513
+type(
+  'a deque
+)
+ident(
+  int_ref d "Hwk6FINAL/deque.ml" 51 1473 1487 "Hwk6FINAL/deque.ml" 51 1473 1488
+)
+"Hwk6FINAL/deque.ml" 52 1510 1512 "Hwk6FINAL/deque.ml" 52 1510 1518
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 52 1510 1519 "Hwk6FINAL/deque.ml" 52 1510 1520
+type(
+  'a dqnode option -> 'a dqnode option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Hwk6FINAL/deque.ml" 52 1510 1521 "Hwk6FINAL/deque.ml" 52 1510 1525
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 52 1510 1512 "Hwk6FINAL/deque.ml" 52 1510 1525
+type(
+  bool
+)
+"Hwk6FINAL/deque.ml" 52 1510 1526 "Hwk6FINAL/deque.ml" 52 1510 1528
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"Hwk6FINAL/deque.ml" 52 1510 1529 "Hwk6FINAL/deque.ml" 52 1510 1530
+type(
+  'a deque
+)
+ident(
+  int_ref d "Hwk6FINAL/deque.ml" 51 1473 1487 "Hwk6FINAL/deque.ml" 51 1473 1488
+)
+"Hwk6FINAL/deque.ml" 52 1510 1529 "Hwk6FINAL/deque.ml" 52 1510 1535
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 52 1510 1536 "Hwk6FINAL/deque.ml" 52 1510 1537
+type(
+  'a dqnode option -> 'a dqnode option -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"Hwk6FINAL/deque.ml" 52 1510 1538 "Hwk6FINAL/deque.ml" 52 1510 1542
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 52 1510 1529 "Hwk6FINAL/deque.ml" 52 1510 1542
+type(
+  bool
+)
+"Hwk6FINAL/deque.ml" 52 1510 1512 "Hwk6FINAL/deque.ml" 52 1510 1542
+type(
+  bool
+)
+type(
+  bool
+)
+"Hwk6FINAL/deque.ml" 55 1581 1585 "Hwk6FINAL/deque.ml" 55 1581 1596
+type(
+  'a -> 'a deque -> unit
+)
+ident(
+  def insert_head "Hwk6FINAL/deque.ml" 68 1956 1956 --
+)
+"Hwk6FINAL/deque.ml" 55 1581 1598 "Hwk6FINAL/deque.ml" 55 1581 1599
+type(
+  'a
+)
+ident(
+  def x "Hwk6FINAL/deque.ml" 55 1581 1605 "Hwk6FINAL/deque.ml" 65 1905 1912
+)
+"Hwk6FINAL/deque.ml" 55 1581 1606 "Hwk6FINAL/deque.ml" 55 1581 1607
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 55 1581 1619 "Hwk6FINAL/deque.ml" 65 1905 1912
+)
+"Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+type(
+  'a dqnode
+)
+"Hwk6FINAL/deque.ml" 56 1628 1647 "Hwk6FINAL/deque.ml" 56 1628 1648
+type(
+  'a
+)
+ident(
+  int_ref x "Hwk6FINAL/deque.ml" 55 1581 1598 "Hwk6FINAL/deque.ml" 55 1581 1599
+)
+"Hwk6FINAL/deque.ml" 56 1628 1655 "Hwk6FINAL/deque.ml" 56 1628 1659
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 56 1628 1666 "Hwk6FINAL/deque.ml" 56 1628 1670
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 56 1628 1644 "Hwk6FINAL/deque.ml" 56 1628 1671
+type(
+  'a dqnode
+)
+"Hwk6FINAL/deque.ml" 57 1675 1691 "Hwk6FINAL/deque.ml" 57 1675 1692
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 55 1581 1606 "Hwk6FINAL/deque.ml" 55 1581 1607
+)
+"Hwk6FINAL/deque.ml" 57 1675 1691 "Hwk6FINAL/deque.ml" 57 1675 1697
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 58 1703 1711 "Hwk6FINAL/deque.ml" 58 1703 1715
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 59 1719 1729 "Hwk6FINAL/deque.ml" 59 1719 1730
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 55 1581 1606 "Hwk6FINAL/deque.ml" 55 1581 1607
+)
+"Hwk6FINAL/deque.ml" 59 1719 1744 "Hwk6FINAL/deque.ml" 59 1719 1751
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+)
+"Hwk6FINAL/deque.ml" 59 1719 1739 "Hwk6FINAL/deque.ml" 59 1719 1751
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 59 1719 1729 "Hwk6FINAL/deque.ml" 59 1719 1751
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 60 1753 1763 "Hwk6FINAL/deque.ml" 60 1753 1764
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 55 1581 1606 "Hwk6FINAL/deque.ml" 55 1581 1607
+)
+"Hwk6FINAL/deque.ml" 60 1753 1778 "Hwk6FINAL/deque.ml" 60 1753 1785
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+)
+"Hwk6FINAL/deque.ml" 60 1753 1773 "Hwk6FINAL/deque.ml" 60 1753 1785
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 60 1753 1763 "Hwk6FINAL/deque.ml" 60 1753 1785
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 59 1719 1729 "Hwk6FINAL/deque.ml" 60 1753 1785
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 61 1786 1799 "Hwk6FINAL/deque.ml" 61 1786 1800
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 62 1804 1814 "Hwk6FINAL/deque.ml" 64 1872 1904
+)
+"Hwk6FINAL/deque.ml" 61 1786 1794 "Hwk6FINAL/deque.ml" 61 1786 1800
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 62 1804 1814 "Hwk6FINAL/deque.ml" 62 1804 1821
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+)
+"Hwk6FINAL/deque.ml" 62 1804 1835 "Hwk6FINAL/deque.ml" 62 1804 1836
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 61 1786 1799 "Hwk6FINAL/deque.ml" 61 1786 1800
+)
+"Hwk6FINAL/deque.ml" 62 1804 1830 "Hwk6FINAL/deque.ml" 62 1804 1836
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 62 1804 1814 "Hwk6FINAL/deque.ml" 62 1804 1836
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 63 1838 1848 "Hwk6FINAL/deque.ml" 63 1838 1849
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 61 1786 1799 "Hwk6FINAL/deque.ml" 61 1786 1800
+)
+"Hwk6FINAL/deque.ml" 63 1838 1863 "Hwk6FINAL/deque.ml" 63 1838 1870
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+)
+"Hwk6FINAL/deque.ml" 63 1838 1858 "Hwk6FINAL/deque.ml" 63 1838 1870
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 63 1838 1848 "Hwk6FINAL/deque.ml" 63 1838 1870
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 64 1872 1882 "Hwk6FINAL/deque.ml" 64 1872 1883
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 55 1581 1606 "Hwk6FINAL/deque.ml" 55 1581 1607
+)
+"Hwk6FINAL/deque.ml" 64 1872 1897 "Hwk6FINAL/deque.ml" 64 1872 1904
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 56 1628 1634 "Hwk6FINAL/deque.ml" 56 1628 1641
+)
+"Hwk6FINAL/deque.ml" 64 1872 1892 "Hwk6FINAL/deque.ml" 64 1872 1904
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 64 1872 1882 "Hwk6FINAL/deque.ml" 64 1872 1904
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 63 1838 1848 "Hwk6FINAL/deque.ml" 64 1872 1904
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 62 1804 1814 "Hwk6FINAL/deque.ml" 64 1872 1904
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 57 1675 1679 "Hwk6FINAL/deque.ml" 65 1905 1912
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 56 1628 1630 "Hwk6FINAL/deque.ml" 65 1905 1912
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 68 1956 1960 "Hwk6FINAL/deque.ml" 68 1956 1971
+type(
+  'a -> 'a deque -> unit
+)
+ident(
+  def insert_tail "Hwk6FINAL/deque.ml" 82 2347 2347 --
+)
+"Hwk6FINAL/deque.ml" 68 1956 1973 "Hwk6FINAL/deque.ml" 68 1956 1974
+type(
+  'a
+)
+ident(
+  def x "Hwk6FINAL/deque.ml" 68 1956 1980 "Hwk6FINAL/deque.ml" 78 2279 2286
+)
+"Hwk6FINAL/deque.ml" 68 1956 1981 "Hwk6FINAL/deque.ml" 68 1956 1982
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 68 1956 1994 "Hwk6FINAL/deque.ml" 78 2279 2286
+)
+"Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+type(
+  'a dqnode
+)
+"Hwk6FINAL/deque.ml" 69 2003 2022 "Hwk6FINAL/deque.ml" 69 2003 2023
+type(
+  'a
+)
+ident(
+  int_ref x "Hwk6FINAL/deque.ml" 68 1956 1973 "Hwk6FINAL/deque.ml" 68 1956 1974
+)
+"Hwk6FINAL/deque.ml" 69 2003 2030 "Hwk6FINAL/deque.ml" 69 2003 2034
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 69 2003 2040 "Hwk6FINAL/deque.ml" 69 2003 2044
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 69 2003 2019 "Hwk6FINAL/deque.ml" 69 2003 2045
+type(
+  'a dqnode
+)
+"Hwk6FINAL/deque.ml" 70 2049 2065 "Hwk6FINAL/deque.ml" 70 2049 2066
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 68 1956 1981 "Hwk6FINAL/deque.ml" 68 1956 1982
+)
+"Hwk6FINAL/deque.ml" 70 2049 2065 "Hwk6FINAL/deque.ml" 70 2049 2071
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 71 2077 2085 "Hwk6FINAL/deque.ml" 71 2077 2089
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 72 2093 2103 "Hwk6FINAL/deque.ml" 72 2093 2104
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 68 1956 1981 "Hwk6FINAL/deque.ml" 68 1956 1982
+)
+"Hwk6FINAL/deque.ml" 72 2093 2118 "Hwk6FINAL/deque.ml" 72 2093 2125
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+)
+"Hwk6FINAL/deque.ml" 72 2093 2113 "Hwk6FINAL/deque.ml" 72 2093 2125
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 72 2093 2103 "Hwk6FINAL/deque.ml" 72 2093 2125
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 73 2127 2137 "Hwk6FINAL/deque.ml" 73 2127 2138
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 68 1956 1981 "Hwk6FINAL/deque.ml" 68 1956 1982
+)
+"Hwk6FINAL/deque.ml" 73 2127 2152 "Hwk6FINAL/deque.ml" 73 2127 2159
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+)
+"Hwk6FINAL/deque.ml" 73 2127 2147 "Hwk6FINAL/deque.ml" 73 2127 2159
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 73 2127 2137 "Hwk6FINAL/deque.ml" 73 2127 2159
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 72 2093 2103 "Hwk6FINAL/deque.ml" 73 2127 2159
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 74 2160 2173 "Hwk6FINAL/deque.ml" 74 2160 2174
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 75 2178 2188 "Hwk6FINAL/deque.ml" 77 2246 2278
+)
+"Hwk6FINAL/deque.ml" 74 2160 2168 "Hwk6FINAL/deque.ml" 74 2160 2174
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 75 2178 2188 "Hwk6FINAL/deque.ml" 75 2178 2195
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+)
+"Hwk6FINAL/deque.ml" 75 2178 2209 "Hwk6FINAL/deque.ml" 75 2178 2210
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 74 2160 2173 "Hwk6FINAL/deque.ml" 74 2160 2174
+)
+"Hwk6FINAL/deque.ml" 75 2178 2204 "Hwk6FINAL/deque.ml" 75 2178 2210
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 75 2178 2188 "Hwk6FINAL/deque.ml" 75 2178 2210
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 76 2212 2222 "Hwk6FINAL/deque.ml" 76 2212 2223
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 74 2160 2173 "Hwk6FINAL/deque.ml" 74 2160 2174
+)
+"Hwk6FINAL/deque.ml" 76 2212 2237 "Hwk6FINAL/deque.ml" 76 2212 2244
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+)
+"Hwk6FINAL/deque.ml" 76 2212 2232 "Hwk6FINAL/deque.ml" 76 2212 2244
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 76 2212 2222 "Hwk6FINAL/deque.ml" 76 2212 2244
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 77 2246 2256 "Hwk6FINAL/deque.ml" 77 2246 2257
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 68 1956 1981 "Hwk6FINAL/deque.ml" 68 1956 1982
+)
+"Hwk6FINAL/deque.ml" 77 2246 2271 "Hwk6FINAL/deque.ml" 77 2246 2278
+type(
+  'a dqnode
+)
+ident(
+  int_ref newnode "Hwk6FINAL/deque.ml" 69 2003 2009 "Hwk6FINAL/deque.ml" 69 2003 2016
+)
+"Hwk6FINAL/deque.ml" 77 2246 2266 "Hwk6FINAL/deque.ml" 77 2246 2278
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 77 2246 2256 "Hwk6FINAL/deque.ml" 77 2246 2278
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 76 2212 2222 "Hwk6FINAL/deque.ml" 77 2246 2278
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 75 2178 2188 "Hwk6FINAL/deque.ml" 77 2246 2278
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 70 2049 2053 "Hwk6FINAL/deque.ml" 78 2279 2286
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 69 2003 2005 "Hwk6FINAL/deque.ml" 78 2279 2286
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 82 2347 2351 "Hwk6FINAL/deque.ml" 82 2347 2361
+type(
+  'a deque -> 'a dqnode -> unit
+)
+ident(
+  def splice_out "Hwk6FINAL/deque.ml" 100 2934 2934 --
+)
+"Hwk6FINAL/deque.ml" 82 2347 2363 "Hwk6FINAL/deque.ml" 82 2347 2364
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 82 2347 2375 "Hwk6FINAL/deque.ml" 95 2834 2839
+)
+"Hwk6FINAL/deque.ml" 82 2347 2376 "Hwk6FINAL/deque.ml" 82 2347 2377
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 82 2347 2389 "Hwk6FINAL/deque.ml" 95 2834 2839
+)
+"Hwk6FINAL/deque.ml" 83 2398 2413 "Hwk6FINAL/deque.ml" 83 2398 2414
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 82 2347 2376 "Hwk6FINAL/deque.ml" 82 2347 2377
+)
+"Hwk6FINAL/deque.ml" 83 2398 2413 "Hwk6FINAL/deque.ml" 83 2398 2419
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 83 2398 2421 "Hwk6FINAL/deque.ml" 83 2398 2422
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 82 2347 2376 "Hwk6FINAL/deque.ml" 82 2347 2377
+)
+"Hwk6FINAL/deque.ml" 83 2398 2421 "Hwk6FINAL/deque.ml" 83 2398 2427
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 83 2398 2412 "Hwk6FINAL/deque.ml" 83 2398 2428
+type(
+  'a dqnode option * 'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2488 "Hwk6FINAL/deque.ml" 85 2481 2492
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2494 "Hwk6FINAL/deque.ml" 85 2481 2498
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2487 "Hwk6FINAL/deque.ml" 85 2481 2499
+type(
+  'a dqnode option * 'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2503 "Hwk6FINAL/deque.ml" 85 2481 2504
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 82 2347 2363 "Hwk6FINAL/deque.ml" 82 2347 2364
+)
+"Hwk6FINAL/deque.ml" 85 2481 2513 "Hwk6FINAL/deque.ml" 85 2481 2517
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2503 "Hwk6FINAL/deque.ml" 85 2481 2517
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 85 2481 2519 "Hwk6FINAL/deque.ml" 85 2481 2520
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 82 2347 2363 "Hwk6FINAL/deque.ml" 82 2347 2364
+)
+"Hwk6FINAL/deque.ml" 85 2481 2529 "Hwk6FINAL/deque.ml" 85 2481 2533
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 85 2481 2519 "Hwk6FINAL/deque.ml" 85 2481 2533
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 85 2481 2503 "Hwk6FINAL/deque.ml" 85 2481 2533
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 88 2574 2581 "Hwk6FINAL/deque.ml" 88 2574 2585
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 88 2574 2592 "Hwk6FINAL/deque.ml" 88 2574 2593
+type(
+  'a dqnode
+)
+ident(
+  def m "Hwk6FINAL/deque.ml" 88 2574 2598 "Hwk6FINAL/deque.ml" 88 2574 2630
+)
+"Hwk6FINAL/deque.ml" 88 2574 2587 "Hwk6FINAL/deque.ml" 88 2574 2593
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 88 2574 2580 "Hwk6FINAL/deque.ml" 88 2574 2594
+type(
+  'a dqnode option * 'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 88 2574 2598 "Hwk6FINAL/deque.ml" 88 2574 2599
+type(
+  'a dqnode
+)
+ident(
+  int_ref m "Hwk6FINAL/deque.ml" 88 2574 2592 "Hwk6FINAL/deque.ml" 88 2574 2593
+)
+"Hwk6FINAL/deque.ml" 88 2574 2608 "Hwk6FINAL/deque.ml" 88 2574 2612
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 88 2574 2598 "Hwk6FINAL/deque.ml" 88 2574 2612
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 88 2574 2614 "Hwk6FINAL/deque.ml" 88 2574 2615
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 82 2347 2363 "Hwk6FINAL/deque.ml" 82 2347 2364
+)
+"Hwk6FINAL/deque.ml" 88 2574 2629 "Hwk6FINAL/deque.ml" 88 2574 2630
+type(
+  'a dqnode
+)
+ident(
+  int_ref m "Hwk6FINAL/deque.ml" 88 2574 2592 "Hwk6FINAL/deque.ml" 88 2574 2593
+)
+"Hwk6FINAL/deque.ml" 88 2574 2624 "Hwk6FINAL/deque.ml" 88 2574 2630
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 88 2574 2614 "Hwk6FINAL/deque.ml" 88 2574 2630
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 88 2574 2598 "Hwk6FINAL/deque.ml" 88 2574 2630
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 91 2671 2683 "Hwk6FINAL/deque.ml" 91 2671 2684
+type(
+  'a dqnode
+)
+ident(
+  def p "Hwk6FINAL/deque.ml" 91 2671 2695 "Hwk6FINAL/deque.ml" 91 2671 2727
+)
+"Hwk6FINAL/deque.ml" 91 2671 2678 "Hwk6FINAL/deque.ml" 91 2671 2684
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 91 2671 2686 "Hwk6FINAL/deque.ml" 91 2671 2690
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 91 2671 2677 "Hwk6FINAL/deque.ml" 91 2671 2691
+type(
+  'a dqnode option * 'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 91 2671 2695 "Hwk6FINAL/deque.ml" 91 2671 2696
+type(
+  'a dqnode
+)
+ident(
+  int_ref p "Hwk6FINAL/deque.ml" 91 2671 2683 "Hwk6FINAL/deque.ml" 91 2671 2684
+)
+"Hwk6FINAL/deque.ml" 91 2671 2705 "Hwk6FINAL/deque.ml" 91 2671 2709
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 91 2671 2695 "Hwk6FINAL/deque.ml" 91 2671 2709
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 91 2671 2711 "Hwk6FINAL/deque.ml" 91 2671 2712
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 82 2347 2363 "Hwk6FINAL/deque.ml" 82 2347 2364
+)
+"Hwk6FINAL/deque.ml" 91 2671 2726 "Hwk6FINAL/deque.ml" 91 2671 2727
+type(
+  'a dqnode
+)
+ident(
+  int_ref p "Hwk6FINAL/deque.ml" 91 2671 2683 "Hwk6FINAL/deque.ml" 91 2671 2684
+)
+"Hwk6FINAL/deque.ml" 91 2671 2721 "Hwk6FINAL/deque.ml" 91 2671 2727
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 91 2671 2711 "Hwk6FINAL/deque.ml" 91 2671 2727
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 91 2671 2695 "Hwk6FINAL/deque.ml" 91 2671 2727
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 94 2773 2785 "Hwk6FINAL/deque.ml" 94 2773 2786
+type(
+  'a dqnode
+)
+ident(
+  def p "Hwk6FINAL/deque.ml" 94 2773 2799 "Hwk6FINAL/deque.ml" 94 2773 2833
+)
+"Hwk6FINAL/deque.ml" 94 2773 2780 "Hwk6FINAL/deque.ml" 94 2773 2786
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 94 2773 2793 "Hwk6FINAL/deque.ml" 94 2773 2794
+type(
+  'a dqnode
+)
+ident(
+  def m "Hwk6FINAL/deque.ml" 94 2773 2799 "Hwk6FINAL/deque.ml" 94 2773 2833
+)
+"Hwk6FINAL/deque.ml" 94 2773 2788 "Hwk6FINAL/deque.ml" 94 2773 2794
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 94 2773 2779 "Hwk6FINAL/deque.ml" 94 2773 2795
+type(
+  'a dqnode option * 'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 94 2773 2799 "Hwk6FINAL/deque.ml" 94 2773 2800
+type(
+  'a dqnode
+)
+ident(
+  int_ref p "Hwk6FINAL/deque.ml" 94 2773 2785 "Hwk6FINAL/deque.ml" 94 2773 2786
+)
+"Hwk6FINAL/deque.ml" 94 2773 2814 "Hwk6FINAL/deque.ml" 94 2773 2815
+type(
+  'a dqnode
+)
+ident(
+  int_ref m "Hwk6FINAL/deque.ml" 94 2773 2793 "Hwk6FINAL/deque.ml" 94 2773 2794
+)
+"Hwk6FINAL/deque.ml" 94 2773 2809 "Hwk6FINAL/deque.ml" 94 2773 2815
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 94 2773 2799 "Hwk6FINAL/deque.ml" 94 2773 2815
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 94 2773 2817 "Hwk6FINAL/deque.ml" 94 2773 2818
+type(
+  'a dqnode
+)
+ident(
+  int_ref m "Hwk6FINAL/deque.ml" 94 2773 2793 "Hwk6FINAL/deque.ml" 94 2773 2794
+)
+"Hwk6FINAL/deque.ml" 94 2773 2832 "Hwk6FINAL/deque.ml" 94 2773 2833
+type(
+  'a dqnode
+)
+ident(
+  int_ref p "Hwk6FINAL/deque.ml" 94 2773 2785 "Hwk6FINAL/deque.ml" 94 2773 2786
+)
+"Hwk6FINAL/deque.ml" 94 2773 2827 "Hwk6FINAL/deque.ml" 94 2773 2833
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 94 2773 2817 "Hwk6FINAL/deque.ml" 94 2773 2833
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 94 2773 2799 "Hwk6FINAL/deque.ml" 94 2773 2833
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 83 2398 2400 "Hwk6FINAL/deque.ml" 95 2834 2839
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 100 2934 2938 "Hwk6FINAL/deque.ml" 100 2934 2949
+type(
+  'a deque -> 'a
+)
+ident(
+  def remove_head "Hwk6FINAL/deque.ml" 109 3196 3196 --
+)
+"Hwk6FINAL/deque.ml" 100 2934 2951 "Hwk6FINAL/deque.ml" 100 2934 2952
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 100 2934 2964 "Hwk6FINAL/deque.ml" 105 3095 3100
+)
+"Hwk6FINAL/deque.ml" 101 2971 2985 "Hwk6FINAL/deque.ml" 101 2971 2986
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 100 2934 2951 "Hwk6FINAL/deque.ml" 100 2934 2952
+)
+"Hwk6FINAL/deque.ml" 101 2971 2985 "Hwk6FINAL/deque.ml" 101 2971 2991
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 102 2997 3003 "Hwk6FINAL/deque.ml" 102 2997 3007
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 103 3011 3019 "Hwk6FINAL/deque.ml" 103 3011 3027
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"Hwk6FINAL/deque.ml" 103 3011 3028 "Hwk6FINAL/deque.ml" 103 3011 3056
+type(
+  string
+)
+"Hwk6FINAL/deque.ml" 103 3011 3019 "Hwk6FINAL/deque.ml" 103 3011 3056
+call(
+  tail
+)
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 104 3057 3068 "Hwk6FINAL/deque.ml" 104 3057 3069
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 104 3057 3073 "Hwk6FINAL/deque.ml" 104 3057 3094
+)
+"Hwk6FINAL/deque.ml" 104 3057 3063 "Hwk6FINAL/deque.ml" 104 3057 3069
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 104 3057 3074 "Hwk6FINAL/deque.ml" 104 3057 3084
+type(
+  'a deque -> 'a dqnode -> unit
+)
+ident(
+  int_ref splice_out "Hwk6FINAL/deque.ml" 82 2347 2351 "Hwk6FINAL/deque.ml" 82 2347 2361
+)
+"Hwk6FINAL/deque.ml" 104 3057 3085 "Hwk6FINAL/deque.ml" 104 3057 3086
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 100 2934 2951 "Hwk6FINAL/deque.ml" 100 2934 2952
+)
+"Hwk6FINAL/deque.ml" 104 3057 3087 "Hwk6FINAL/deque.ml" 104 3057 3088
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 104 3057 3068 "Hwk6FINAL/deque.ml" 104 3057 3069
+)
+"Hwk6FINAL/deque.ml" 104 3057 3073 "Hwk6FINAL/deque.ml" 104 3057 3089
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 104 3057 3091 "Hwk6FINAL/deque.ml" 104 3057 3092
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 104 3057 3068 "Hwk6FINAL/deque.ml" 104 3057 3069
+)
+"Hwk6FINAL/deque.ml" 104 3057 3091 "Hwk6FINAL/deque.ml" 104 3057 3094
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 104 3057 3073 "Hwk6FINAL/deque.ml" 104 3057 3094
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 101 2971 2973 "Hwk6FINAL/deque.ml" 105 3095 3100
+type(
+  'a
+)
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 109 3196 3200 "Hwk6FINAL/deque.ml" 109 3196 3211
+type(
+  'a deque -> 'a
+)
+ident(
+  def remove_tail "Hwk6FINAL/deque.ml" 119 3447 3447 --
+)
+"Hwk6FINAL/deque.ml" 109 3196 3213 "Hwk6FINAL/deque.ml" 109 3196 3214
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 109 3196 3226 "Hwk6FINAL/deque.ml" 114 3357 3362
+)
+"Hwk6FINAL/deque.ml" 110 3233 3247 "Hwk6FINAL/deque.ml" 110 3233 3248
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 109 3196 3213 "Hwk6FINAL/deque.ml" 109 3196 3214
+)
+"Hwk6FINAL/deque.ml" 110 3233 3247 "Hwk6FINAL/deque.ml" 110 3233 3253
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 111 3259 3265 "Hwk6FINAL/deque.ml" 111 3259 3269
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 112 3273 3281 "Hwk6FINAL/deque.ml" 112 3273 3289
+type(
+  string -> 'a
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"Hwk6FINAL/deque.ml" 112 3273 3290 "Hwk6FINAL/deque.ml" 112 3273 3318
+type(
+  string
+)
+"Hwk6FINAL/deque.ml" 112 3273 3281 "Hwk6FINAL/deque.ml" 112 3273 3318
+call(
+  tail
+)
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 113 3319 3330 "Hwk6FINAL/deque.ml" 113 3319 3331
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 113 3319 3335 "Hwk6FINAL/deque.ml" 113 3319 3356
+)
+"Hwk6FINAL/deque.ml" 113 3319 3325 "Hwk6FINAL/deque.ml" 113 3319 3331
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 113 3319 3336 "Hwk6FINAL/deque.ml" 113 3319 3346
+type(
+  'a deque -> 'a dqnode -> unit
+)
+ident(
+  int_ref splice_out "Hwk6FINAL/deque.ml" 82 2347 2351 "Hwk6FINAL/deque.ml" 82 2347 2361
+)
+"Hwk6FINAL/deque.ml" 113 3319 3347 "Hwk6FINAL/deque.ml" 113 3319 3348
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 109 3196 3213 "Hwk6FINAL/deque.ml" 109 3196 3214
+)
+"Hwk6FINAL/deque.ml" 113 3319 3349 "Hwk6FINAL/deque.ml" 113 3319 3350
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 113 3319 3330 "Hwk6FINAL/deque.ml" 113 3319 3331
+)
+"Hwk6FINAL/deque.ml" 113 3319 3335 "Hwk6FINAL/deque.ml" 113 3319 3351
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 113 3319 3353 "Hwk6FINAL/deque.ml" 113 3319 3354
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 113 3319 3330 "Hwk6FINAL/deque.ml" 113 3319 3331
+)
+"Hwk6FINAL/deque.ml" 113 3319 3353 "Hwk6FINAL/deque.ml" 113 3319 3356
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 113 3319 3335 "Hwk6FINAL/deque.ml" 113 3319 3356
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 110 3233 3235 "Hwk6FINAL/deque.ml" 114 3357 3362
+type(
+  'a
+)
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 119 3447 3451 "Hwk6FINAL/deque.ml" 119 3447 3458
+type(
+  'a deque -> 'a list
+)
+ident(
+  def to_list "Hwk6FINAL/deque.ml" 131 3748 3748 --
+)
+"Hwk6FINAL/deque.ml" 119 3447 3460 "Hwk6FINAL/deque.ml" 119 3447 3461
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 119 3447 3472 "Hwk6FINAL/deque.ml" 127 3650 3668
+)
+"Hwk6FINAL/deque.ml" 120 3485 3495 "Hwk6FINAL/deque.ml" 120 3485 3499
+type(
+  'a dqnode option -> 'a list -> 'a list
+)
+"Hwk6FINAL/deque.ml" 120 3485 3501 "Hwk6FINAL/deque.ml" 120 3485 3503
+type(
+  'a dqnode option
+)
+ident(
+  def no "Hwk6FINAL/deque.ml" 120 3485 3522 "Hwk6FINAL/deque.ml" 125 3637 3644
+)
+"Hwk6FINAL/deque.ml" 120 3485 3523 "Hwk6FINAL/deque.ml" 120 3485 3524
+type(
+  'a list
+)
+ident(
+  def l "Hwk6FINAL/deque.ml" 120 3485 3534 "Hwk6FINAL/deque.ml" 125 3637 3644
+)
+"Hwk6FINAL/deque.ml" 121 3546 3562 "Hwk6FINAL/deque.ml" 121 3546 3564
+type(
+  'a dqnode option
+)
+ident(
+  int_ref no "Hwk6FINAL/deque.ml" 120 3485 3501 "Hwk6FINAL/deque.ml" 120 3485 3503
+)
+"Hwk6FINAL/deque.ml" 122 3570 3578 "Hwk6FINAL/deque.ml" 122 3570 3582
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 122 3570 3586 "Hwk6FINAL/deque.ml" 122 3570 3587
+type(
+  'a list
+)
+ident(
+  int_ref l "Hwk6FINAL/deque.ml" 120 3485 3523 "Hwk6FINAL/deque.ml" 120 3485 3524
+)
+"Hwk6FINAL/deque.ml" 123 3588 3601 "Hwk6FINAL/deque.ml" 123 3588 3602
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 124 3606 3616 "Hwk6FINAL/deque.ml" 124 3606 3636
+)
+"Hwk6FINAL/deque.ml" 123 3588 3596 "Hwk6FINAL/deque.ml" 123 3588 3602
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 124 3606 3616 "Hwk6FINAL/deque.ml" 124 3606 3620
+type(
+  'a dqnode option -> 'a list -> 'a list
+)
+ident(
+  int_ref loop "Hwk6FINAL/deque.ml" 120 3485 3495 "Hwk6FINAL/deque.ml" 120 3485 3499
+)
+"Hwk6FINAL/deque.ml" 124 3606 3621 "Hwk6FINAL/deque.ml" 124 3606 3622
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 123 3588 3601 "Hwk6FINAL/deque.ml" 123 3588 3602
+)
+"Hwk6FINAL/deque.ml" 124 3606 3621 "Hwk6FINAL/deque.ml" 124 3606 3627
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 124 3606 3629 "Hwk6FINAL/deque.ml" 124 3606 3630
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 123 3588 3601 "Hwk6FINAL/deque.ml" 123 3588 3602
+)
+"Hwk6FINAL/deque.ml" 124 3606 3629 "Hwk6FINAL/deque.ml" 124 3606 3632
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 124 3606 3634 "Hwk6FINAL/deque.ml" 124 3606 3635
+type(
+  'a list
+)
+ident(
+  int_ref l "Hwk6FINAL/deque.ml" 120 3485 3523 "Hwk6FINAL/deque.ml" 120 3485 3524
+)
+"Hwk6FINAL/deque.ml" 124 3606 3628 "Hwk6FINAL/deque.ml" 124 3606 3636
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 124 3606 3616 "Hwk6FINAL/deque.ml" 124 3606 3636
+call(
+  tail
+)
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 121 3546 3550 "Hwk6FINAL/deque.ml" 125 3637 3644
+type(
+  'a list
+)
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 127 3650 3654 "Hwk6FINAL/deque.ml" 127 3650 3658
+type(
+  'a dqnode option -> 'a list -> 'a list
+)
+ident(
+  int_ref loop "Hwk6FINAL/deque.ml" 120 3485 3495 "Hwk6FINAL/deque.ml" 120 3485 3499
+)
+"Hwk6FINAL/deque.ml" 127 3650 3659 "Hwk6FINAL/deque.ml" 127 3650 3660
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 119 3447 3460 "Hwk6FINAL/deque.ml" 119 3447 3461
+)
+"Hwk6FINAL/deque.ml" 127 3650 3659 "Hwk6FINAL/deque.ml" 127 3650 3665
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 127 3650 3666 "Hwk6FINAL/deque.ml" 127 3650 3668
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 127 3650 3654 "Hwk6FINAL/deque.ml" 127 3650 3668
+call(
+  tail
+)
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 120 3485 3487 "Hwk6FINAL/deque.ml" 127 3650 3668
+type(
+  'a list
+)
+type(
+  'a list
+)
+"Hwk6FINAL/deque.ml" 131 3748 3752 "Hwk6FINAL/deque.ml" 131 3748 3759
+type(
+  ('a -> unit) -> 'a deque -> unit
+)
+ident(
+  def iterate "Hwk6FINAL/deque.ml" 138 3936 3952 --
+)
+"Hwk6FINAL/deque.ml" 131 3748 3761 "Hwk6FINAL/deque.ml" 131 3748 3762
+type(
+  'a -> unit
+)
+ident(
+  def c "Hwk6FINAL/deque.ml" 131 3748 3775 "Hwk6FINAL/deque.ml" 138 3936 3952
+)
+"Hwk6FINAL/deque.ml" 131 3748 3776 "Hwk6FINAL/deque.ml" 131 3748 3777
+type(
+  'a deque
+)
+ident(
+  def q "Hwk6FINAL/deque.ml" 131 3748 3788 "Hwk6FINAL/deque.ml" 138 3936 3952
+)
+"Hwk6FINAL/deque.ml" 132 3797 3807 "Hwk6FINAL/deque.ml" 132 3797 3811
+type(
+  'a dqnode option -> unit
+)
+"Hwk6FINAL/deque.ml" 132 3797 3813 "Hwk6FINAL/deque.ml" 132 3797 3815
+type(
+  'a dqnode option
+)
+ident(
+  def no "Hwk6FINAL/deque.ml" 132 3797 3834 "Hwk6FINAL/deque.ml" 137 3928 3935
+)
+"Hwk6FINAL/deque.ml" 133 3843 3859 "Hwk6FINAL/deque.ml" 133 3843 3861
+type(
+  'a dqnode option
+)
+ident(
+  int_ref no "Hwk6FINAL/deque.ml" 132 3797 3813 "Hwk6FINAL/deque.ml" 132 3797 3815
+)
+"Hwk6FINAL/deque.ml" 134 3867 3875 "Hwk6FINAL/deque.ml" 134 3867 3879
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 134 3867 3883 "Hwk6FINAL/deque.ml" 134 3867 3885
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 135 3886 3899 "Hwk6FINAL/deque.ml" 135 3886 3900
+type(
+  'a dqnode
+)
+ident(
+  def n "Hwk6FINAL/deque.ml" 136 3904 3907 "Hwk6FINAL/deque.ml" 136 3904 3927
+)
+"Hwk6FINAL/deque.ml" 135 3886 3894 "Hwk6FINAL/deque.ml" 135 3886 3900
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 136 3904 3908 "Hwk6FINAL/deque.ml" 136 3904 3909
+type(
+  'a -> unit
+)
+ident(
+  int_ref c "Hwk6FINAL/deque.ml" 131 3748 3761 "Hwk6FINAL/deque.ml" 131 3748 3762
+)
+"Hwk6FINAL/deque.ml" 136 3904 3910 "Hwk6FINAL/deque.ml" 136 3904 3911
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 135 3886 3899 "Hwk6FINAL/deque.ml" 135 3886 3900
+)
+"Hwk6FINAL/deque.ml" 136 3904 3910 "Hwk6FINAL/deque.ml" 136 3904 3913
+type(
+  'a
+)
+"Hwk6FINAL/deque.ml" 136 3904 3907 "Hwk6FINAL/deque.ml" 136 3904 3914
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 136 3904 3916 "Hwk6FINAL/deque.ml" 136 3904 3920
+type(
+  'a dqnode option -> unit
+)
+ident(
+  int_ref loop "Hwk6FINAL/deque.ml" 132 3797 3807 "Hwk6FINAL/deque.ml" 132 3797 3811
+)
+"Hwk6FINAL/deque.ml" 136 3904 3921 "Hwk6FINAL/deque.ml" 136 3904 3922
+type(
+  'a dqnode
+)
+ident(
+  int_ref n "Hwk6FINAL/deque.ml" 135 3886 3899 "Hwk6FINAL/deque.ml" 135 3886 3900
+)
+"Hwk6FINAL/deque.ml" 136 3904 3921 "Hwk6FINAL/deque.ml" 136 3904 3927
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 136 3904 3916 "Hwk6FINAL/deque.ml" 136 3904 3927
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 136 3904 3907 "Hwk6FINAL/deque.ml" 136 3904 3927
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 133 3843 3847 "Hwk6FINAL/deque.ml" 137 3928 3935
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 138 3936 3941 "Hwk6FINAL/deque.ml" 138 3936 3945
+type(
+  'a dqnode option -> unit
+)
+ident(
+  int_ref loop "Hwk6FINAL/deque.ml" 132 3797 3807 "Hwk6FINAL/deque.ml" 132 3797 3811
+)
+"Hwk6FINAL/deque.ml" 138 3936 3946 "Hwk6FINAL/deque.ml" 138 3936 3947
+type(
+  'a deque
+)
+ident(
+  int_ref q "Hwk6FINAL/deque.ml" 131 3748 3776 "Hwk6FINAL/deque.ml" 131 3748 3777
+)
+"Hwk6FINAL/deque.ml" 138 3936 3946 "Hwk6FINAL/deque.ml" 138 3936 3952
+type(
+  'a dqnode option
+)
+"Hwk6FINAL/deque.ml" 138 3936 3941 "Hwk6FINAL/deque.ml" 138 3936 3952
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/deque.ml" 132 3797 3799 "Hwk6FINAL/deque.ml" 138 3936 3952
+type(
+  unit
+)
+type(
+  unit
+)

@@ -1,0 +1,754 @@
+"Hwk6FINAL/gdemo.ml" 7 270 274 "Hwk6FINAL/gdemo.ml" 7 270 277
+type(
+  unit -> unit
+)
+ident(
+  def run "Hwk6FINAL/gdemo.ml" 52 1338 1341 --
+)
+"Hwk6FINAL/gdemo.ml" 7 270 278 "Hwk6FINAL/gdemo.ml" 7 270 280
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 9 292 294 "Hwk6FINAL/gdemo.ml" 9 292 313
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.open_graph
+)
+"Hwk6FINAL/gdemo.ml" 9 292 314 "Hwk6FINAL/gdemo.ml" 9 292 316
+type(
+  string
+)
+"Hwk6FINAL/gdemo.ml" 9 292 294 "Hwk6FINAL/gdemo.ml" 9 292 316
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 10 318 320 "Hwk6FINAL/gdemo.ml" 10 318 345
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Graphics.auto_synchronize
+)
+"Hwk6FINAL/gdemo.ml" 10 318 346 "Hwk6FINAL/gdemo.ml" 10 318 351
+type(
+  bool
+)
+"Hwk6FINAL/gdemo.ml" 10 318 320 "Hwk6FINAL/gdemo.ml" 10 318 351
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 12 400 402 "Hwk6FINAL/gdemo.ml" 12 400 424
+type(
+  int -> int -> unit
+)
+ident(
+  ext_ref Graphics.resize_window
+)
+"Hwk6FINAL/gdemo.ml" 12 400 425 "Hwk6FINAL/gdemo.ml" 12 400 428
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 12 400 429 "Hwk6FINAL/gdemo.ml" 12 400 432
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 12 400 402 "Hwk6FINAL/gdemo.ml" 12 400 432
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 13 434 436 "Hwk6FINAL/gdemo.ml" 13 434 456
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.clear_graph
+)
+"Hwk6FINAL/gdemo.ml" 13 434 457 "Hwk6FINAL/gdemo.ml" 13 434 459
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 13 434 436 "Hwk6FINAL/gdemo.ml" 13 434 459
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 14 461 463 "Hwk6FINAL/gdemo.ml" 14 461 483
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.synchronize
+)
+"Hwk6FINAL/gdemo.ml" 14 461 484 "Hwk6FINAL/gdemo.ml" 14 461 486
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 14 461 463 "Hwk6FINAL/gdemo.ml" 14 461 486
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 16 489 500 "Hwk6FINAL/gdemo.ml" 16 489 511
+type(
+  unit -> Gctx.t
+)
+ident(
+  ext_ref Gctx.create
+)
+"Hwk6FINAL/gdemo.ml" 16 489 512 "Hwk6FINAL/gdemo.ml" 16 489 514
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 16 489 500 "Hwk6FINAL/gdemo.ml" 16 489 514
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 18 519 525 "Hwk6FINAL/gdemo.ml" 18 519 531
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 18 519 535 "Hwk6FINAL/gdemo.ml" 18 519 549
+type(
+  Gctx.t -> Gctx.color -> Gctx.t
+)
+ident(
+  ext_ref Gctx.set_color
+)
+"Hwk6FINAL/gdemo.ml" 18 519 550 "Hwk6FINAL/gdemo.ml" 18 519 552
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 18 519 553 "Hwk6FINAL/gdemo.ml" 18 519 561
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.red
+)
+"Hwk6FINAL/gdemo.ml" 18 519 535 "Hwk6FINAL/gdemo.ml" 18 519 561
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 19 591 597 "Hwk6FINAL/gdemo.ml" 19 591 604
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 19 591 607 "Hwk6FINAL/gdemo.ml" 19 591 621
+type(
+  Gctx.t -> Gctx.color -> Gctx.t
+)
+ident(
+  ext_ref Gctx.set_color
+)
+"Hwk6FINAL/gdemo.ml" 19 591 622 "Hwk6FINAL/gdemo.ml" 19 591 624
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 19 591 625 "Hwk6FINAL/gdemo.ml" 19 591 634
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.blue
+)
+"Hwk6FINAL/gdemo.ml" 19 591 607 "Hwk6FINAL/gdemo.ml" 19 591 634
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/gdemo.ml" 22 659 661 "Hwk6FINAL/gdemo.ml" 22 659 675
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/gdemo.ml" 22 659 676 "Hwk6FINAL/gdemo.ml" 22 659 678
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 22 659 680 "Hwk6FINAL/gdemo.ml" 22 659 682
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 22 659 684 "Hwk6FINAL/gdemo.ml" 22 659 686
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 22 659 679 "Hwk6FINAL/gdemo.ml" 22 659 687
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 22 659 689 "Hwk6FINAL/gdemo.ml" 22 659 692
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 22 659 694 "Hwk6FINAL/gdemo.ml" 22 659 697
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 22 659 688 "Hwk6FINAL/gdemo.ml" 22 659 698
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 22 659 661 "Hwk6FINAL/gdemo.ml" 22 659 698
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 25 727 729 "Hwk6FINAL/gdemo.ml" 25 727 743
+type(
+  Gctx.t -> Gctx.position -> Gctx.dimension -> unit
+)
+ident(
+  ext_ref Gctx.draw_rect
+)
+"Hwk6FINAL/gdemo.ml" 25 727 744 "Hwk6FINAL/gdemo.ml" 25 727 750
+type(
+  Gctx.t
+)
+ident(
+  int_ref red_gc "Hwk6FINAL/gdemo.ml" 18 519 525 "Hwk6FINAL/gdemo.ml" 18 519 531
+)
+"Hwk6FINAL/gdemo.ml" 25 727 752 "Hwk6FINAL/gdemo.ml" 25 727 754
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 25 727 755 "Hwk6FINAL/gdemo.ml" 25 727 757
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 25 727 751 "Hwk6FINAL/gdemo.ml" 25 727 758
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 25 727 760 "Hwk6FINAL/gdemo.ml" 25 727 762
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 25 727 763 "Hwk6FINAL/gdemo.ml" 25 727 765
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 25 727 759 "Hwk6FINAL/gdemo.ml" 25 727 766
+type(
+  Gctx.dimension
+)
+"Hwk6FINAL/gdemo.ml" 25 727 729 "Hwk6FINAL/gdemo.ml" 25 727 766
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 28 795 801 "Hwk6FINAL/gdemo.ml" 28 795 803
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 28 795 807 "Hwk6FINAL/gdemo.ml" 28 795 809
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 28 795 810 "Hwk6FINAL/gdemo.ml" 28 795 812
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 28 795 806 "Hwk6FINAL/gdemo.ml" 28 795 813
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 29 817 823 "Hwk6FINAL/gdemo.ml" 29 817 825
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 29 817 829 "Hwk6FINAL/gdemo.ml" 29 817 831
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 29 817 832 "Hwk6FINAL/gdemo.ml" 29 817 835
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 29 817 828 "Hwk6FINAL/gdemo.ml" 29 817 836
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 30 840 846 "Hwk6FINAL/gdemo.ml" 30 840 848
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 30 840 852 "Hwk6FINAL/gdemo.ml" 30 840 854
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 30 840 855 "Hwk6FINAL/gdemo.ml" 30 840 857
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 30 840 851 "Hwk6FINAL/gdemo.ml" 30 840 858
+type(
+  int * int
+)
+"Hwk6FINAL/gdemo.ml" 32 863 865 "Hwk6FINAL/gdemo.ml" 32 863 879
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/gdemo.ml" 32 863 880 "Hwk6FINAL/gdemo.ml" 32 863 882
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 32 863 883 "Hwk6FINAL/gdemo.ml" 32 863 885
+type(
+  Gctx.position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gdemo.ml" 28 795 801 "Hwk6FINAL/gdemo.ml" 28 795 803
+)
+"Hwk6FINAL/gdemo.ml" 32 863 886 "Hwk6FINAL/gdemo.ml" 32 863 888
+type(
+  Gctx.position
+)
+ident(
+  int_ref p2 "Hwk6FINAL/gdemo.ml" 29 817 823 "Hwk6FINAL/gdemo.ml" 29 817 825
+)
+"Hwk6FINAL/gdemo.ml" 32 863 865 "Hwk6FINAL/gdemo.ml" 32 863 888
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 33 890 892 "Hwk6FINAL/gdemo.ml" 33 890 906
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/gdemo.ml" 33 890 907 "Hwk6FINAL/gdemo.ml" 33 890 909
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 33 890 910 "Hwk6FINAL/gdemo.ml" 33 890 912
+type(
+  Gctx.position
+)
+ident(
+  int_ref p2 "Hwk6FINAL/gdemo.ml" 29 817 823 "Hwk6FINAL/gdemo.ml" 29 817 825
+)
+"Hwk6FINAL/gdemo.ml" 33 890 913 "Hwk6FINAL/gdemo.ml" 33 890 915
+type(
+  Gctx.position
+)
+ident(
+  int_ref p3 "Hwk6FINAL/gdemo.ml" 30 840 846 "Hwk6FINAL/gdemo.ml" 30 840 848
+)
+"Hwk6FINAL/gdemo.ml" 33 890 892 "Hwk6FINAL/gdemo.ml" 33 890 915
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 34 917 919 "Hwk6FINAL/gdemo.ml" 34 917 933
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/gdemo.ml" 34 917 934 "Hwk6FINAL/gdemo.ml" 34 917 936
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 34 917 937 "Hwk6FINAL/gdemo.ml" 34 917 939
+type(
+  Gctx.position
+)
+ident(
+  int_ref p3 "Hwk6FINAL/gdemo.ml" 30 840 846 "Hwk6FINAL/gdemo.ml" 30 840 848
+)
+"Hwk6FINAL/gdemo.ml" 34 917 940 "Hwk6FINAL/gdemo.ml" 34 917 942
+type(
+  Gctx.position
+)
+ident(
+  int_ref p1 "Hwk6FINAL/gdemo.ml" 28 795 801 "Hwk6FINAL/gdemo.ml" 28 795 803
+)
+"Hwk6FINAL/gdemo.ml" 34 917 919 "Hwk6FINAL/gdemo.ml" 34 917 942
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 37 973 975 "Hwk6FINAL/gdemo.ml" 37 973 992
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_ellipse
+)
+"Hwk6FINAL/gdemo.ml" 37 973 993 "Hwk6FINAL/gdemo.ml" 37 973 1000
+type(
+  Gctx.t
+)
+ident(
+  int_ref blue_gc "Hwk6FINAL/gdemo.ml" 19 591 597 "Hwk6FINAL/gdemo.ml" 19 591 604
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1002 "Hwk6FINAL/gdemo.ml" 37 973 1004
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1005 "Hwk6FINAL/gdemo.ml" 37 973 1007
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1001 "Hwk6FINAL/gdemo.ml" 37 973 1008
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1010 "Hwk6FINAL/gdemo.ml" 37 973 1012
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1014 "Hwk6FINAL/gdemo.ml" 37 973 1016
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 37 973 1009 "Hwk6FINAL/gdemo.ml" 37 973 1017
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 37 973 975 "Hwk6FINAL/gdemo.ml" 37 973 1017
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1040 "Hwk6FINAL/gdemo.ml" 40 1038 1056
+type(
+  Gctx.t -> Gctx.position -> string -> unit
+)
+ident(
+  ext_ref Gctx.draw_string
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1057 "Hwk6FINAL/gdemo.ml" 40 1038 1059
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1061 "Hwk6FINAL/gdemo.ml" 40 1038 1063
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1064 "Hwk6FINAL/gdemo.ml" 40 1038 1067
+type(
+  int
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1060 "Hwk6FINAL/gdemo.ml" 40 1038 1068
+type(
+  Gctx.position
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1069 "Hwk6FINAL/gdemo.ml" 40 1038 1078
+type(
+  string
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1040 "Hwk6FINAL/gdemo.ml" 40 1038 1078
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 41 1080 1082 "Hwk6FINAL/gdemo.ml" 41 1080 1102
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.synchronize
+)
+"Hwk6FINAL/gdemo.ml" 41 1080 1103 "Hwk6FINAL/gdemo.ml" 41 1080 1105
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 41 1080 1082 "Hwk6FINAL/gdemo.ml" 41 1080 1105
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 44 1174 1184 "Hwk6FINAL/gdemo.ml" 44 1174 1188
+type(
+  Gctx.t -> unit
+)
+"Hwk6FINAL/gdemo.ml" 44 1174 1190 "Hwk6FINAL/gdemo.ml" 44 1174 1191
+type(
+  Gctx.t
+)
+ident(
+  def g "Hwk6FINAL/gdemo.ml" 44 1174 1200 "Hwk6FINAL/gdemo.ml" 47 1290 1310
+)
+"Hwk6FINAL/gdemo.ml" 45 1210 1220 "Hwk6FINAL/gdemo.ml" 45 1210 1221
+type(
+  Gctx.event
+)
+"Hwk6FINAL/gdemo.ml" 45 1210 1224 "Hwk6FINAL/gdemo.ml" 45 1210 1243
+type(
+  Gctx.t -> Gctx.event
+)
+ident(
+  ext_ref Gctx.wait_for_event
+)
+"Hwk6FINAL/gdemo.ml" 45 1210 1244 "Hwk6FINAL/gdemo.ml" 45 1210 1245
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/gdemo.ml" 44 1174 1190 "Hwk6FINAL/gdemo.ml" 44 1174 1191
+)
+"Hwk6FINAL/gdemo.ml" 45 1210 1224 "Hwk6FINAL/gdemo.ml" 45 1210 1245
+call(
+  stack
+)
+type(
+  Gctx.event
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1259 "Hwk6FINAL/gdemo.ml" 46 1250 1262
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1264 "Hwk6FINAL/gdemo.ml" 46 1250 1282
+type(
+  Gctx.t -> Gctx.event -> bool
+)
+ident(
+  ext_ref Gctx.is_keypressed
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1283 "Hwk6FINAL/gdemo.ml" 46 1250 1284
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/gdemo.ml" 44 1174 1190 "Hwk6FINAL/gdemo.ml" 44 1174 1191
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1285 "Hwk6FINAL/gdemo.ml" 46 1250 1286
+type(
+  Gctx.event
+)
+ident(
+  int_ref e "Hwk6FINAL/gdemo.ml" 45 1210 1220 "Hwk6FINAL/gdemo.ml" 45 1210 1221
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1263 "Hwk6FINAL/gdemo.ml" 46 1250 1287
+call(
+  stack
+)
+type(
+  bool
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1259 "Hwk6FINAL/gdemo.ml" 46 1250 1287
+type(
+  bool
+)
+"Hwk6FINAL/gdemo.ml" 47 1290 1304 "Hwk6FINAL/gdemo.ml" 47 1290 1308
+type(
+  Gctx.t -> unit
+)
+ident(
+  int_ref loop "Hwk6FINAL/gdemo.ml" 44 1174 1184 "Hwk6FINAL/gdemo.ml" 44 1174 1188
+)
+"Hwk6FINAL/gdemo.ml" 47 1290 1309 "Hwk6FINAL/gdemo.ml" 47 1290 1310
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/gdemo.ml" 44 1174 1190 "Hwk6FINAL/gdemo.ml" 44 1174 1191
+)
+"Hwk6FINAL/gdemo.ml" 47 1290 1304 "Hwk6FINAL/gdemo.ml" 47 1290 1310
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 46 1250 1256 "Hwk6FINAL/gdemo.ml" 47 1290 1310
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 45 1210 1216 "Hwk6FINAL/gdemo.ml" 47 1290 1310
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 49 1316 1318 "Hwk6FINAL/gdemo.ml" 49 1316 1322
+type(
+  Gctx.t -> unit
+)
+ident(
+  int_ref loop "Hwk6FINAL/gdemo.ml" 44 1174 1184 "Hwk6FINAL/gdemo.ml" 44 1174 1188
+)
+"Hwk6FINAL/gdemo.ml" 49 1316 1323 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  Gctx.t
+)
+ident(
+  int_ref gc "Hwk6FINAL/gdemo.ml" 16 489 495 "Hwk6FINAL/gdemo.ml" 16 489 497
+)
+"Hwk6FINAL/gdemo.ml" 49 1316 1318 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 44 1174 1176 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 41 1080 1082 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 40 1038 1040 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 37 973 975 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 34 917 919 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 33 890 892 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 32 863 865 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 30 840 842 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 29 817 819 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 28 795 797 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 25 727 729 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 22 659 661 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 19 591 593 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 18 519 521 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 16 489 491 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 14 461 463 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 13 434 436 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 12 400 402 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 10 318 320 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 9 292 294 "Hwk6FINAL/gdemo.ml" 49 1316 1325
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 52 1338 1341 "Hwk6FINAL/gdemo.ml" 52 1338 1344
+type(
+  unit -> unit
+)
+ident(
+  int_ref run "Hwk6FINAL/gdemo.ml" 7 270 274 "Hwk6FINAL/gdemo.ml" 7 270 277
+)
+"Hwk6FINAL/gdemo.ml" 52 1338 1345 "Hwk6FINAL/gdemo.ml" 52 1338 1347
+type(
+  unit
+)
+"Hwk6FINAL/gdemo.ml" 52 1338 1341 "Hwk6FINAL/gdemo.ml" 52 1338 1347
+call(
+  stack
+)
+type(
+  unit
+)

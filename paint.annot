@@ -1,0 +1,5054 @@
+"Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+type(
+  shape option ref
+)
+ident(
+  def preview "Hwk6FINAL/paint.ml" 52 1905 1905 --
+)
+"Hwk6FINAL/paint.ml" 51 1863 1896 "Hwk6FINAL/paint.ml" 51 1863 1899
+type(
+  shape option -> shape option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/paint.ml" 51 1863 1900 "Hwk6FINAL/paint.ml" 51 1863 1904
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 51 1863 1896 "Hwk6FINAL/paint.ml" 51 1863 1904
+type(
+  shape option ref
+)
+type(
+  shape option ref
+)
+"Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+type(
+  shape Deque.deque
+)
+ident(
+  def shapes "Hwk6FINAL/paint.ml" 72 2655 2655 --
+)
+"Hwk6FINAL/paint.ml" 52 1905 1938 "Hwk6FINAL/paint.ml" 52 1905 1950
+type(
+  unit -> shape Deque.deque
+)
+ident(
+  ext_ref Deque.create
+)
+"Hwk6FINAL/paint.ml" 52 1905 1951 "Hwk6FINAL/paint.ml" 52 1905 1953
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 52 1905 1938 "Hwk6FINAL/paint.ml" 52 1905 1953
+call(
+  stack
+)
+type(
+  shape Deque.deque
+)
+type(
+  shape Deque.deque
+)
+"Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+type(
+  mode ref
+)
+ident(
+  def mode "Hwk6FINAL/paint.ml" 92 3072 3072 --
+)
+"Hwk6FINAL/paint.ml" 87 2944 2966 "Hwk6FINAL/paint.ml" 87 2944 2969
+type(
+  mode -> mode ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/paint.ml" 87 2944 2970 "Hwk6FINAL/paint.ml" 87 2944 2983
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 87 2944 2966 "Hwk6FINAL/paint.ml" 87 2944 2983
+type(
+  mode ref
+)
+type(
+  mode ref
+)
+"Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+type(
+  Gctx.color ref
+)
+ident(
+  def color "Hwk6FINAL/paint.ml" 93 3116 3116 --
+)
+"Hwk6FINAL/paint.ml" 92 3072 3101 "Hwk6FINAL/paint.ml" 92 3072 3104
+type(
+  Gctx.color -> Gctx.color ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/paint.ml" 92 3072 3105 "Hwk6FINAL/paint.ml" 92 3072 3115
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.black
+)
+"Hwk6FINAL/paint.ml" 92 3072 3101 "Hwk6FINAL/paint.ml" 92 3072 3115
+type(
+  Gctx.color ref
+)
+type(
+  Gctx.color ref
+)
+"Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+type(
+  bool ref
+)
+ident(
+  def thickness "Hwk6FINAL/paint.ml" 97 3249 3249 --
+)
+"Hwk6FINAL/paint.ml" 93 3116 3143 "Hwk6FINAL/paint.ml" 93 3116 3146
+type(
+  bool -> bool ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/paint.ml" 93 3116 3147 "Hwk6FINAL/paint.ml" 93 3116 3152
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 93 3116 3143 "Hwk6FINAL/paint.ml" 93 3116 3152
+type(
+  bool ref
+)
+type(
+  bool ref
+)
+"Hwk6FINAL/paint.ml" 97 3249 3253 "Hwk6FINAL/paint.ml" 97 3249 3263
+type(
+  Graphics.image option ref
+)
+ident(
+  def copy_paste "Hwk6FINAL/paint.ml" 104 3449 3449 --
+)
+"Hwk6FINAL/paint.ml" 97 3249 3294 "Hwk6FINAL/paint.ml" 97 3249 3297
+type(
+  Graphics.image option -> Graphics.image option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"Hwk6FINAL/paint.ml" 97 3249 3298 "Hwk6FINAL/paint.ml" 97 3249 3302
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 97 3249 3294 "Hwk6FINAL/paint.ml" 97 3249 3302
+type(
+  Graphics.image option ref
+)
+type(
+  Graphics.image option ref
+)
+"Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  def set_params "Hwk6FINAL/paint.ml" 127 4202 4202 --
+)
+"Hwk6FINAL/paint.ml" 104 3449 3465 "Hwk6FINAL/paint.ml" 104 3449 3466
+type(
+  Gctx.t
+)
+ident(
+  def g "Hwk6FINAL/paint.ml" 104 3449 3475 "Hwk6FINAL/paint.ml" 107 3567 3570
+)
+"Hwk6FINAL/paint.ml" 104 3449 3476 "Hwk6FINAL/paint.ml" 104 3449 3477
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 104 3449 3490 "Hwk6FINAL/paint.ml" 107 3567 3570
+)
+"Hwk6FINAL/paint.ml" 104 3449 3491 "Hwk6FINAL/paint.ml" 104 3449 3492
+type(
+  bool
+)
+ident(
+  def t "Hwk6FINAL/paint.ml" 105 3501 3503 "Hwk6FINAL/paint.ml" 107 3567 3570
+)
+"Hwk6FINAL/paint.ml" 105 3501 3507 "Hwk6FINAL/paint.ml" 105 3501 3508
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 105 3501 3511 "Hwk6FINAL/paint.ml" 105 3501 3525
+type(
+  Gctx.t -> Gctx.color -> Gctx.t
+)
+ident(
+  ext_ref Gctx.set_color
+)
+"Hwk6FINAL/paint.ml" 105 3501 3526 "Hwk6FINAL/paint.ml" 105 3501 3527
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 104 3449 3465 "Hwk6FINAL/paint.ml" 104 3449 3466
+)
+"Hwk6FINAL/paint.ml" 105 3501 3528 "Hwk6FINAL/paint.ml" 105 3501 3529
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 104 3449 3476 "Hwk6FINAL/paint.ml" 104 3449 3477
+)
+"Hwk6FINAL/paint.ml" 105 3501 3511 "Hwk6FINAL/paint.ml" 105 3501 3529
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 106 3533 3541 "Hwk6FINAL/paint.ml" 106 3533 3542
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 106 3533 3545 "Hwk6FINAL/paint.ml" 106 3533 3559
+type(
+  Gctx.t -> bool -> Gctx.t
+)
+ident(
+  ext_ref Gctx.set_thick
+)
+"Hwk6FINAL/paint.ml" 106 3533 3560 "Hwk6FINAL/paint.ml" 106 3533 3561
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 105 3501 3507 "Hwk6FINAL/paint.ml" 105 3501 3508
+)
+"Hwk6FINAL/paint.ml" 106 3533 3562 "Hwk6FINAL/paint.ml" 106 3533 3563
+type(
+  bool
+)
+ident(
+  int_ref t "Hwk6FINAL/paint.ml" 104 3449 3491 "Hwk6FINAL/paint.ml" 104 3449 3492
+)
+"Hwk6FINAL/paint.ml" 106 3533 3545 "Hwk6FINAL/paint.ml" 106 3533 3563
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 107 3567 3569 "Hwk6FINAL/paint.ml" 107 3567 3570
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 106 3533 3541 "Hwk6FINAL/paint.ml" 106 3533 3542
+)
+"Hwk6FINAL/paint.ml" 106 3533 3537 "Hwk6FINAL/paint.ml" 107 3567 3570
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 105 3501 3503 "Hwk6FINAL/paint.ml" 107 3567 3570
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 127 4202 4206 "Hwk6FINAL/paint.ml" 127 4202 4213
+type(
+  Gctx.t -> unit
+)
+ident(
+  def repaint "Hwk6FINAL/paint.ml" 160 5608 5608 --
+)
+"Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+type(
+  Gctx.t
+)
+ident(
+  def g "Hwk6FINAL/paint.ml" 127 4202 4225 "Hwk6FINAL/paint.ml" 156 5511 5518
+)
+"Hwk6FINAL/paint.ml" 128 4234 4242 "Hwk6FINAL/paint.ml" 128 4234 4252
+type(
+  shape -> unit
+)
+"Hwk6FINAL/paint.ml" 128 4234 4254 "Hwk6FINAL/paint.ml" 128 4234 4255
+type(
+  shape
+)
+ident(
+  def s "Hwk6FINAL/paint.ml" 128 4234 4263 "Hwk6FINAL/paint.ml" 137 4711 4722
+)
+"Hwk6FINAL/paint.ml" 129 4273 4293 "Hwk6FINAL/paint.ml" 129 4273 4294
+type(
+  shape
+)
+ident(
+  int_ref s "Hwk6FINAL/paint.ml" 128 4234 4254 "Hwk6FINAL/paint.ml" 128 4234 4255
+)
+"Hwk6FINAL/paint.ml" 130 4300 4316 "Hwk6FINAL/paint.ml" 130 4300 4317
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4369
+)
+"Hwk6FINAL/paint.ml" 130 4300 4318 "Hwk6FINAL/paint.ml" 130 4300 4319
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4369
+)
+"Hwk6FINAL/paint.ml" 130 4300 4320 "Hwk6FINAL/paint.ml" 130 4300 4322
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4369
+)
+"Hwk6FINAL/paint.ml" 130 4300 4323 "Hwk6FINAL/paint.ml" 130 4300 4325
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4369
+)
+"Hwk6FINAL/paint.ml" 130 4300 4310 "Hwk6FINAL/paint.ml" 130 4300 4326
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4344
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/paint.ml" 130 4300 4346 "Hwk6FINAL/paint.ml" 130 4300 4356
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 130 4300 4357 "Hwk6FINAL/paint.ml" 130 4300 4358
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 130 4300 4359 "Hwk6FINAL/paint.ml" 130 4300 4360
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 130 4300 4316 "Hwk6FINAL/paint.ml" 130 4300 4317
+)
+"Hwk6FINAL/paint.ml" 130 4300 4361 "Hwk6FINAL/paint.ml" 130 4300 4362
+type(
+  bool
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 130 4300 4318 "Hwk6FINAL/paint.ml" 130 4300 4319
+)
+"Hwk6FINAL/paint.ml" 130 4300 4345 "Hwk6FINAL/paint.ml" 130 4300 4363
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 130 4300 4364 "Hwk6FINAL/paint.ml" 130 4300 4366
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 130 4300 4320 "Hwk6FINAL/paint.ml" 130 4300 4322
+)
+"Hwk6FINAL/paint.ml" 130 4300 4367 "Hwk6FINAL/paint.ml" 130 4300 4369
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 130 4300 4323 "Hwk6FINAL/paint.ml" 130 4300 4325
+)
+"Hwk6FINAL/paint.ml" 130 4300 4330 "Hwk6FINAL/paint.ml" 130 4300 4369
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 131 4370 4387 "Hwk6FINAL/paint.ml" 131 4370 4388
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 131 4370 4395 "Hwk6FINAL/paint.ml" 131 4370 4435
+)
+"Hwk6FINAL/paint.ml" 131 4370 4389 "Hwk6FINAL/paint.ml" 131 4370 4390
+type(
+  point
+)
+ident(
+  def p "Hwk6FINAL/paint.ml" 131 4370 4395 "Hwk6FINAL/paint.ml" 131 4370 4435
+)
+"Hwk6FINAL/paint.ml" 131 4370 4380 "Hwk6FINAL/paint.ml" 131 4370 4391
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 131 4370 4395 "Hwk6FINAL/paint.ml" 131 4370 4410
+type(
+  Gctx.t -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_point
+)
+"Hwk6FINAL/paint.ml" 131 4370 4412 "Hwk6FINAL/paint.ml" 131 4370 4422
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 131 4370 4423 "Hwk6FINAL/paint.ml" 131 4370 4424
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 131 4370 4425 "Hwk6FINAL/paint.ml" 131 4370 4426
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 131 4370 4387 "Hwk6FINAL/paint.ml" 131 4370 4388
+)
+"Hwk6FINAL/paint.ml" 131 4370 4427 "Hwk6FINAL/paint.ml" 131 4370 4432
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 131 4370 4411 "Hwk6FINAL/paint.ml" 131 4370 4433
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 131 4370 4434 "Hwk6FINAL/paint.ml" 131 4370 4435
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 131 4370 4389 "Hwk6FINAL/paint.ml" 131 4370 4390
+)
+"Hwk6FINAL/paint.ml" 131 4370 4395 "Hwk6FINAL/paint.ml" 131 4370 4435
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 132 4436 4455 "Hwk6FINAL/paint.ml" 132 4436 4456
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4511
+)
+"Hwk6FINAL/paint.ml" 132 4436 4457 "Hwk6FINAL/paint.ml" 132 4436 4458
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4511
+)
+"Hwk6FINAL/paint.ml" 132 4436 4459 "Hwk6FINAL/paint.ml" 132 4436 4461
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4511
+)
+"Hwk6FINAL/paint.ml" 132 4436 4462 "Hwk6FINAL/paint.ml" 132 4436 4464
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4511
+)
+"Hwk6FINAL/paint.ml" 132 4436 4446 "Hwk6FINAL/paint.ml" 132 4436 4465
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4486
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_ellipse
+)
+"Hwk6FINAL/paint.ml" 132 4436 4488 "Hwk6FINAL/paint.ml" 132 4436 4498
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 132 4436 4499 "Hwk6FINAL/paint.ml" 132 4436 4500
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 132 4436 4501 "Hwk6FINAL/paint.ml" 132 4436 4502
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 132 4436 4455 "Hwk6FINAL/paint.ml" 132 4436 4456
+)
+"Hwk6FINAL/paint.ml" 132 4436 4503 "Hwk6FINAL/paint.ml" 132 4436 4504
+type(
+  bool
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 132 4436 4457 "Hwk6FINAL/paint.ml" 132 4436 4458
+)
+"Hwk6FINAL/paint.ml" 132 4436 4487 "Hwk6FINAL/paint.ml" 132 4436 4505
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 132 4436 4506 "Hwk6FINAL/paint.ml" 132 4436 4508
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 132 4436 4459 "Hwk6FINAL/paint.ml" 132 4436 4461
+)
+"Hwk6FINAL/paint.ml" 132 4436 4509 "Hwk6FINAL/paint.ml" 132 4436 4511
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 132 4436 4462 "Hwk6FINAL/paint.ml" 132 4436 4464
+)
+"Hwk6FINAL/paint.ml" 132 4436 4469 "Hwk6FINAL/paint.ml" 132 4436 4511
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 133 4512 4533 "Hwk6FINAL/paint.ml" 133 4512 4535
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 134 4544 4564 "Hwk6FINAL/paint.ml" 134 4544 4617
+)
+"Hwk6FINAL/paint.ml" 133 4512 4536 "Hwk6FINAL/paint.ml" 133 4512 4538
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 134 4544 4564 "Hwk6FINAL/paint.ml" 134 4544 4617
+)
+"Hwk6FINAL/paint.ml" 133 4512 4522 "Hwk6FINAL/paint.ml" 133 4512 4539
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 134 4544 4564 "Hwk6FINAL/paint.ml" 134 4544 4578
+type(
+  Gctx.t -> Gctx.position -> Gctx.dimension -> unit
+)
+ident(
+  ext_ref Gctx.draw_rect
+)
+"Hwk6FINAL/paint.ml" 134 4544 4580 "Hwk6FINAL/paint.ml" 134 4544 4590
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 134 4544 4591 "Hwk6FINAL/paint.ml" 134 4544 4592
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 134 4544 4593 "Hwk6FINAL/paint.ml" 134 4544 4603
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.black
+)
+"Hwk6FINAL/paint.ml" 134 4544 4604 "Hwk6FINAL/paint.ml" 134 4544 4609
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 134 4544 4579 "Hwk6FINAL/paint.ml" 134 4544 4610
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 134 4544 4611 "Hwk6FINAL/paint.ml" 134 4544 4613
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 133 4512 4533 "Hwk6FINAL/paint.ml" 133 4512 4535
+)
+"Hwk6FINAL/paint.ml" 134 4544 4614 "Hwk6FINAL/paint.ml" 134 4544 4616
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 133 4512 4536 "Hwk6FINAL/paint.ml" 133 4512 4538
+)
+"Hwk6FINAL/paint.ml" 134 4544 4564 "Hwk6FINAL/paint.ml" 134 4544 4617
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 135 4618 4635 "Hwk6FINAL/paint.ml" 135 4618 4638
+type(
+  Graphics.image
+)
+ident(
+  def img "Hwk6FINAL/paint.ml" 136 4646 4666 "Hwk6FINAL/paint.ml" 136 4646 4690
+)
+"Hwk6FINAL/paint.ml" 135 4618 4639 "Hwk6FINAL/paint.ml" 135 4618 4641
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 136 4646 4666 "Hwk6FINAL/paint.ml" 136 4646 4690
+)
+"Hwk6FINAL/paint.ml" 135 4618 4628 "Hwk6FINAL/paint.ml" 135 4618 4642
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 136 4646 4666 "Hwk6FINAL/paint.ml" 136 4646 4681
+type(
+  Gctx.t -> Graphics.image -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_image
+)
+"Hwk6FINAL/paint.ml" 136 4646 4682 "Hwk6FINAL/paint.ml" 136 4646 4683
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 136 4646 4684 "Hwk6FINAL/paint.ml" 136 4646 4687
+type(
+  Graphics.image
+)
+ident(
+  int_ref img "Hwk6FINAL/paint.ml" 135 4618 4635 "Hwk6FINAL/paint.ml" 135 4618 4638
+)
+"Hwk6FINAL/paint.ml" 136 4646 4688 "Hwk6FINAL/paint.ml" 136 4646 4690
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 135 4618 4639 "Hwk6FINAL/paint.ml" 135 4618 4641
+)
+"Hwk6FINAL/paint.ml" 136 4646 4666 "Hwk6FINAL/paint.ml" 136 4646 4690
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 129 4273 4281 "Hwk6FINAL/paint.ml" 137 4711 4722
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 139 4731 4735 "Hwk6FINAL/paint.ml" 139 4731 4748
+type(
+  (shape -> unit) -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.iterate
+)
+"Hwk6FINAL/paint.ml" 139 4731 4749 "Hwk6FINAL/paint.ml" 139 4731 4759
+type(
+  shape -> unit
+)
+ident(
+  int_ref draw_shape "Hwk6FINAL/paint.ml" 128 4234 4242 "Hwk6FINAL/paint.ml" 128 4234 4252
+)
+"Hwk6FINAL/paint.ml" 139 4731 4760 "Hwk6FINAL/paint.ml" 139 4731 4766
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 139 4731 4735 "Hwk6FINAL/paint.ml" 139 4731 4766
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 140 4768 4784 "Hwk6FINAL/paint.ml" 140 4768 4785
+type(
+  shape option ref -> shape option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 140 4768 4785 "Hwk6FINAL/paint.ml" 140 4768 4792
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 140 4768 4784 "Hwk6FINAL/paint.ml" 140 4768 4792
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 141 4798 4808 "Hwk6FINAL/paint.ml" 141 4798 4812
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 141 4798 4816 "Hwk6FINAL/paint.ml" 141 4798 4818
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 142 4829 4844 "Hwk6FINAL/paint.ml" 142 4829 4846
+type(
+  shape
+)
+ident(
+  def xx "Hwk6FINAL/paint.ml" 143 4851 4867 "Hwk6FINAL/paint.ml" 155 5491 5510
+)
+"Hwk6FINAL/paint.ml" 142 4829 4839 "Hwk6FINAL/paint.ml" 142 4829 4846
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 143 4851 4879 "Hwk6FINAL/paint.ml" 143 4851 4881
+type(
+  shape
+)
+ident(
+  int_ref xx "Hwk6FINAL/paint.ml" 142 4829 4844 "Hwk6FINAL/paint.ml" 142 4829 4846
+)
+"Hwk6FINAL/paint.ml" 144 4887 4915 "Hwk6FINAL/paint.ml" 144 4887 4916
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4968
+)
+"Hwk6FINAL/paint.ml" 144 4887 4917 "Hwk6FINAL/paint.ml" 144 4887 4918
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4968
+)
+"Hwk6FINAL/paint.ml" 144 4887 4919 "Hwk6FINAL/paint.ml" 144 4887 4921
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4968
+)
+"Hwk6FINAL/paint.ml" 144 4887 4922 "Hwk6FINAL/paint.ml" 144 4887 4924
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4968
+)
+"Hwk6FINAL/paint.ml" 144 4887 4909 "Hwk6FINAL/paint.ml" 144 4887 4925
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4943
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_line
+)
+"Hwk6FINAL/paint.ml" 144 4887 4945 "Hwk6FINAL/paint.ml" 144 4887 4955
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 144 4887 4956 "Hwk6FINAL/paint.ml" 144 4887 4957
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 144 4887 4958 "Hwk6FINAL/paint.ml" 144 4887 4959
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 144 4887 4915 "Hwk6FINAL/paint.ml" 144 4887 4916
+)
+"Hwk6FINAL/paint.ml" 144 4887 4960 "Hwk6FINAL/paint.ml" 144 4887 4961
+type(
+  bool
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 144 4887 4917 "Hwk6FINAL/paint.ml" 144 4887 4918
+)
+"Hwk6FINAL/paint.ml" 144 4887 4944 "Hwk6FINAL/paint.ml" 144 4887 4962
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 144 4887 4963 "Hwk6FINAL/paint.ml" 144 4887 4965
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 144 4887 4919 "Hwk6FINAL/paint.ml" 144 4887 4921
+)
+"Hwk6FINAL/paint.ml" 144 4887 4966 "Hwk6FINAL/paint.ml" 144 4887 4968
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 144 4887 4922 "Hwk6FINAL/paint.ml" 144 4887 4924
+)
+"Hwk6FINAL/paint.ml" 144 4887 4929 "Hwk6FINAL/paint.ml" 144 4887 4968
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 145 4969 4998 "Hwk6FINAL/paint.ml" 145 4969 4999
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 145 4969 5006 "Hwk6FINAL/paint.ml" 145 4969 5046
+)
+"Hwk6FINAL/paint.ml" 145 4969 5000 "Hwk6FINAL/paint.ml" 145 4969 5001
+type(
+  point
+)
+ident(
+  def p "Hwk6FINAL/paint.ml" 145 4969 5006 "Hwk6FINAL/paint.ml" 145 4969 5046
+)
+"Hwk6FINAL/paint.ml" 145 4969 4991 "Hwk6FINAL/paint.ml" 145 4969 5002
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 145 4969 5006 "Hwk6FINAL/paint.ml" 145 4969 5021
+type(
+  Gctx.t -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_point
+)
+"Hwk6FINAL/paint.ml" 145 4969 5023 "Hwk6FINAL/paint.ml" 145 4969 5033
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 145 4969 5034 "Hwk6FINAL/paint.ml" 145 4969 5035
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 145 4969 5036 "Hwk6FINAL/paint.ml" 145 4969 5037
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 145 4969 4998 "Hwk6FINAL/paint.ml" 145 4969 4999
+)
+"Hwk6FINAL/paint.ml" 145 4969 5038 "Hwk6FINAL/paint.ml" 145 4969 5043
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 145 4969 5022 "Hwk6FINAL/paint.ml" 145 4969 5044
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 145 4969 5045 "Hwk6FINAL/paint.ml" 145 4969 5046
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 145 4969 5000 "Hwk6FINAL/paint.ml" 145 4969 5001
+)
+"Hwk6FINAL/paint.ml" 145 4969 5006 "Hwk6FINAL/paint.ml" 145 4969 5046
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 146 5047 5078 "Hwk6FINAL/paint.ml" 146 5047 5079
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5134
+)
+"Hwk6FINAL/paint.ml" 146 5047 5080 "Hwk6FINAL/paint.ml" 146 5047 5081
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5134
+)
+"Hwk6FINAL/paint.ml" 146 5047 5082 "Hwk6FINAL/paint.ml" 146 5047 5084
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5134
+)
+"Hwk6FINAL/paint.ml" 146 5047 5085 "Hwk6FINAL/paint.ml" 146 5047 5087
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5134
+)
+"Hwk6FINAL/paint.ml" 146 5047 5069 "Hwk6FINAL/paint.ml" 146 5047 5088
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5109
+type(
+  Gctx.t -> Gctx.position -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_ellipse
+)
+"Hwk6FINAL/paint.ml" 146 5047 5111 "Hwk6FINAL/paint.ml" 146 5047 5121
+type(
+  Gctx.t -> Gctx.color -> bool -> Gctx.t
+)
+ident(
+  int_ref set_params "Hwk6FINAL/paint.ml" 104 3449 3453 "Hwk6FINAL/paint.ml" 104 3449 3463
+)
+"Hwk6FINAL/paint.ml" 146 5047 5122 "Hwk6FINAL/paint.ml" 146 5047 5123
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 146 5047 5124 "Hwk6FINAL/paint.ml" 146 5047 5125
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 146 5047 5078 "Hwk6FINAL/paint.ml" 146 5047 5079
+)
+"Hwk6FINAL/paint.ml" 146 5047 5126 "Hwk6FINAL/paint.ml" 146 5047 5127
+type(
+  bool
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 146 5047 5080 "Hwk6FINAL/paint.ml" 146 5047 5081
+)
+"Hwk6FINAL/paint.ml" 146 5047 5110 "Hwk6FINAL/paint.ml" 146 5047 5128
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 146 5047 5129 "Hwk6FINAL/paint.ml" 146 5047 5131
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 146 5047 5082 "Hwk6FINAL/paint.ml" 146 5047 5084
+)
+"Hwk6FINAL/paint.ml" 146 5047 5132 "Hwk6FINAL/paint.ml" 146 5047 5134
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 146 5047 5085 "Hwk6FINAL/paint.ml" 146 5047 5087
+)
+"Hwk6FINAL/paint.ml" 146 5047 5092 "Hwk6FINAL/paint.ml" 146 5047 5134
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 147 5135 5168 "Hwk6FINAL/paint.ml" 147 5135 5170
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 148 5179 5203 "Hwk6FINAL/paint.ml" 152 5339 5405
+)
+"Hwk6FINAL/paint.ml" 147 5135 5171 "Hwk6FINAL/paint.ml" 147 5135 5173
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 148 5179 5203 "Hwk6FINAL/paint.ml" 152 5339 5405
+)
+"Hwk6FINAL/paint.ml" 147 5135 5157 "Hwk6FINAL/paint.ml" 147 5135 5174
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 148 5179 5208 "Hwk6FINAL/paint.ml" 148 5179 5209
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 148 5179 5210 "Hwk6FINAL/paint.ml" 148 5179 5211
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 148 5179 5207 "Hwk6FINAL/paint.ml" 148 5179 5212
+type(
+  point
+)
+"Hwk6FINAL/paint.ml" 148 5179 5215 "Hwk6FINAL/paint.ml" 148 5179 5217
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 147 5135 5168 "Hwk6FINAL/paint.ml" 147 5135 5170
+)
+"Hwk6FINAL/paint.ml" 149 5221 5238 "Hwk6FINAL/paint.ml" 149 5221 5239
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 149 5221 5240 "Hwk6FINAL/paint.ml" 149 5221 5241
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 149 5221 5237 "Hwk6FINAL/paint.ml" 149 5221 5242
+type(
+  point
+)
+"Hwk6FINAL/paint.ml" 149 5221 5245 "Hwk6FINAL/paint.ml" 149 5221 5247
+type(
+  point
+)
+ident(
+  int_ref p2 "Hwk6FINAL/paint.ml" 147 5135 5171 "Hwk6FINAL/paint.ml" 147 5135 5173
+)
+"Hwk6FINAL/paint.ml" 150 5251 5279 "Hwk6FINAL/paint.ml" 150 5251 5280
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 150 5251 5283 "Hwk6FINAL/paint.ml" 150 5251 5286
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.min
+)
+"Hwk6FINAL/paint.ml" 150 5251 5287 "Hwk6FINAL/paint.ml" 150 5251 5288
+type(
+  int
+)
+ident(
+  int_ref a "Hwk6FINAL/paint.ml" 148 5179 5208 "Hwk6FINAL/paint.ml" 148 5179 5209
+)
+"Hwk6FINAL/paint.ml" 150 5251 5289 "Hwk6FINAL/paint.ml" 150 5251 5290
+type(
+  int
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 149 5221 5238 "Hwk6FINAL/paint.ml" 149 5221 5239
+)
+"Hwk6FINAL/paint.ml" 150 5251 5283 "Hwk6FINAL/paint.ml" 150 5251 5290
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 151 5295 5323 "Hwk6FINAL/paint.ml" 151 5295 5324
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 151 5295 5327 "Hwk6FINAL/paint.ml" 151 5295 5330
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.max
+)
+"Hwk6FINAL/paint.ml" 151 5295 5331 "Hwk6FINAL/paint.ml" 151 5295 5332
+type(
+  int
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 148 5179 5210 "Hwk6FINAL/paint.ml" 148 5179 5211
+)
+"Hwk6FINAL/paint.ml" 151 5295 5333 "Hwk6FINAL/paint.ml" 151 5295 5334
+type(
+  int
+)
+ident(
+  int_ref d "Hwk6FINAL/paint.ml" 149 5221 5240 "Hwk6FINAL/paint.ml" 149 5221 5241
+)
+"Hwk6FINAL/paint.ml" 151 5295 5327 "Hwk6FINAL/paint.ml" 151 5295 5334
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 152 5339 5363 "Hwk6FINAL/paint.ml" 152 5339 5377
+type(
+  Gctx.t -> Gctx.position -> Gctx.dimension -> unit
+)
+ident(
+  ext_ref Gctx.draw_rect
+)
+"Hwk6FINAL/paint.ml" 152 5339 5378 "Hwk6FINAL/paint.ml" 152 5339 5379
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 152 5339 5381 "Hwk6FINAL/paint.ml" 152 5339 5382
+type(
+  int
+)
+ident(
+  int_ref e "Hwk6FINAL/paint.ml" 150 5251 5279 "Hwk6FINAL/paint.ml" 150 5251 5280
+)
+"Hwk6FINAL/paint.ml" 152 5339 5383 "Hwk6FINAL/paint.ml" 152 5339 5384
+type(
+  int
+)
+ident(
+  int_ref f "Hwk6FINAL/paint.ml" 151 5295 5323 "Hwk6FINAL/paint.ml" 151 5295 5324
+)
+"Hwk6FINAL/paint.ml" 152 5339 5380 "Hwk6FINAL/paint.ml" 152 5339 5385
+type(
+  Gctx.position
+)
+"Hwk6FINAL/paint.ml" 152 5339 5387 "Hwk6FINAL/paint.ml" 152 5339 5390
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/paint.ml" 152 5339 5391 "Hwk6FINAL/paint.ml" 152 5339 5392
+type(
+  int
+)
+ident(
+  int_ref a "Hwk6FINAL/paint.ml" 148 5179 5208 "Hwk6FINAL/paint.ml" 148 5179 5209
+)
+"Hwk6FINAL/paint.ml" 152 5339 5392 "Hwk6FINAL/paint.ml" 152 5339 5393
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/paint.ml" 152 5339 5393 "Hwk6FINAL/paint.ml" 152 5339 5394
+type(
+  int
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 149 5221 5238 "Hwk6FINAL/paint.ml" 149 5221 5239
+)
+"Hwk6FINAL/paint.ml" 152 5339 5390 "Hwk6FINAL/paint.ml" 152 5339 5395
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 152 5339 5387 "Hwk6FINAL/paint.ml" 152 5339 5395
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 152 5339 5396 "Hwk6FINAL/paint.ml" 152 5339 5399
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"Hwk6FINAL/paint.ml" 152 5339 5400 "Hwk6FINAL/paint.ml" 152 5339 5401
+type(
+  int
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 148 5179 5210 "Hwk6FINAL/paint.ml" 148 5179 5211
+)
+"Hwk6FINAL/paint.ml" 152 5339 5401 "Hwk6FINAL/paint.ml" 152 5339 5402
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"Hwk6FINAL/paint.ml" 152 5339 5402 "Hwk6FINAL/paint.ml" 152 5339 5403
+type(
+  int
+)
+ident(
+  int_ref d "Hwk6FINAL/paint.ml" 149 5221 5240 "Hwk6FINAL/paint.ml" 149 5221 5241
+)
+"Hwk6FINAL/paint.ml" 152 5339 5399 "Hwk6FINAL/paint.ml" 152 5339 5404
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 152 5339 5396 "Hwk6FINAL/paint.ml" 152 5339 5404
+call(
+  stack
+)
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 152 5339 5386 "Hwk6FINAL/paint.ml" 152 5339 5405
+type(
+  Gctx.dimension
+)
+"Hwk6FINAL/paint.ml" 152 5339 5363 "Hwk6FINAL/paint.ml" 152 5339 5405
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 151 5295 5319 "Hwk6FINAL/paint.ml" 152 5339 5405
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 150 5251 5275 "Hwk6FINAL/paint.ml" 152 5339 5405
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 149 5221 5233 "Hwk6FINAL/paint.ml" 152 5339 5405
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 148 5179 5203 "Hwk6FINAL/paint.ml" 152 5339 5405
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 153 5408 5437 "Hwk6FINAL/paint.ml" 153 5408 5438
+type(
+  Graphics.image
+)
+ident(
+  def a "Hwk6FINAL/paint.ml" 154 5445 5469 "Hwk6FINAL/paint.ml" 154 5445 5490
+)
+"Hwk6FINAL/paint.ml" 153 5408 5439 "Hwk6FINAL/paint.ml" 153 5408 5440
+type(
+  point
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 154 5445 5469 "Hwk6FINAL/paint.ml" 154 5445 5490
+)
+"Hwk6FINAL/paint.ml" 153 5408 5430 "Hwk6FINAL/paint.ml" 153 5408 5441
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 154 5445 5469 "Hwk6FINAL/paint.ml" 154 5445 5484
+type(
+  Gctx.t -> Graphics.image -> Gctx.position -> unit
+)
+ident(
+  ext_ref Gctx.draw_image
+)
+"Hwk6FINAL/paint.ml" 154 5445 5485 "Hwk6FINAL/paint.ml" 154 5445 5486
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 127 4202 4215 "Hwk6FINAL/paint.ml" 127 4202 4216
+)
+"Hwk6FINAL/paint.ml" 154 5445 5487 "Hwk6FINAL/paint.ml" 154 5445 5488
+type(
+  Graphics.image
+)
+ident(
+  int_ref a "Hwk6FINAL/paint.ml" 153 5408 5437 "Hwk6FINAL/paint.ml" 153 5408 5438
+)
+"Hwk6FINAL/paint.ml" 154 5445 5489 "Hwk6FINAL/paint.ml" 154 5445 5490
+type(
+  point
+)
+ident(
+  int_ref b "Hwk6FINAL/paint.ml" 153 5408 5439 "Hwk6FINAL/paint.ml" 153 5408 5440
+)
+"Hwk6FINAL/paint.ml" 154 5445 5469 "Hwk6FINAL/paint.ml" 154 5445 5490
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 143 4851 4867 "Hwk6FINAL/paint.ml" 155 5491 5510
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 140 4768 4772 "Hwk6FINAL/paint.ml" 156 5511 5518
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 139 4731 4735 "Hwk6FINAL/paint.ml" 156 5511 5518
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 128 4234 4238 "Hwk6FINAL/paint.ml" 156 5511 5518
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 160 5608 5614 "Hwk6FINAL/paint.ml" 160 5608 5626
+type(
+  Widget.t
+)
+ident(
+  def paint_canvas "Hwk6FINAL/paint.ml" 178 6129 6129 --
+)
+"Hwk6FINAL/paint.ml" 160 5608 5634 "Hwk6FINAL/paint.ml" 160 5608 5657
+type(
+  Widget.notifier_controller
+)
+ident(
+  def paint_canvas_controller "Hwk6FINAL/paint.ml" 178 6129 6129 --
+)
+"Hwk6FINAL/paint.ml" 160 5608 5612 "Hwk6FINAL/paint.ml" 160 5608 5681
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 161 5685 5687 "Hwk6FINAL/paint.ml" 161 5685 5693
+type(
+  int * int -> (Gctx.t -> unit) -> Widget.t * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.canvas
+)
+"Hwk6FINAL/paint.ml" 161 5685 5695 "Hwk6FINAL/paint.ml" 161 5685 5698
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 161 5685 5699 "Hwk6FINAL/paint.ml" 161 5685 5702
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 161 5685 5694 "Hwk6FINAL/paint.ml" 161 5685 5703
+type(
+  int * int
+)
+"Hwk6FINAL/paint.ml" 161 5685 5704 "Hwk6FINAL/paint.ml" 161 5685 5711
+type(
+  Gctx.t -> unit
+)
+ident(
+  int_ref repaint "Hwk6FINAL/paint.ml" 127 4202 4206 "Hwk6FINAL/paint.ml" 127 4202 4213
+)
+"Hwk6FINAL/paint.ml" 161 5685 5687 "Hwk6FINAL/paint.ml" 161 5685 5711
+call(
+  stack
+)
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 178 6129 6133 "Hwk6FINAL/paint.ml" 178 6129 6145
+type(
+  bool -> point -> Widget.event_listener_result
+)
+ident(
+  def paint_action "Hwk6FINAL/paint.ml" 259 9053 9056 --
+)
+"Hwk6FINAL/paint.ml" 178 6129 6147 "Hwk6FINAL/paint.ml" 178 6129 6158
+type(
+  bool
+)
+ident(
+  def button_down "Hwk6FINAL/paint.ml" 178 6129 6165 "Hwk6FINAL/paint.ml" 255 8949 8967
+)
+"Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+type(
+  point
+)
+ident(
+  def p "Hwk6FINAL/paint.ml" 178 6129 6175 "Hwk6FINAL/paint.ml" 255 8949 8967
+)
+"Hwk6FINAL/paint.ml" 179 6201 6208 "Hwk6FINAL/paint.ml" 179 6201 6219
+type(
+  bool
+)
+ident(
+  int_ref button_down "Hwk6FINAL/paint.ml" 178 6129 6147 "Hwk6FINAL/paint.ml" 178 6129 6158
+)
+"Hwk6FINAL/paint.ml" 185 6434 6453 "Hwk6FINAL/paint.ml" 185 6434 6454
+type(
+  mode ref -> mode
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 185 6434 6454 "Hwk6FINAL/paint.ml" 185 6434 6458
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 185 6434 6453 "Hwk6FINAL/paint.ml" 185 6434 6458
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 186 6464 6470 "Hwk6FINAL/paint.ml" 186 6464 6479
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 186 6464 6483 "Hwk6FINAL/paint.ml" 186 6464 6500
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"Hwk6FINAL/paint.ml" 186 6464 6508 "Hwk6FINAL/paint.ml" 186 6464 6509
+type(
+  Gctx.color ref -> Gctx.color
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 186 6464 6509 "Hwk6FINAL/paint.ml" 186 6464 6514
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 186 6464 6508 "Hwk6FINAL/paint.ml" 186 6464 6514
+type(
+  Gctx.color
+)
+"Hwk6FINAL/paint.ml" 186 6464 6515 "Hwk6FINAL/paint.ml" 186 6464 6516
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 186 6464 6501 "Hwk6FINAL/paint.ml" 186 6464 6518
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 186 6464 6519 "Hwk6FINAL/paint.ml" 186 6464 6525
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 186 6464 6483 "Hwk6FINAL/paint.ml" 186 6464 6525
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 186 6464 6527 "Hwk6FINAL/paint.ml" 186 6464 6531
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 186 6464 6532 "Hwk6FINAL/paint.ml" 186 6464 6534
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 186 6464 6535 "Hwk6FINAL/paint.ml" 186 6464 6544
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 186 6464 6527 "Hwk6FINAL/paint.ml" 186 6464 6544
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 186 6464 6483 "Hwk6FINAL/paint.ml" 186 6464 6544
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 187 6546 6555 "Hwk6FINAL/paint.ml" 187 6546 6568
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 187 6546 6572 "Hwk6FINAL/paint.ml" 187 6546 6576
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 187 6546 6577 "Hwk6FINAL/paint.ml" 187 6546 6579
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 187 6546 6592 "Hwk6FINAL/paint.ml" 187 6546 6593
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 187 6546 6580 "Hwk6FINAL/paint.ml" 187 6546 6593
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 187 6546 6572 "Hwk6FINAL/paint.ml" 187 6546 6593
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 188 6594 6615 "Hwk6FINAL/paint.ml" 188 6594 6617
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 189 6622 6632 "Hwk6FINAL/paint.ml" 190 6660 6687
+)
+"Hwk6FINAL/paint.ml" 188 6594 6603 "Hwk6FINAL/paint.ml" 188 6594 6617
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 189 6622 6636 "Hwk6FINAL/paint.ml" 189 6622 6637
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 189 6622 6651 "Hwk6FINAL/paint.ml" 189 6622 6653
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 188 6594 6615 "Hwk6FINAL/paint.ml" 188 6594 6617
+)
+"Hwk6FINAL/paint.ml" 189 6622 6654 "Hwk6FINAL/paint.ml" 189 6622 6655
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 189 6622 6640 "Hwk6FINAL/paint.ml" 189 6622 6656
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 190 6660 6670 "Hwk6FINAL/paint.ml" 190 6660 6677
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 190 6660 6678 "Hwk6FINAL/paint.ml" 190 6660 6680
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 190 6660 6686 "Hwk6FINAL/paint.ml" 190 6660 6687
+type(
+  shape
+)
+ident(
+  int_ref r "Hwk6FINAL/paint.ml" 189 6622 6636 "Hwk6FINAL/paint.ml" 189 6622 6637
+)
+"Hwk6FINAL/paint.ml" 190 6660 6681 "Hwk6FINAL/paint.ml" 190 6660 6687
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 190 6660 6670 "Hwk6FINAL/paint.ml" 190 6660 6687
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 189 6622 6632 "Hwk6FINAL/paint.ml" 190 6660 6687
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 191 6688 6697 "Hwk6FINAL/paint.ml" 191 6688 6711
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 192 6715 6725 "Hwk6FINAL/paint.ml" 192 6715 6729
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 192 6715 6730 "Hwk6FINAL/paint.ml" 192 6715 6732
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 192 6715 6733 "Hwk6FINAL/paint.ml" 192 6715 6745
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 192 6715 6725 "Hwk6FINAL/paint.ml" 192 6715 6745
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 193 6746 6755 "Hwk6FINAL/paint.ml" 193 6746 6767
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 194 6771 6793 "Hwk6FINAL/paint.ml" 194 6771 6794
+type(
+  Graphics.image option ref -> Graphics.image option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 194 6771 6794 "Hwk6FINAL/paint.ml" 194 6771 6804
+type(
+  Graphics.image option ref
+)
+ident(
+  int_ref copy_paste "Hwk6FINAL/paint.ml" 97 3249 3253 "Hwk6FINAL/paint.ml" 97 3249 3263
+)
+"Hwk6FINAL/paint.ml" 194 6771 6793 "Hwk6FINAL/paint.ml" 194 6771 6804
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 195 6810 6824 "Hwk6FINAL/paint.ml" 195 6810 6828
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 195 6810 6832 "Hwk6FINAL/paint.ml" 195 6810 6834
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 196 6835 6854 "Hwk6FINAL/paint.ml" 196 6835 6855
+type(
+  Graphics.image
+)
+ident(
+  def i "Hwk6FINAL/paint.ml" 197 6859 6879 "Hwk6FINAL/paint.ml" 198 6904 6943
+)
+"Hwk6FINAL/paint.ml" 196 6835 6849 "Hwk6FINAL/paint.ml" 196 6835 6855
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 197 6859 6883 "Hwk6FINAL/paint.ml" 197 6859 6886
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 197 6859 6896 "Hwk6FINAL/paint.ml" 197 6859 6897
+type(
+  Graphics.image
+)
+ident(
+  int_ref i "Hwk6FINAL/paint.ml" 196 6835 6854 "Hwk6FINAL/paint.ml" 196 6835 6855
+)
+"Hwk6FINAL/paint.ml" 197 6859 6898 "Hwk6FINAL/paint.ml" 197 6859 6899
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 197 6859 6889 "Hwk6FINAL/paint.ml" 197 6859 6900
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 198 6904 6924 "Hwk6FINAL/paint.ml" 198 6904 6931
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 198 6904 6932 "Hwk6FINAL/paint.ml" 198 6904 6934
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 198 6904 6940 "Hwk6FINAL/paint.ml" 198 6904 6943
+type(
+  shape
+)
+ident(
+  int_ref img "Hwk6FINAL/paint.ml" 197 6859 6883 "Hwk6FINAL/paint.ml" 197 6859 6886
+)
+"Hwk6FINAL/paint.ml" 198 6904 6935 "Hwk6FINAL/paint.ml" 198 6904 6943
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 198 6904 6924 "Hwk6FINAL/paint.ml" 198 6904 6943
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 197 6859 6879 "Hwk6FINAL/paint.ml" 198 6904 6943
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 194 6771 6781 "Hwk6FINAL/paint.ml" 199 6944 6952
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 200 6953 6962 "Hwk6FINAL/paint.ml" 200 6953 6975
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 204 7144 7155 "Hwk6FINAL/paint.ml" 204 7144 7159
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 204 7144 7160 "Hwk6FINAL/paint.ml" 204 7144 7162
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 204 7144 7175 "Hwk6FINAL/paint.ml" 204 7144 7176
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 204 7144 7163 "Hwk6FINAL/paint.ml" 204 7144 7176
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 204 7144 7155 "Hwk6FINAL/paint.ml" 204 7144 7176
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 205 7177 7186 "Hwk6FINAL/paint.ml" 205 7177 7202
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 206 7206 7217 "Hwk6FINAL/paint.ml" 206 7206 7221
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 206 7206 7222 "Hwk6FINAL/paint.ml" 206 7206 7224
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 206 7206 7240 "Hwk6FINAL/paint.ml" 206 7206 7241
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 206 7206 7225 "Hwk6FINAL/paint.ml" 206 7206 7241
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 206 7206 7217 "Hwk6FINAL/paint.ml" 206 7206 7241
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 208 7243 7264 "Hwk6FINAL/paint.ml" 208 7243 7266
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 214 7540 7550 "Hwk6FINAL/paint.ml" 215 7593 7620
+)
+"Hwk6FINAL/paint.ml" 208 7243 7252 "Hwk6FINAL/paint.ml" 208 7243 7266
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 214 7540 7554 "Hwk6FINAL/paint.ml" 214 7540 7555
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 214 7540 7564 "Hwk6FINAL/paint.ml" 214 7540 7565
+type(
+  Gctx.color ref -> Gctx.color
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 214 7540 7565 "Hwk6FINAL/paint.ml" 214 7540 7570
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 214 7540 7564 "Hwk6FINAL/paint.ml" 214 7540 7570
+type(
+  Gctx.color
+)
+"Hwk6FINAL/paint.ml" 214 7540 7572 "Hwk6FINAL/paint.ml" 214 7540 7573
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 214 7540 7573 "Hwk6FINAL/paint.ml" 214 7540 7582
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 214 7540 7572 "Hwk6FINAL/paint.ml" 214 7540 7582
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 214 7540 7584 "Hwk6FINAL/paint.ml" 214 7540 7586
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 208 7243 7264 "Hwk6FINAL/paint.ml" 208 7243 7266
+)
+"Hwk6FINAL/paint.ml" 214 7540 7587 "Hwk6FINAL/paint.ml" 214 7540 7588
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 214 7540 7558 "Hwk6FINAL/paint.ml" 214 7540 7589
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 215 7593 7603 "Hwk6FINAL/paint.ml" 215 7593 7610
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 215 7593 7611 "Hwk6FINAL/paint.ml" 215 7593 7613
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 215 7593 7619 "Hwk6FINAL/paint.ml" 215 7593 7620
+type(
+  shape
+)
+ident(
+  int_ref l "Hwk6FINAL/paint.ml" 214 7540 7554 "Hwk6FINAL/paint.ml" 214 7540 7555
+)
+"Hwk6FINAL/paint.ml" 215 7593 7614 "Hwk6FINAL/paint.ml" 215 7593 7620
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 215 7593 7603 "Hwk6FINAL/paint.ml" 215 7593 7620
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 214 7540 7550 "Hwk6FINAL/paint.ml" 215 7593 7620
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 216 7621 7645 "Hwk6FINAL/paint.ml" 216 7621 7647
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 217 7651 7661 "Hwk6FINAL/paint.ml" 218 7707 7734
+)
+"Hwk6FINAL/paint.ml" 216 7621 7630 "Hwk6FINAL/paint.ml" 216 7621 7647
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 217 7651 7665 "Hwk6FINAL/paint.ml" 217 7651 7666
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 217 7651 7678 "Hwk6FINAL/paint.ml" 217 7651 7679
+type(
+  Gctx.color ref -> Gctx.color
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 217 7651 7679 "Hwk6FINAL/paint.ml" 217 7651 7684
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 217 7651 7678 "Hwk6FINAL/paint.ml" 217 7651 7684
+type(
+  Gctx.color
+)
+"Hwk6FINAL/paint.ml" 217 7651 7686 "Hwk6FINAL/paint.ml" 217 7651 7687
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 217 7651 7687 "Hwk6FINAL/paint.ml" 217 7651 7696
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 217 7651 7686 "Hwk6FINAL/paint.ml" 217 7651 7696
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 217 7651 7698 "Hwk6FINAL/paint.ml" 217 7651 7700
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 216 7621 7645 "Hwk6FINAL/paint.ml" 216 7621 7647
+)
+"Hwk6FINAL/paint.ml" 217 7651 7701 "Hwk6FINAL/paint.ml" 217 7651 7702
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 217 7651 7669 "Hwk6FINAL/paint.ml" 217 7651 7703
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 218 7707 7717 "Hwk6FINAL/paint.ml" 218 7707 7724
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 218 7707 7725 "Hwk6FINAL/paint.ml" 218 7707 7727
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 218 7707 7733 "Hwk6FINAL/paint.ml" 218 7707 7734
+type(
+  shape
+)
+ident(
+  int_ref l "Hwk6FINAL/paint.ml" 217 7651 7665 "Hwk6FINAL/paint.ml" 217 7651 7666
+)
+"Hwk6FINAL/paint.ml" 218 7707 7728 "Hwk6FINAL/paint.ml" 218 7707 7734
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 218 7707 7717 "Hwk6FINAL/paint.ml" 218 7707 7734
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 217 7651 7661 "Hwk6FINAL/paint.ml" 218 7707 7734
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 185 6434 6441 "Hwk6FINAL/paint.ml" 219 7735 7745
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 220 7748 7755 "Hwk6FINAL/paint.ml" 220 7748 7768
+type(
+  Widget.event_listener_result
+)
+"Hwk6FINAL/paint.ml" 185 6434 6440 "Hwk6FINAL/paint.ml" 220 7748 7769
+type(
+  Widget.event_listener_result
+)
+"Hwk6FINAL/paint.ml" 233 8172 8191 "Hwk6FINAL/paint.ml" 233 8172 8192
+type(
+  mode ref -> mode
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 233 8172 8192 "Hwk6FINAL/paint.ml" 233 8172 8196
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 233 8172 8191 "Hwk6FINAL/paint.ml" 233 8172 8196
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 234 8202 8224 "Hwk6FINAL/paint.ml" 234 8202 8226
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 235 8231 8243 "Hwk6FINAL/paint.ml" 237 8333 8366
+)
+"Hwk6FINAL/paint.ml" 234 8202 8212 "Hwk6FINAL/paint.ml" 234 8202 8226
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 235 8231 8243 "Hwk6FINAL/paint.ml" 235 8231 8250
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 235 8231 8251 "Hwk6FINAL/paint.ml" 235 8231 8253
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 235 8231 8254 "Hwk6FINAL/paint.ml" 235 8231 8258
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 235 8231 8243 "Hwk6FINAL/paint.ml" 235 8231 8258
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 236 8260 8272 "Hwk6FINAL/paint.ml" 236 8260 8289
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"Hwk6FINAL/paint.ml" 236 8260 8297 "Hwk6FINAL/paint.ml" 236 8260 8298
+type(
+  Gctx.color ref -> Gctx.color
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 236 8260 8298 "Hwk6FINAL/paint.ml" 236 8260 8303
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 236 8260 8297 "Hwk6FINAL/paint.ml" 236 8260 8303
+type(
+  Gctx.color
+)
+"Hwk6FINAL/paint.ml" 236 8260 8305 "Hwk6FINAL/paint.ml" 236 8260 8306
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 236 8260 8306 "Hwk6FINAL/paint.ml" 236 8260 8315
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 236 8260 8305 "Hwk6FINAL/paint.ml" 236 8260 8315
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 236 8260 8317 "Hwk6FINAL/paint.ml" 236 8260 8319
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 234 8202 8224 "Hwk6FINAL/paint.ml" 234 8202 8226
+)
+"Hwk6FINAL/paint.ml" 236 8260 8320 "Hwk6FINAL/paint.ml" 236 8260 8321
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 236 8260 8290 "Hwk6FINAL/paint.ml" 236 8260 8323
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 236 8260 8324 "Hwk6FINAL/paint.ml" 236 8260 8330
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 236 8260 8272 "Hwk6FINAL/paint.ml" 236 8260 8330
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 237 8333 8345 "Hwk6FINAL/paint.ml" 237 8333 8349
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 237 8333 8350 "Hwk6FINAL/paint.ml" 237 8333 8352
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 237 8333 8353 "Hwk6FINAL/paint.ml" 237 8333 8366
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 237 8333 8345 "Hwk6FINAL/paint.ml" 237 8333 8366
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 236 8260 8272 "Hwk6FINAL/paint.ml" 237 8333 8366
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 235 8231 8243 "Hwk6FINAL/paint.ml" 237 8333 8366
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 238 8367 8392 "Hwk6FINAL/paint.ml" 238 8367 8394
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 239 8416 8428 "Hwk6FINAL/paint.ml" 241 8521 8557
+)
+"Hwk6FINAL/paint.ml" 238 8367 8377 "Hwk6FINAL/paint.ml" 238 8367 8394
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 239 8416 8428 "Hwk6FINAL/paint.ml" 239 8416 8435
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 239 8416 8436 "Hwk6FINAL/paint.ml" 239 8416 8438
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 239 8416 8439 "Hwk6FINAL/paint.ml" 239 8416 8443
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 239 8416 8428 "Hwk6FINAL/paint.ml" 239 8416 8443
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 240 8445 8457 "Hwk6FINAL/paint.ml" 240 8445 8474
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"Hwk6FINAL/paint.ml" 240 8445 8485 "Hwk6FINAL/paint.ml" 240 8445 8486
+type(
+  Gctx.color ref -> Gctx.color
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 240 8445 8486 "Hwk6FINAL/paint.ml" 240 8445 8491
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 240 8445 8485 "Hwk6FINAL/paint.ml" 240 8445 8491
+type(
+  Gctx.color
+)
+"Hwk6FINAL/paint.ml" 240 8445 8493 "Hwk6FINAL/paint.ml" 240 8445 8494
+type(
+  bool ref -> bool
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 240 8445 8494 "Hwk6FINAL/paint.ml" 240 8445 8503
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 240 8445 8493 "Hwk6FINAL/paint.ml" 240 8445 8503
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 240 8445 8505 "Hwk6FINAL/paint.ml" 240 8445 8507
+type(
+  point
+)
+ident(
+  int_ref p1 "Hwk6FINAL/paint.ml" 238 8367 8392 "Hwk6FINAL/paint.ml" 238 8367 8394
+)
+"Hwk6FINAL/paint.ml" 240 8445 8508 "Hwk6FINAL/paint.ml" 240 8445 8509
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 240 8445 8475 "Hwk6FINAL/paint.ml" 240 8445 8511
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 240 8445 8512 "Hwk6FINAL/paint.ml" 240 8445 8518
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 240 8445 8457 "Hwk6FINAL/paint.ml" 240 8445 8518
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 241 8521 8533 "Hwk6FINAL/paint.ml" 241 8521 8537
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 241 8521 8538 "Hwk6FINAL/paint.ml" 241 8521 8540
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 241 8521 8541 "Hwk6FINAL/paint.ml" 241 8521 8557
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 241 8521 8533 "Hwk6FINAL/paint.ml" 241 8521 8557
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 240 8445 8457 "Hwk6FINAL/paint.ml" 241 8521 8557
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 239 8416 8428 "Hwk6FINAL/paint.ml" 241 8521 8557
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 242 8558 8580 "Hwk6FINAL/paint.ml" 242 8558 8582
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 243 8586 8598 "Hwk6FINAL/paint.ml" 244 8615 8648
+)
+"Hwk6FINAL/paint.ml" 242 8558 8568 "Hwk6FINAL/paint.ml" 242 8558 8582
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 243 8586 8598 "Hwk6FINAL/paint.ml" 243 8586 8605
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 243 8586 8606 "Hwk6FINAL/paint.ml" 243 8586 8608
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 243 8586 8609 "Hwk6FINAL/paint.ml" 243 8586 8613
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 243 8586 8598 "Hwk6FINAL/paint.ml" 243 8586 8613
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 244 8615 8627 "Hwk6FINAL/paint.ml" 244 8615 8631
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 244 8615 8632 "Hwk6FINAL/paint.ml" 244 8615 8634
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 244 8615 8635 "Hwk6FINAL/paint.ml" 244 8615 8648
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 244 8615 8627 "Hwk6FINAL/paint.ml" 244 8615 8648
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 243 8586 8598 "Hwk6FINAL/paint.ml" 244 8615 8648
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 245 8649 8659 "Hwk6FINAL/paint.ml" 245 8649 8671
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 246 8675 8687 "Hwk6FINAL/paint.ml" 246 8675 8694
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 246 8675 8695 "Hwk6FINAL/paint.ml" 246 8675 8697
+type(
+  shape option ref -> shape option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 246 8675 8698 "Hwk6FINAL/paint.ml" 246 8675 8702
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 246 8675 8687 "Hwk6FINAL/paint.ml" 246 8675 8702
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 247 8704 8729 "Hwk6FINAL/paint.ml" 247 8704 8730
+type(
+  Graphics.image option ref -> Graphics.image option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 247 8704 8730 "Hwk6FINAL/paint.ml" 247 8704 8740
+type(
+  Graphics.image option ref
+)
+ident(
+  int_ref copy_paste "Hwk6FINAL/paint.ml" 97 3249 3253 "Hwk6FINAL/paint.ml" 97 3249 3263
+)
+"Hwk6FINAL/paint.ml" 247 8704 8729 "Hwk6FINAL/paint.ml" 247 8704 8740
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 248 8746 8764 "Hwk6FINAL/paint.ml" 248 8746 8768
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 248 8746 8772 "Hwk6FINAL/paint.ml" 248 8746 8774
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 249 8775 8798 "Hwk6FINAL/paint.ml" 249 8775 8799
+type(
+  Graphics.image
+)
+ident(
+  def i "Hwk6FINAL/paint.ml" 250 8804 8824 "Hwk6FINAL/paint.ml" 250 8804 8863
+)
+"Hwk6FINAL/paint.ml" 249 8775 8793 "Hwk6FINAL/paint.ml" 249 8775 8799
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 250 8804 8824 "Hwk6FINAL/paint.ml" 250 8804 8841
+type(
+  shape -> shape Deque.deque -> unit
+)
+ident(
+  ext_ref Deque.insert_tail
+)
+"Hwk6FINAL/paint.ml" 250 8804 8850 "Hwk6FINAL/paint.ml" 250 8804 8851
+type(
+  Graphics.image
+)
+ident(
+  int_ref i "Hwk6FINAL/paint.ml" 249 8775 8798 "Hwk6FINAL/paint.ml" 249 8775 8799
+)
+"Hwk6FINAL/paint.ml" 250 8804 8852 "Hwk6FINAL/paint.ml" 250 8804 8853
+type(
+  point
+)
+ident(
+  int_ref p "Hwk6FINAL/paint.ml" 178 6129 6166 "Hwk6FINAL/paint.ml" 178 6129 6167
+)
+"Hwk6FINAL/paint.ml" 250 8804 8842 "Hwk6FINAL/paint.ml" 250 8804 8855
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 250 8804 8856 "Hwk6FINAL/paint.ml" 250 8804 8862
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 250 8804 8824 "Hwk6FINAL/paint.ml" 250 8804 8863
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 247 8704 8717 "Hwk6FINAL/paint.ml" 251 8864 8879
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 252 8881 8893 "Hwk6FINAL/paint.ml" 252 8881 8897
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 252 8881 8898 "Hwk6FINAL/paint.ml" 252 8881 8900
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 252 8881 8901 "Hwk6FINAL/paint.ml" 252 8881 8915
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 252 8881 8893 "Hwk6FINAL/paint.ml" 252 8881 8915
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 247 8704 8716 "Hwk6FINAL/paint.ml" 252 8881 8916
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 246 8675 8687 "Hwk6FINAL/paint.ml" 252 8881 8916
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 253 8917 8927 "Hwk6FINAL/paint.ml" 253 8917 8928
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 253 8917 8932 "Hwk6FINAL/paint.ml" 253 8917 8934
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 233 8172 8179 "Hwk6FINAL/paint.ml" 254 8935 8946
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 255 8949 8953 "Hwk6FINAL/paint.ml" 255 8949 8966
+type(
+  Widget.event_listener_result
+)
+"Hwk6FINAL/paint.ml" 233 8172 8178 "Hwk6FINAL/paint.ml" 255 8949 8967
+type(
+  Widget.event_listener_result
+)
+"Hwk6FINAL/paint.ml" 179 6201 6205 "Hwk6FINAL/paint.ml" 255 8949 8967
+type(
+  Widget.event_listener_result
+)
+type(
+  Widget.event_listener_result
+)
+"Hwk6FINAL/paint.ml" 259 9053 9056 "Hwk6FINAL/paint.ml" 259 9053 9079
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref paint_canvas_controller "Hwk6FINAL/paint.ml" 160 5608 5634 "Hwk6FINAL/paint.ml" 160 5608 5657
+)
+"Hwk6FINAL/paint.ml" 259 9053 9056 "Hwk6FINAL/paint.ml" 259 9053 9098
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 259 9053 9100 "Hwk6FINAL/paint.ml" 259 9053 9114
+type(
+  (bool -> point -> Widget.event_listener_result) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouse_listener
+)
+"Hwk6FINAL/paint.ml" 259 9053 9115 "Hwk6FINAL/paint.ml" 259 9053 9127
+type(
+  bool -> point -> Widget.event_listener_result
+)
+ident(
+  int_ref paint_action "Hwk6FINAL/paint.ml" 178 6129 6133 "Hwk6FINAL/paint.ml" 178 6129 6145
+)
+"Hwk6FINAL/paint.ml" 259 9053 9099 "Hwk6FINAL/paint.ml" 259 9053 9128
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 259 9053 9056 "Hwk6FINAL/paint.ml" 259 9053 9128
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 291 10241 10246 "Hwk6FINAL/paint.ml" 291 10241 10252
+type(
+  Widget.t
+)
+ident(
+  def w_undo "Hwk6FINAL/paint.ml" 300 10460 10460 --
+)
+"Hwk6FINAL/paint.ml" 291 10241 10253 "Hwk6FINAL/paint.ml" 291 10241 10260
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_undo "Hwk6FINAL/paint.ml" 300 10460 10460 --
+)
+"Hwk6FINAL/paint.ml" 291 10241 10261 "Hwk6FINAL/paint.ml" 291 10241 10268
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_undo "Hwk6FINAL/paint.ml" 300 10460 10460 --
+)
+"Hwk6FINAL/paint.ml" 291 10241 10245 "Hwk6FINAL/paint.ml" 291 10241 10269
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 291 10241 10272 "Hwk6FINAL/paint.ml" 291 10241 10278
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 291 10241 10279 "Hwk6FINAL/paint.ml" 291 10241 10285
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 291 10241 10272 "Hwk6FINAL/paint.ml" 291 10241 10285
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 300 10460 10464 "Hwk6FINAL/paint.ml" 300 10460 10468
+type(
+  unit -> unit
+)
+ident(
+  def undo "Hwk6FINAL/paint.ml" 317 11009 11012 --
+)
+"Hwk6FINAL/paint.ml" 300 10460 10469 "Hwk6FINAL/paint.ml" 300 10460 10471
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 301 10481 10497 "Hwk6FINAL/paint.ml" 301 10481 10498
+type(
+  shape option ref -> shape option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"Hwk6FINAL/paint.ml" 301 10481 10498 "Hwk6FINAL/paint.ml" 301 10481 10505
+type(
+  shape option ref
+)
+ident(
+  int_ref preview "Hwk6FINAL/paint.ml" 51 1863 1867 "Hwk6FINAL/paint.ml" 51 1863 1874
+)
+"Hwk6FINAL/paint.ml" 301 10481 10497 "Hwk6FINAL/paint.ml" 301 10481 10505
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 302 10511 10518 "Hwk6FINAL/paint.ml" 302 10511 10522
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 303 10526 10533 "Hwk6FINAL/paint.ml" 303 10526 10547
+type(
+  shape Deque.deque -> bool
+)
+ident(
+  ext_ref Deque.is_empty
+)
+"Hwk6FINAL/paint.ml" 303 10526 10548 "Hwk6FINAL/paint.ml" 303 10526 10554
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 303 10526 10533 "Hwk6FINAL/paint.ml" 303 10526 10554
+call(
+  stack
+)
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 303 10526 10560 "Hwk6FINAL/paint.ml" 303 10526 10562
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 304 10564 10577 "Hwk6FINAL/paint.ml" 304 10564 10583
+type(
+  shape -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"Hwk6FINAL/paint.ml" 304 10564 10585 "Hwk6FINAL/paint.ml" 304 10564 10602
+type(
+  shape Deque.deque -> shape
+)
+ident(
+  ext_ref Deque.remove_tail
+)
+"Hwk6FINAL/paint.ml" 304 10564 10603 "Hwk6FINAL/paint.ml" 304 10564 10609
+type(
+  shape Deque.deque
+)
+ident(
+  int_ref shapes "Hwk6FINAL/paint.ml" 52 1905 1909 "Hwk6FINAL/paint.ml" 52 1905 1915
+)
+"Hwk6FINAL/paint.ml" 304 10564 10584 "Hwk6FINAL/paint.ml" 304 10564 10610
+call(
+  stack
+)
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 304 10564 10577 "Hwk6FINAL/paint.ml" 304 10564 10610
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 303 10526 10530 "Hwk6FINAL/paint.ml" 304 10564 10610
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 305 10611 10626 "Hwk6FINAL/paint.ml" 305 10611 10627
+type(
+  shape
+)
+ident(
+  def l "Hwk6FINAL/paint.ml" 306 10631 10643 "Hwk6FINAL/paint.ml" 313 10983 10998
+)
+"Hwk6FINAL/paint.ml" 305 10611 10621 "Hwk6FINAL/paint.ml" 305 10611 10627
+type(
+  shape option
+)
+"Hwk6FINAL/paint.ml" 306 10631 10655 "Hwk6FINAL/paint.ml" 306 10631 10656
+type(
+  shape
+)
+ident(
+  int_ref l "Hwk6FINAL/paint.ml" 305 10611 10626 "Hwk6FINAL/paint.ml" 305 10611 10627
+)
+"Hwk6FINAL/paint.ml" 307 10662 10684 "Hwk6FINAL/paint.ml" 307 10662 10685
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10719
+)
+"Hwk6FINAL/paint.ml" 307 10662 10686 "Hwk6FINAL/paint.ml" 307 10662 10687
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10719
+)
+"Hwk6FINAL/paint.ml" 307 10662 10688 "Hwk6FINAL/paint.ml" 307 10662 10690
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10719
+)
+"Hwk6FINAL/paint.ml" 307 10662 10691 "Hwk6FINAL/paint.ml" 307 10662 10693
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10719
+)
+"Hwk6FINAL/paint.ml" 307 10662 10678 "Hwk6FINAL/paint.ml" 307 10662 10694
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10702
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 307 10662 10703 "Hwk6FINAL/paint.ml" 307 10662 10705
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 307 10662 10706 "Hwk6FINAL/paint.ml" 307 10662 10719
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 307 10662 10698 "Hwk6FINAL/paint.ml" 307 10662 10719
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 308 10720 10743 "Hwk6FINAL/paint.ml" 308 10720 10744
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 308 10720 10751 "Hwk6FINAL/paint.ml" 308 10720 10753
+)
+"Hwk6FINAL/paint.ml" 308 10720 10745 "Hwk6FINAL/paint.ml" 308 10720 10746
+type(
+  point
+)
+ident(
+  def p "Hwk6FINAL/paint.ml" 308 10720 10751 "Hwk6FINAL/paint.ml" 308 10720 10753
+)
+"Hwk6FINAL/paint.ml" 308 10720 10736 "Hwk6FINAL/paint.ml" 308 10720 10747
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 308 10720 10751 "Hwk6FINAL/paint.ml" 308 10720 10753
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 309 10754 10779 "Hwk6FINAL/paint.ml" 309 10754 10780
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10817
+)
+"Hwk6FINAL/paint.ml" 309 10754 10781 "Hwk6FINAL/paint.ml" 309 10754 10782
+type(
+  bool
+)
+ident(
+  def b "Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10817
+)
+"Hwk6FINAL/paint.ml" 309 10754 10783 "Hwk6FINAL/paint.ml" 309 10754 10785
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10817
+)
+"Hwk6FINAL/paint.ml" 309 10754 10786 "Hwk6FINAL/paint.ml" 309 10754 10788
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10817
+)
+"Hwk6FINAL/paint.ml" 309 10754 10770 "Hwk6FINAL/paint.ml" 309 10754 10789
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10797
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 309 10754 10798 "Hwk6FINAL/paint.ml" 309 10754 10800
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 309 10754 10801 "Hwk6FINAL/paint.ml" 309 10754 10817
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 309 10754 10793 "Hwk6FINAL/paint.ml" 309 10754 10817
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 310 10818 10845 "Hwk6FINAL/paint.ml" 310 10818 10847
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 310 10818 10855 "Hwk6FINAL/paint.ml" 311 10878 10924
+)
+"Hwk6FINAL/paint.ml" 310 10818 10848 "Hwk6FINAL/paint.ml" 310 10818 10850
+type(
+  point
+)
+ident(
+  def p2 "Hwk6FINAL/paint.ml" 310 10818 10855 "Hwk6FINAL/paint.ml" 311 10878 10924
+)
+"Hwk6FINAL/paint.ml" 310 10818 10834 "Hwk6FINAL/paint.ml" 310 10818 10851
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 310 10818 10855 "Hwk6FINAL/paint.ml" 310 10818 10859
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 310 10818 10860 "Hwk6FINAL/paint.ml" 310 10818 10862
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 310 10818 10863 "Hwk6FINAL/paint.ml" 310 10818 10876
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 310 10818 10855 "Hwk6FINAL/paint.ml" 310 10818 10876
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 311 10878 10906 "Hwk6FINAL/paint.ml" 311 10878 10916
+type(
+  Graphics.image option ref
+)
+ident(
+  int_ref copy_paste "Hwk6FINAL/paint.ml" 97 3249 3253 "Hwk6FINAL/paint.ml" 97 3249 3263
+)
+"Hwk6FINAL/paint.ml" 311 10878 10917 "Hwk6FINAL/paint.ml" 311 10878 10919
+type(
+  Graphics.image option ref -> Graphics.image option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 311 10878 10920 "Hwk6FINAL/paint.ml" 311 10878 10924
+type(
+  Graphics.image option
+)
+"Hwk6FINAL/paint.ml" 311 10878 10906 "Hwk6FINAL/paint.ml" 311 10878 10924
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 310 10818 10855 "Hwk6FINAL/paint.ml" 311 10878 10924
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 312 10925 10948 "Hwk6FINAL/paint.ml" 312 10925 10951
+type(
+  Graphics.image
+)
+ident(
+  def img "Hwk6FINAL/paint.ml" 312 10925 10960 "Hwk6FINAL/paint.ml" 312 10925 10982
+)
+"Hwk6FINAL/paint.ml" 312 10925 10953 "Hwk6FINAL/paint.ml" 312 10925 10955
+type(
+  point
+)
+ident(
+  def p1 "Hwk6FINAL/paint.ml" 312 10925 10960 "Hwk6FINAL/paint.ml" 312 10925 10982
+)
+"Hwk6FINAL/paint.ml" 312 10925 10941 "Hwk6FINAL/paint.ml" 312 10925 10956
+type(
+  shape
+)
+"Hwk6FINAL/paint.ml" 312 10925 10960 "Hwk6FINAL/paint.ml" 312 10925 10964
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 312 10925 10965 "Hwk6FINAL/paint.ml" 312 10925 10967
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 312 10925 10968 "Hwk6FINAL/paint.ml" 312 10925 10982
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 312 10925 10960 "Hwk6FINAL/paint.ml" 312 10925 10982
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 306 10631 10643 "Hwk6FINAL/paint.ml" 313 10983 10998
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 301 10481 10485 "Hwk6FINAL/paint.ml" 314 10999 11006
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 317 11009 11012 "Hwk6FINAL/paint.ml" 317 11009 11019
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_undo "Hwk6FINAL/paint.ml" 291 10241 10261 "Hwk6FINAL/paint.ml" 291 10241 10268
+)
+"Hwk6FINAL/paint.ml" 317 11009 11012 "Hwk6FINAL/paint.ml" 317 11009 11038
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 317 11009 11040 "Hwk6FINAL/paint.ml" 317 11009 11059
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 317 11009 11060 "Hwk6FINAL/paint.ml" 317 11009 11064
+type(
+  unit -> unit
+)
+ident(
+  int_ref undo "Hwk6FINAL/paint.ml" 300 10460 10464 "Hwk6FINAL/paint.ml" 300 10460 10468
+)
+"Hwk6FINAL/paint.ml" 317 11009 11039 "Hwk6FINAL/paint.ml" 317 11009 11065
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 317 11009 11012 "Hwk6FINAL/paint.ml" 317 11009 11065
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 320 11122 11126 "Hwk6FINAL/paint.ml" 320 11122 11132
+type(
+  Widget.t
+)
+ident(
+  def w_quit "Hwk6FINAL/paint.ml" 321 11165 11165 --
+)
+"Hwk6FINAL/paint.ml" 320 11122 11133 "Hwk6FINAL/paint.ml" 320 11122 11140
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_quit "Hwk6FINAL/paint.ml" 321 11165 11165 --
+)
+"Hwk6FINAL/paint.ml" 320 11122 11141 "Hwk6FINAL/paint.ml" 320 11122 11148
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_quit "Hwk6FINAL/paint.ml" 321 11165 11165 --
+)
+"Hwk6FINAL/paint.ml" 320 11122 11126 "Hwk6FINAL/paint.ml" 320 11122 11148
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 320 11122 11151 "Hwk6FINAL/paint.ml" 320 11122 11157
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 320 11122 11158 "Hwk6FINAL/paint.ml" 320 11122 11164
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 320 11122 11151 "Hwk6FINAL/paint.ml" 320 11122 11164
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 321 11165 11169 "Hwk6FINAL/paint.ml" 321 11165 11173
+type(
+  unit -> unit
+)
+ident(
+  def quit "Hwk6FINAL/paint.ml" 323 11194 11197 --
+)
+"Hwk6FINAL/paint.ml" 321 11165 11174 "Hwk6FINAL/paint.ml" 321 11165 11176
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 321 11165 11186 "Hwk6FINAL/paint.ml" 321 11165 11190
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"Hwk6FINAL/paint.ml" 321 11165 11191 "Hwk6FINAL/paint.ml" 321 11165 11192
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 321 11165 11186 "Hwk6FINAL/paint.ml" 321 11165 11192
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11197 "Hwk6FINAL/paint.ml" 323 11194 11204
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_quit "Hwk6FINAL/paint.ml" 320 11122 11141 "Hwk6FINAL/paint.ml" 320 11122 11148
+)
+"Hwk6FINAL/paint.ml" 323 11194 11197 "Hwk6FINAL/paint.ml" 323 11194 11223
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11225 "Hwk6FINAL/paint.ml" 323 11194 11244
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 323 11194 11250 "Hwk6FINAL/paint.ml" 323 11194 11252
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11256 "Hwk6FINAL/paint.ml" 323 11194 11260
+type(
+  int -> unit
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11261 "Hwk6FINAL/paint.ml" 323 11194 11262
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 323 11194 11256 "Hwk6FINAL/paint.ml" 323 11194 11262
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11245 "Hwk6FINAL/paint.ml" 323 11194 11263
+type(
+  unit -> unit
+)
+"Hwk6FINAL/paint.ml" 323 11194 11224 "Hwk6FINAL/paint.ml" 323 11194 11264
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 323 11194 11197 "Hwk6FINAL/paint.ml" 323 11194 11264
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 326 11283 11288 "Hwk6FINAL/paint.ml" 326 11283 11295
+type(
+  Widget.t
+)
+ident(
+  def w_point "Hwk6FINAL/paint.ml" 327 11332 11332 --
+)
+"Hwk6FINAL/paint.ml" 326 11283 11296 "Hwk6FINAL/paint.ml" 326 11283 11304
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_point "Hwk6FINAL/paint.ml" 327 11332 11332 --
+)
+"Hwk6FINAL/paint.ml" 326 11283 11305 "Hwk6FINAL/paint.ml" 326 11283 11313
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_point "Hwk6FINAL/paint.ml" 327 11332 11332 --
+)
+"Hwk6FINAL/paint.ml" 326 11283 11287 "Hwk6FINAL/paint.ml" 326 11283 11314
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 326 11283 11317 "Hwk6FINAL/paint.ml" 326 11283 11323
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 326 11283 11324 "Hwk6FINAL/paint.ml" 326 11283 11331
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 326 11283 11317 "Hwk6FINAL/paint.ml" 326 11283 11331
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 327 11332 11336 "Hwk6FINAL/paint.ml" 327 11332 11341
+type(
+  unit -> unit
+)
+ident(
+  def point "Hwk6FINAL/paint.ml" 329 11373 11376 --
+)
+"Hwk6FINAL/paint.ml" 327 11332 11342 "Hwk6FINAL/paint.ml" 327 11332 11344
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 327 11332 11354 "Hwk6FINAL/paint.ml" 327 11332 11358
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 327 11332 11359 "Hwk6FINAL/paint.ml" 327 11332 11361
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 327 11332 11362 "Hwk6FINAL/paint.ml" 327 11332 11371
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 327 11332 11354 "Hwk6FINAL/paint.ml" 327 11332 11371
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 329 11373 11376 "Hwk6FINAL/paint.ml" 329 11373 11384
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_point "Hwk6FINAL/paint.ml" 326 11283 11305 "Hwk6FINAL/paint.ml" 326 11283 11313
+)
+"Hwk6FINAL/paint.ml" 329 11373 11376 "Hwk6FINAL/paint.ml" 329 11373 11403
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 329 11373 11405 "Hwk6FINAL/paint.ml" 329 11373 11424
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 329 11373 11425 "Hwk6FINAL/paint.ml" 329 11373 11430
+type(
+  unit -> unit
+)
+ident(
+  int_ref point "Hwk6FINAL/paint.ml" 327 11332 11336 "Hwk6FINAL/paint.ml" 327 11332 11341
+)
+"Hwk6FINAL/paint.ml" 329 11373 11404 "Hwk6FINAL/paint.ml" 329 11373 11431
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 329 11373 11376 "Hwk6FINAL/paint.ml" 329 11373 11431
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 332 11449 11454 "Hwk6FINAL/paint.ml" 332 11449 11460
+type(
+  Widget.t
+)
+ident(
+  def w_line "Hwk6FINAL/paint.ml" 333 11494 11494 --
+)
+"Hwk6FINAL/paint.ml" 332 11449 11461 "Hwk6FINAL/paint.ml" 332 11449 11468
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_line "Hwk6FINAL/paint.ml" 333 11494 11494 --
+)
+"Hwk6FINAL/paint.ml" 332 11449 11469 "Hwk6FINAL/paint.ml" 332 11449 11476
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_line "Hwk6FINAL/paint.ml" 333 11494 11494 --
+)
+"Hwk6FINAL/paint.ml" 332 11449 11453 "Hwk6FINAL/paint.ml" 332 11449 11477
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 332 11449 11480 "Hwk6FINAL/paint.ml" 332 11449 11486
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 332 11449 11487 "Hwk6FINAL/paint.ml" 332 11449 11493
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 332 11449 11480 "Hwk6FINAL/paint.ml" 332 11449 11493
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 333 11494 11498 "Hwk6FINAL/paint.ml" 333 11494 11502
+type(
+  unit -> unit
+)
+ident(
+  def line "Hwk6FINAL/paint.ml" 335 11538 11541 --
+)
+"Hwk6FINAL/paint.ml" 333 11494 11503 "Hwk6FINAL/paint.ml" 333 11494 11505
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 333 11494 11515 "Hwk6FINAL/paint.ml" 333 11494 11519
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 333 11494 11520 "Hwk6FINAL/paint.ml" 333 11494 11522
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 333 11494 11523 "Hwk6FINAL/paint.ml" 333 11494 11536
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 333 11494 11515 "Hwk6FINAL/paint.ml" 333 11494 11536
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 335 11538 11541 "Hwk6FINAL/paint.ml" 335 11538 11548
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_line "Hwk6FINAL/paint.ml" 332 11449 11469 "Hwk6FINAL/paint.ml" 332 11449 11476
+)
+"Hwk6FINAL/paint.ml" 335 11538 11541 "Hwk6FINAL/paint.ml" 335 11538 11567
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 335 11538 11569 "Hwk6FINAL/paint.ml" 335 11538 11588
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 335 11538 11589 "Hwk6FINAL/paint.ml" 335 11538 11593
+type(
+  unit -> unit
+)
+ident(
+  int_ref line "Hwk6FINAL/paint.ml" 333 11494 11498 "Hwk6FINAL/paint.ml" 333 11494 11502
+)
+"Hwk6FINAL/paint.ml" 335 11538 11568 "Hwk6FINAL/paint.ml" 335 11538 11594
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 335 11538 11541 "Hwk6FINAL/paint.ml" 335 11538 11594
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 337 11596 11601 "Hwk6FINAL/paint.ml" 337 11596 11610
+type(
+  Widget.t
+)
+ident(
+  def w_ellipse "Hwk6FINAL/paint.ml" 338 11653 11653 --
+)
+"Hwk6FINAL/paint.ml" 337 11596 11611 "Hwk6FINAL/paint.ml" 337 11596 11621
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_ellipse "Hwk6FINAL/paint.ml" 338 11653 11653 --
+)
+"Hwk6FINAL/paint.ml" 337 11596 11622 "Hwk6FINAL/paint.ml" 337 11596 11632
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_ellipse "Hwk6FINAL/paint.ml" 338 11653 11653 --
+)
+"Hwk6FINAL/paint.ml" 337 11596 11600 "Hwk6FINAL/paint.ml" 337 11596 11633
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 337 11596 11636 "Hwk6FINAL/paint.ml" 337 11596 11642
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 337 11596 11643 "Hwk6FINAL/paint.ml" 337 11596 11652
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 337 11596 11636 "Hwk6FINAL/paint.ml" 337 11596 11652
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 338 11653 11657 "Hwk6FINAL/paint.ml" 338 11653 11664
+type(
+  unit -> unit
+)
+ident(
+  def ellipse "Hwk6FINAL/paint.ml" 340 11703 11706 --
+)
+"Hwk6FINAL/paint.ml" 338 11653 11665 "Hwk6FINAL/paint.ml" 338 11653 11667
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 338 11653 11677 "Hwk6FINAL/paint.ml" 338 11653 11681
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 338 11653 11682 "Hwk6FINAL/paint.ml" 338 11653 11684
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 338 11653 11685 "Hwk6FINAL/paint.ml" 338 11653 11701
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 338 11653 11677 "Hwk6FINAL/paint.ml" 338 11653 11701
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 340 11703 11706 "Hwk6FINAL/paint.ml" 340 11703 11716
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_ellipse "Hwk6FINAL/paint.ml" 337 11596 11622 "Hwk6FINAL/paint.ml" 337 11596 11632
+)
+"Hwk6FINAL/paint.ml" 340 11703 11706 "Hwk6FINAL/paint.ml" 340 11703 11735
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 340 11703 11737 "Hwk6FINAL/paint.ml" 340 11703 11756
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 340 11703 11757 "Hwk6FINAL/paint.ml" 340 11703 11764
+type(
+  unit -> unit
+)
+ident(
+  int_ref ellipse "Hwk6FINAL/paint.ml" 338 11653 11657 "Hwk6FINAL/paint.ml" 338 11653 11664
+)
+"Hwk6FINAL/paint.ml" 340 11703 11736 "Hwk6FINAL/paint.ml" 340 11703 11765
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 340 11703 11706 "Hwk6FINAL/paint.ml" 340 11703 11765
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 342 11767 11772 "Hwk6FINAL/paint.ml" 342 11767 11778
+type(
+  Widget.t
+)
+ident(
+  def w_copy "Hwk6FINAL/paint.ml" 343 11812 11812 --
+)
+"Hwk6FINAL/paint.ml" 342 11767 11779 "Hwk6FINAL/paint.ml" 342 11767 11786
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_copy "Hwk6FINAL/paint.ml" 343 11812 11812 --
+)
+"Hwk6FINAL/paint.ml" 342 11767 11787 "Hwk6FINAL/paint.ml" 342 11767 11794
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_copy "Hwk6FINAL/paint.ml" 343 11812 11812 --
+)
+"Hwk6FINAL/paint.ml" 342 11767 11771 "Hwk6FINAL/paint.ml" 342 11767 11795
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 342 11767 11798 "Hwk6FINAL/paint.ml" 342 11767 11804
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 342 11767 11805 "Hwk6FINAL/paint.ml" 342 11767 11811
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 342 11767 11798 "Hwk6FINAL/paint.ml" 342 11767 11811
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 343 11812 11816 "Hwk6FINAL/paint.ml" 343 11812 11820
+type(
+  unit -> unit
+)
+ident(
+  def copy "Hwk6FINAL/paint.ml" 345 11856 11859 --
+)
+"Hwk6FINAL/paint.ml" 343 11812 11821 "Hwk6FINAL/paint.ml" 343 11812 11823
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 343 11812 11833 "Hwk6FINAL/paint.ml" 343 11812 11837
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 343 11812 11838 "Hwk6FINAL/paint.ml" 343 11812 11840
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 343 11812 11841 "Hwk6FINAL/paint.ml" 343 11812 11854
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 343 11812 11833 "Hwk6FINAL/paint.ml" 343 11812 11854
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 345 11856 11859 "Hwk6FINAL/paint.ml" 345 11856 11866
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_copy "Hwk6FINAL/paint.ml" 342 11767 11787 "Hwk6FINAL/paint.ml" 342 11767 11794
+)
+"Hwk6FINAL/paint.ml" 345 11856 11859 "Hwk6FINAL/paint.ml" 345 11856 11885
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 345 11856 11887 "Hwk6FINAL/paint.ml" 345 11856 11906
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 345 11856 11907 "Hwk6FINAL/paint.ml" 345 11856 11911
+type(
+  unit -> unit
+)
+ident(
+  int_ref copy "Hwk6FINAL/paint.ml" 343 11812 11816 "Hwk6FINAL/paint.ml" 343 11812 11820
+)
+"Hwk6FINAL/paint.ml" 345 11856 11886 "Hwk6FINAL/paint.ml" 345 11856 11912
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 345 11856 11859 "Hwk6FINAL/paint.ml" 345 11856 11912
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 347 11914 11919 "Hwk6FINAL/paint.ml" 347 11914 11926
+type(
+  Widget.t
+)
+ident(
+  def w_paste "Hwk6FINAL/paint.ml" 348 11963 11963 --
+)
+"Hwk6FINAL/paint.ml" 347 11914 11927 "Hwk6FINAL/paint.ml" 347 11914 11935
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_paste "Hwk6FINAL/paint.ml" 348 11963 11963 --
+)
+"Hwk6FINAL/paint.ml" 347 11914 11936 "Hwk6FINAL/paint.ml" 347 11914 11944
+type(
+  Widget.notifier_controller
+)
+ident(
+  def nc_paste "Hwk6FINAL/paint.ml" 348 11963 11963 --
+)
+"Hwk6FINAL/paint.ml" 347 11914 11918 "Hwk6FINAL/paint.ml" 347 11914 11945
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 347 11914 11948 "Hwk6FINAL/paint.ml" 347 11914 11954
+type(
+  string -> Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.button
+)
+"Hwk6FINAL/paint.ml" 347 11914 11955 "Hwk6FINAL/paint.ml" 347 11914 11962
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 347 11914 11948 "Hwk6FINAL/paint.ml" 347 11914 11962
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 348 11963 11967 "Hwk6FINAL/paint.ml" 348 11963 11972
+type(
+  unit -> unit
+)
+ident(
+  def paste "Hwk6FINAL/paint.ml" 350 12009 12012 --
+)
+"Hwk6FINAL/paint.ml" 348 11963 11973 "Hwk6FINAL/paint.ml" 348 11963 11975
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 348 11963 11985 "Hwk6FINAL/paint.ml" 348 11963 11989
+type(
+  mode ref
+)
+ident(
+  int_ref mode "Hwk6FINAL/paint.ml" 87 2944 2948 "Hwk6FINAL/paint.ml" 87 2944 2952
+)
+"Hwk6FINAL/paint.ml" 348 11963 11990 "Hwk6FINAL/paint.ml" 348 11963 11992
+type(
+  mode ref -> mode -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 348 11963 11993 "Hwk6FINAL/paint.ml" 348 11963 12007
+type(
+  mode
+)
+"Hwk6FINAL/paint.ml" 348 11963 11985 "Hwk6FINAL/paint.ml" 348 11963 12007
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 350 12009 12012 "Hwk6FINAL/paint.ml" 350 12009 12020
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc_paste "Hwk6FINAL/paint.ml" 347 11914 11936 "Hwk6FINAL/paint.ml" 347 11914 11944
+)
+"Hwk6FINAL/paint.ml" 350 12009 12012 "Hwk6FINAL/paint.ml" 350 12009 12039
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 350 12009 12041 "Hwk6FINAL/paint.ml" 350 12009 12060
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 350 12009 12061 "Hwk6FINAL/paint.ml" 350 12009 12066
+type(
+  unit -> unit
+)
+ident(
+  int_ref paste "Hwk6FINAL/paint.ml" 348 11963 11967 "Hwk6FINAL/paint.ml" 348 11963 11972
+)
+"Hwk6FINAL/paint.ml" 350 12009 12040 "Hwk6FINAL/paint.ml" 350 12009 12067
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 350 12009 12012 "Hwk6FINAL/paint.ml" 350 12009 12067
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 352 12069 12073 "Hwk6FINAL/paint.ml" 352 12069 12081
+type(
+  unit
+)
+ident(
+  def thickset "Hwk6FINAL/paint.ml" 353 12110 12110 --
+)
+"Hwk6FINAL/paint.ml" 352 12069 12091 "Hwk6FINAL/paint.ml" 352 12069 12100
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 352 12069 12101 "Hwk6FINAL/paint.ml" 352 12069 12103
+type(
+  bool ref -> bool -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 352 12069 12104 "Hwk6FINAL/paint.ml" 352 12069 12109
+type(
+  bool
+)
+"Hwk6FINAL/paint.ml" 352 12069 12091 "Hwk6FINAL/paint.ml" 352 12069 12109
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 353 12110 12115 "Hwk6FINAL/paint.ml" 353 12110 12122
+type(
+  Widget.t
+)
+ident(
+  def w_thick "Hwk6FINAL/paint.ml" 357 12195 12195 --
+)
+"Hwk6FINAL/paint.ml" 353 12110 12124 "Hwk6FINAL/paint.ml" 353 12110 12132
+type(
+  Widget.label_controller
+)
+ident(
+  def lc_thick "Hwk6FINAL/paint.ml" 357 12195 12195 --
+)
+"Hwk6FINAL/paint.ml" 353 12110 12114 "Hwk6FINAL/paint.ml" 353 12110 12133
+type(
+  Widget.t * Widget.label_controller
+)
+"Hwk6FINAL/paint.ml" 353 12110 12136 "Hwk6FINAL/paint.ml" 353 12110 12144
+type(
+  bool ref -> string -> Widget.t * Widget.label_controller
+)
+ident(
+  ext_ref Widget.checkbox
+)
+"Hwk6FINAL/paint.ml" 353 12110 12145 "Hwk6FINAL/paint.ml" 353 12110 12156
+type(
+  bool ref
+)
+ident(
+  int_ref thickness "Hwk6FINAL/paint.ml" 93 3116 3120 "Hwk6FINAL/paint.ml" 93 3116 3129
+)
+"Hwk6FINAL/paint.ml" 353 12110 12157 "Hwk6FINAL/paint.ml" 353 12110 12169
+type(
+  string
+)
+"Hwk6FINAL/paint.ml" 353 12110 12136 "Hwk6FINAL/paint.ml" 353 12110 12169
+call(
+  stack
+)
+type(
+  Widget.t * Widget.label_controller
+)
+"Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+type(
+  Widget.t
+)
+ident(
+  def spacer "Hwk6FINAL/paint.ml" 365 12397 12397 --
+)
+"Hwk6FINAL/paint.ml" 357 12195 12219 "Hwk6FINAL/paint.ml" 357 12195 12224
+type(
+  int * int -> Widget.t
+)
+ident(
+  ext_ref Widget.space
+)
+"Hwk6FINAL/paint.ml" 357 12195 12226 "Hwk6FINAL/paint.ml" 357 12195 12228
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 357 12195 12229 "Hwk6FINAL/paint.ml" 357 12195 12231
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 357 12195 12225 "Hwk6FINAL/paint.ml" 357 12195 12232
+type(
+  int * int
+)
+"Hwk6FINAL/paint.ml" 357 12195 12219 "Hwk6FINAL/paint.ml" 357 12195 12232
+call(
+  stack
+)
+type(
+  Widget.t
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 365 12397 12401 "Hwk6FINAL/paint.ml" 365 12397 12410
+type(
+  Widget.t list
+)
+ident(
+  def mode_list "Hwk6FINAL/paint.ml" 368 12535 12535 --
+)
+"Hwk6FINAL/paint.ml" 365 12397 12414 "Hwk6FINAL/paint.ml" 365 12397 12421
+type(
+  Widget.t
+)
+ident(
+  int_ref w_thick "Hwk6FINAL/paint.ml" 353 12110 12115 "Hwk6FINAL/paint.ml" 353 12110 12122
+)
+"Hwk6FINAL/paint.ml" 365 12397 12423 "Hwk6FINAL/paint.ml" 365 12397 12430
+type(
+  Widget.t
+)
+ident(
+  int_ref w_point "Hwk6FINAL/paint.ml" 326 11283 11288 "Hwk6FINAL/paint.ml" 326 11283 11295
+)
+"Hwk6FINAL/paint.ml" 365 12397 12432 "Hwk6FINAL/paint.ml" 365 12397 12438
+type(
+  Widget.t
+)
+ident(
+  int_ref w_line "Hwk6FINAL/paint.ml" 332 11449 11454 "Hwk6FINAL/paint.ml" 332 11449 11460
+)
+"Hwk6FINAL/paint.ml" 365 12397 12440 "Hwk6FINAL/paint.ml" 365 12397 12449
+type(
+  Widget.t
+)
+ident(
+  int_ref w_ellipse "Hwk6FINAL/paint.ml" 337 11596 11601 "Hwk6FINAL/paint.ml" 337 11596 11610
+)
+"Hwk6FINAL/paint.ml" 365 12397 12451 "Hwk6FINAL/paint.ml" 365 12397 12457
+type(
+  Widget.t
+)
+ident(
+  int_ref w_copy "Hwk6FINAL/paint.ml" 342 11767 11772 "Hwk6FINAL/paint.ml" 342 11767 11778
+)
+"Hwk6FINAL/paint.ml" 366 12460 12493 "Hwk6FINAL/paint.ml" 366 12460 12500
+type(
+  Widget.t
+)
+ident(
+  int_ref w_paste "Hwk6FINAL/paint.ml" 347 11914 11919 "Hwk6FINAL/paint.ml" 347 11914 11926
+)
+"Hwk6FINAL/paint.ml" 366 12460 12502 "Hwk6FINAL/paint.ml" 366 12460 12508
+type(
+  Widget.t
+)
+ident(
+  int_ref w_undo "Hwk6FINAL/paint.ml" 291 10241 10246 "Hwk6FINAL/paint.ml" 291 10241 10252
+)
+"Hwk6FINAL/paint.ml" 366 12460 12510 "Hwk6FINAL/paint.ml" 366 12460 12516
+type(
+  Widget.t
+)
+ident(
+  int_ref w_quit "Hwk6FINAL/paint.ml" 320 11122 11126 "Hwk6FINAL/paint.ml" 320 11122 11132
+)
+"Hwk6FINAL/paint.ml" 365 12397 12413 "Hwk6FINAL/paint.ml" 366 12460 12517
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 368 12535 12543 "Hwk6FINAL/paint.ml" 368 12535 12556
+type(
+  Widget.t list -> Widget.t list
+)
+ident(
+  def bordered_list "Hwk6FINAL/paint.ml" 368 12535 12535 --
+)
+"Hwk6FINAL/paint.ml" 368 12535 12558 "Hwk6FINAL/paint.ml" 368 12535 12559
+type(
+  Widget.t list
+)
+ident(
+  def l "Hwk6FINAL/paint.ml" 368 12535 12577 "Hwk6FINAL/paint.ml" 374 12748 12755
+)
+"Hwk6FINAL/paint.ml" 369 12594 12610 "Hwk6FINAL/paint.ml" 369 12594 12611
+type(
+  Widget.t list
+)
+ident(
+  int_ref l "Hwk6FINAL/paint.ml" 368 12535 12558 "Hwk6FINAL/paint.ml" 368 12535 12559
+)
+"Hwk6FINAL/paint.ml" 370 12617 12627 "Hwk6FINAL/paint.ml" 370 12617 12629
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 370 12617 12633 "Hwk6FINAL/paint.ml" 370 12617 12635
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 371 12636 12646 "Hwk6FINAL/paint.ml" 371 12636 12647
+type(
+  Widget.t
+)
+ident(
+  def h "Hwk6FINAL/paint.ml" 371 12636 12657 "Hwk6FINAL/paint.ml" 371 12636 12667
+)
+"Hwk6FINAL/paint.ml" 371 12636 12651 "Hwk6FINAL/paint.ml" 371 12636 12653
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 371 12636 12646 "Hwk6FINAL/paint.ml" 371 12636 12653
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 371 12636 12658 "Hwk6FINAL/paint.ml" 371 12636 12664
+type(
+  Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.border
+)
+"Hwk6FINAL/paint.ml" 371 12636 12665 "Hwk6FINAL/paint.ml" 371 12636 12666
+type(
+  Widget.t
+)
+ident(
+  int_ref h "Hwk6FINAL/paint.ml" 371 12636 12646 "Hwk6FINAL/paint.ml" 371 12636 12647
+)
+"Hwk6FINAL/paint.ml" 371 12636 12658 "Hwk6FINAL/paint.ml" 371 12636 12666
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 371 12636 12657 "Hwk6FINAL/paint.ml" 371 12636 12667
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 372 12668 12678 "Hwk6FINAL/paint.ml" 372 12668 12679
+type(
+  Widget.t
+)
+ident(
+  def h "Hwk6FINAL/paint.ml" 373 12690 12702 "Hwk6FINAL/paint.ml" 373 12690 12747
+)
+"Hwk6FINAL/paint.ml" 372 12668 12683 "Hwk6FINAL/paint.ml" 372 12668 12685
+type(
+  Widget.t list
+)
+ident(
+  def tl "Hwk6FINAL/paint.ml" 373 12690 12702 "Hwk6FINAL/paint.ml" 373 12690 12747
+)
+"Hwk6FINAL/paint.ml" 372 12668 12678 "Hwk6FINAL/paint.ml" 372 12668 12685
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 373 12690 12703 "Hwk6FINAL/paint.ml" 373 12690 12708
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 373 12690 12710 "Hwk6FINAL/paint.ml" 373 12690 12716
+type(
+  Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.border
+)
+"Hwk6FINAL/paint.ml" 373 12690 12717 "Hwk6FINAL/paint.ml" 373 12690 12718
+type(
+  Widget.t
+)
+ident(
+  int_ref h "Hwk6FINAL/paint.ml" 372 12668 12678 "Hwk6FINAL/paint.ml" 372 12668 12679
+)
+"Hwk6FINAL/paint.ml" 373 12690 12709 "Hwk6FINAL/paint.ml" 373 12690 12719
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 373 12690 12720 "Hwk6FINAL/paint.ml" 373 12690 12726
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 373 12690 12702 "Hwk6FINAL/paint.ml" 373 12690 12727
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 373 12690 12731 "Hwk6FINAL/paint.ml" 373 12690 12744
+type(
+  Widget.t list -> Widget.t list
+)
+ident(
+  int_ref bordered_list "Hwk6FINAL/paint.ml" 368 12535 12543 "Hwk6FINAL/paint.ml" 368 12535 12556
+)
+"Hwk6FINAL/paint.ml" 373 12690 12745 "Hwk6FINAL/paint.ml" 373 12690 12747
+type(
+  Widget.t list
+)
+ident(
+  int_ref tl "Hwk6FINAL/paint.ml" 372 12668 12683 "Hwk6FINAL/paint.ml" 372 12668 12685
+)
+"Hwk6FINAL/paint.ml" 373 12690 12731 "Hwk6FINAL/paint.ml" 373 12690 12747
+call(
+  stack
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 373 12690 12702 "Hwk6FINAL/paint.ml" 373 12690 12747
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 369 12594 12598 "Hwk6FINAL/paint.ml" 374 12748 12755
+type(
+  Widget.t list
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 376 12759 12763 "Hwk6FINAL/paint.ml" 376 12759 12770
+type(
+  Widget.t list
+)
+ident(
+  def borders "Hwk6FINAL/paint.ml" 377 12797 12797 --
+)
+"Hwk6FINAL/paint.ml" 376 12759 12773 "Hwk6FINAL/paint.ml" 376 12759 12786
+type(
+  Widget.t list -> Widget.t list
+)
+ident(
+  int_ref bordered_list "Hwk6FINAL/paint.ml" 368 12535 12543 "Hwk6FINAL/paint.ml" 368 12535 12556
+)
+"Hwk6FINAL/paint.ml" 376 12759 12787 "Hwk6FINAL/paint.ml" 376 12759 12796
+type(
+  Widget.t list
+)
+ident(
+  int_ref mode_list "Hwk6FINAL/paint.ml" 365 12397 12401 "Hwk6FINAL/paint.ml" 365 12397 12410
+)
+"Hwk6FINAL/paint.ml" 376 12759 12773 "Hwk6FINAL/paint.ml" 376 12759 12796
+call(
+  stack
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 377 12797 12801 "Hwk6FINAL/paint.ml" 377 12797 12806
+type(
+  Widget.t
+)
+ident(
+  def modes "Hwk6FINAL/paint.ml" 386 13121 13121 --
+)
+"Hwk6FINAL/paint.ml" 377 12797 12821 "Hwk6FINAL/paint.ml" 377 12797 12826
+type(
+  Widget.t list -> Widget.t
+)
+ident(
+  ext_ref Widget.hlist
+)
+"Hwk6FINAL/paint.ml" 377 12797 12827 "Hwk6FINAL/paint.ml" 377 12797 12834
+type(
+  Widget.t list
+)
+ident(
+  int_ref borders "Hwk6FINAL/paint.ml" 376 12759 12763 "Hwk6FINAL/paint.ml" 376 12759 12770
+)
+"Hwk6FINAL/paint.ml" 377 12797 12821 "Hwk6FINAL/paint.ml" 377 12797 12834
+call(
+  stack
+)
+type(
+  Widget.t
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 386 13121 13125 "Hwk6FINAL/paint.ml" 386 13121 13137
+type(
+  Gctx.color -> Widget.t
+)
+ident(
+  def color_button "Hwk6FINAL/paint.ml" 403 13702 13702 --
+)
+"Hwk6FINAL/paint.ml" 386 13121 13139 "Hwk6FINAL/paint.ml" 386 13121 13140
+type(
+  Gctx.color
+)
+ident(
+  def c "Hwk6FINAL/paint.ml" 386 13121 13153 "Hwk6FINAL/paint.ml" 396 13507 13512
+)
+"Hwk6FINAL/paint.ml" 387 13166 13172 "Hwk6FINAL/paint.ml" 387 13166 13179
+type(
+  Gctx.t -> unit
+)
+"Hwk6FINAL/paint.ml" 387 13166 13181 "Hwk6FINAL/paint.ml" 387 13166 13182
+type(
+  Gctx.t
+)
+ident(
+  def g "Hwk6FINAL/paint.ml" 387 13166 13191 "Hwk6FINAL/paint.ml" 388 13200 13251
+)
+"Hwk6FINAL/paint.ml" 388 13200 13204 "Hwk6FINAL/paint.ml" 388 13200 13218
+type(
+  Gctx.t -> Gctx.position -> Gctx.dimension -> unit
+)
+ident(
+  ext_ref Gctx.fill_rect
+)
+"Hwk6FINAL/paint.ml" 388 13200 13220 "Hwk6FINAL/paint.ml" 388 13200 13234
+type(
+  Gctx.t -> Gctx.color -> Gctx.t
+)
+ident(
+  ext_ref Gctx.set_color
+)
+"Hwk6FINAL/paint.ml" 388 13200 13235 "Hwk6FINAL/paint.ml" 388 13200 13236
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/paint.ml" 387 13166 13181 "Hwk6FINAL/paint.ml" 387 13166 13182
+)
+"Hwk6FINAL/paint.ml" 388 13200 13237 "Hwk6FINAL/paint.ml" 388 13200 13238
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 386 13121 13139 "Hwk6FINAL/paint.ml" 386 13121 13140
+)
+"Hwk6FINAL/paint.ml" 388 13200 13219 "Hwk6FINAL/paint.ml" 388 13200 13239
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/paint.ml" 388 13200 13241 "Hwk6FINAL/paint.ml" 388 13200 13242
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 388 13200 13243 "Hwk6FINAL/paint.ml" 388 13200 13244
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 388 13200 13240 "Hwk6FINAL/paint.ml" 388 13200 13245
+type(
+  Gctx.position
+)
+"Hwk6FINAL/paint.ml" 388 13200 13247 "Hwk6FINAL/paint.ml" 388 13200 13248
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 388 13200 13249 "Hwk6FINAL/paint.ml" 388 13200 13250
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 388 13200 13246 "Hwk6FINAL/paint.ml" 388 13200 13251
+type(
+  Gctx.dimension
+)
+"Hwk6FINAL/paint.ml" 388 13200 13204 "Hwk6FINAL/paint.ml" 388 13200 13251
+call(
+  tail
+)
+type(
+  unit
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 390 13257 13263 "Hwk6FINAL/paint.ml" 390 13257 13273
+type(
+  (Gctx.t -> unit) -> Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 390 13257 13275 "Hwk6FINAL/paint.ml" 390 13257 13282
+type(
+  Gctx.t -> unit
+)
+ident(
+  def repaint "Hwk6FINAL/paint.ml" 390 13257 13301 "Hwk6FINAL/paint.ml" 392 13379 13391
+)
+"Hwk6FINAL/paint.ml" 391 13336 13345 "Hwk6FINAL/paint.ml" 391 13336 13346
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 391 13336 13347 "Hwk6FINAL/paint.ml" 391 13336 13349
+type(
+  Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 391 13336 13344 "Hwk6FINAL/paint.ml" 391 13336 13350
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 391 13336 13353 "Hwk6FINAL/paint.ml" 391 13336 13359
+type(
+  int * int -> (Gctx.t -> unit) -> Widget.t * Widget.notifier_controller
+)
+ident(
+  ext_ref Widget.canvas
+)
+"Hwk6FINAL/paint.ml" 391 13336 13361 "Hwk6FINAL/paint.ml" 391 13336 13363
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 391 13336 13364 "Hwk6FINAL/paint.ml" 391 13336 13366
+type(
+  int
+)
+"Hwk6FINAL/paint.ml" 391 13336 13360 "Hwk6FINAL/paint.ml" 391 13336 13367
+type(
+  int * int
+)
+"Hwk6FINAL/paint.ml" 391 13336 13368 "Hwk6FINAL/paint.ml" 391 13336 13375
+type(
+  Gctx.t -> unit
+)
+ident(
+  int_ref repaint "Hwk6FINAL/paint.ml" 390 13257 13275 "Hwk6FINAL/paint.ml" 390 13257 13282
+)
+"Hwk6FINAL/paint.ml" 391 13336 13353 "Hwk6FINAL/paint.ml" 391 13336 13375
+call(
+  stack
+)
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 392 13379 13386 "Hwk6FINAL/paint.ml" 392 13379 13387
+type(
+  Widget.t
+)
+ident(
+  int_ref w "Hwk6FINAL/paint.ml" 391 13336 13345 "Hwk6FINAL/paint.ml" 391 13336 13346
+)
+"Hwk6FINAL/paint.ml" 392 13379 13388 "Hwk6FINAL/paint.ml" 392 13379 13390
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc "Hwk6FINAL/paint.ml" 391 13336 13347 "Hwk6FINAL/paint.ml" 391 13336 13349
+)
+"Hwk6FINAL/paint.ml" 392 13379 13385 "Hwk6FINAL/paint.ml" 392 13379 13391
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 391 13336 13340 "Hwk6FINAL/paint.ml" 392 13379 13391
+type(
+  Widget.t * Widget.notifier_controller
+)
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 394 13399 13406 "Hwk6FINAL/paint.ml" 394 13399 13407
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 394 13399 13408 "Hwk6FINAL/paint.ml" 394 13399 13410
+type(
+  Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 394 13399 13405 "Hwk6FINAL/paint.ml" 394 13399 13411
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 394 13399 13414 "Hwk6FINAL/paint.ml" 394 13399 13424
+type(
+  (Gctx.t -> unit) -> Widget.t * Widget.notifier_controller
+)
+ident(
+  int_ref img_button "Hwk6FINAL/paint.ml" 390 13257 13263 "Hwk6FINAL/paint.ml" 390 13257 13273
+)
+"Hwk6FINAL/paint.ml" 394 13399 13425 "Hwk6FINAL/paint.ml" 394 13399 13432
+type(
+  Gctx.t -> unit
+)
+ident(
+  int_ref repaint "Hwk6FINAL/paint.ml" 387 13166 13172 "Hwk6FINAL/paint.ml" 387 13166 13179
+)
+"Hwk6FINAL/paint.ml" 394 13399 13414 "Hwk6FINAL/paint.ml" 394 13399 13432
+call(
+  stack
+)
+type(
+  Widget.t * Widget.notifier_controller
+)
+"Hwk6FINAL/paint.ml" 395 13436 13440 "Hwk6FINAL/paint.ml" 395 13436 13442
+type(
+  Widget.notifier_controller
+)
+ident(
+  int_ref nc "Hwk6FINAL/paint.ml" 394 13399 13408 "Hwk6FINAL/paint.ml" 394 13399 13410
+)
+"Hwk6FINAL/paint.ml" 395 13436 13440 "Hwk6FINAL/paint.ml" 395 13436 13461
+type(
+  Widget.listener -> unit
+)
+"Hwk6FINAL/paint.ml" 395 13436 13463 "Hwk6FINAL/paint.ml" 395 13436 13482
+type(
+  (unit -> unit) -> Widget.listener
+)
+ident(
+  ext_ref Widget.mouseclick_listener
+)
+"Hwk6FINAL/paint.ml" 395 13436 13488 "Hwk6FINAL/paint.ml" 395 13436 13490
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 395 13436 13494 "Hwk6FINAL/paint.ml" 395 13436 13499
+type(
+  Gctx.color ref
+)
+ident(
+  int_ref color "Hwk6FINAL/paint.ml" 92 3072 3076 "Hwk6FINAL/paint.ml" 92 3072 3081
+)
+"Hwk6FINAL/paint.ml" 395 13436 13500 "Hwk6FINAL/paint.ml" 395 13436 13502
+type(
+  Gctx.color ref -> Gctx.color -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"Hwk6FINAL/paint.ml" 395 13436 13502 "Hwk6FINAL/paint.ml" 395 13436 13503
+type(
+  Gctx.color
+)
+ident(
+  int_ref c "Hwk6FINAL/paint.ml" 386 13121 13139 "Hwk6FINAL/paint.ml" 386 13121 13140
+)
+"Hwk6FINAL/paint.ml" 395 13436 13494 "Hwk6FINAL/paint.ml" 395 13436 13503
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 395 13436 13483 "Hwk6FINAL/paint.ml" 395 13436 13504
+type(
+  unit -> unit
+)
+"Hwk6FINAL/paint.ml" 395 13436 13462 "Hwk6FINAL/paint.ml" 395 13436 13505
+call(
+  stack
+)
+type(
+  Widget.listener
+)
+"Hwk6FINAL/paint.ml" 395 13436 13440 "Hwk6FINAL/paint.ml" 395 13436 13505
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/paint.ml" 396 13507 13511 "Hwk6FINAL/paint.ml" 396 13507 13512
+type(
+  Widget.t
+)
+ident(
+  int_ref w "Hwk6FINAL/paint.ml" 394 13399 13406 "Hwk6FINAL/paint.ml" 394 13399 13407
+)
+"Hwk6FINAL/paint.ml" 395 13436 13440 "Hwk6FINAL/paint.ml" 396 13507 13512
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 394 13399 13401 "Hwk6FINAL/paint.ml" 396 13507 13512
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 390 13257 13259 "Hwk6FINAL/paint.ml" 396 13507 13512
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 387 13166 13168 "Hwk6FINAL/paint.ml" 396 13507 13512
+type(
+  Widget.t
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 403 13702 13706 "Hwk6FINAL/paint.ml" 403 13702 13719
+type(
+  Widget.t
+)
+ident(
+  def color_toolbar "Hwk6FINAL/paint.ml" 416 14197 14197 --
+)
+"Hwk6FINAL/paint.ml" 404 13733 13741 "Hwk6FINAL/paint.ml" 404 13733 13747
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 404 13733 13769 "Hwk6FINAL/paint.ml" 404 13733 13781
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.black
+)
+"Hwk6FINAL/paint.ml" 404 13733 13782 "Hwk6FINAL/paint.ml" 404 13733 13794
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.white
+)
+"Hwk6FINAL/paint.ml" 405 13796 13800 "Hwk6FINAL/paint.ml" 405 13796 13812
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.green
+)
+"Hwk6FINAL/paint.ml" 405 13796 13813 "Hwk6FINAL/paint.ml" 405 13796 13823
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.red
+)
+"Hwk6FINAL/paint.ml" 405 13796 13824 "Hwk6FINAL/paint.ml" 405 13796 13837
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.yellow
+)
+"Hwk6FINAL/paint.ml" 405 13796 13838 "Hwk6FINAL/paint.ml" 405 13796 13849
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.blue
+)
+"Hwk6FINAL/paint.ml" 405 13796 13850 "Hwk6FINAL/paint.ml" 405 13796 13861
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.cyan
+)
+"Hwk6FINAL/paint.ml" 406 13863 13867 "Hwk6FINAL/paint.ml" 406 13863 13881
+type(
+  Gctx.color
+)
+ident(
+  ext_ref Gctx.magenta
+)
+"Hwk6FINAL/paint.ml" 404 13733 13768 "Hwk6FINAL/paint.ml" 406 13863 13882
+type(
+  Gctx.color list
+)
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 407 13886 13898 "Hwk6FINAL/paint.ml" 407 13886 13909
+type(
+  Gctx.color list -> Widget.t list
+)
+"Hwk6FINAL/paint.ml" 407 13886 13911 "Hwk6FINAL/paint.ml" 407 13886 13912
+type(
+  Gctx.color list
+)
+ident(
+  def l "Hwk6FINAL/paint.ml" 407 13886 13930 "Hwk6FINAL/paint.ml" 412 14121 14132
+)
+"Hwk6FINAL/paint.ml" 408 13941 13961 "Hwk6FINAL/paint.ml" 408 13941 13962
+type(
+  Gctx.color list
+)
+ident(
+  int_ref l "Hwk6FINAL/paint.ml" 407 13886 13911 "Hwk6FINAL/paint.ml" 407 13886 13912
+)
+"Hwk6FINAL/paint.ml" 409 13968 13982 "Hwk6FINAL/paint.ml" 409 13968 13984
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 409 13968 13988 "Hwk6FINAL/paint.ml" 409 13968 13990
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 410 13991 14005 "Hwk6FINAL/paint.ml" 410 13991 14006
+type(
+  Gctx.color
+)
+ident(
+  def x "Hwk6FINAL/paint.ml" 410 13991 14016 "Hwk6FINAL/paint.ml" 410 13991 14041
+)
+"Hwk6FINAL/paint.ml" 410 13991 14010 "Hwk6FINAL/paint.ml" 410 13991 14012
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 410 13991 14005 "Hwk6FINAL/paint.ml" 410 13991 14012
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 410 13991 14017 "Hwk6FINAL/paint.ml" 410 13991 14023
+type(
+  Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.border
+)
+"Hwk6FINAL/paint.ml" 410 13991 14025 "Hwk6FINAL/paint.ml" 410 13991 14037
+type(
+  Gctx.color -> Widget.t
+)
+ident(
+  int_ref color_button "Hwk6FINAL/paint.ml" 386 13121 13125 "Hwk6FINAL/paint.ml" 386 13121 13137
+)
+"Hwk6FINAL/paint.ml" 410 13991 14038 "Hwk6FINAL/paint.ml" 410 13991 14039
+type(
+  Gctx.color
+)
+ident(
+  int_ref x "Hwk6FINAL/paint.ml" 410 13991 14005 "Hwk6FINAL/paint.ml" 410 13991 14006
+)
+"Hwk6FINAL/paint.ml" 410 13991 14024 "Hwk6FINAL/paint.ml" 410 13991 14040
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 410 13991 14017 "Hwk6FINAL/paint.ml" 410 13991 14040
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 410 13991 14016 "Hwk6FINAL/paint.ml" 410 13991 14041
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 411 14042 14056 "Hwk6FINAL/paint.ml" 411 14042 14057
+type(
+  Gctx.color
+)
+ident(
+  def x "Hwk6FINAL/paint.ml" 411 14042 14064 "Hwk6FINAL/paint.ml" 411 14042 14120
+)
+"Hwk6FINAL/paint.ml" 411 14042 14059 "Hwk6FINAL/paint.ml" 411 14042 14060
+type(
+  Gctx.color list
+)
+ident(
+  def s "Hwk6FINAL/paint.ml" 411 14042 14064 "Hwk6FINAL/paint.ml" 411 14042 14120
+)
+"Hwk6FINAL/paint.ml" 411 14042 14056 "Hwk6FINAL/paint.ml" 411 14042 14060
+type(
+  Gctx.color list
+)
+"Hwk6FINAL/paint.ml" 411 14042 14065 "Hwk6FINAL/paint.ml" 411 14042 14070
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 411 14042 14072 "Hwk6FINAL/paint.ml" 411 14042 14078
+type(
+  Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.border
+)
+"Hwk6FINAL/paint.ml" 411 14042 14079 "Hwk6FINAL/paint.ml" 411 14042 14091
+type(
+  Gctx.color -> Widget.t
+)
+ident(
+  int_ref color_button "Hwk6FINAL/paint.ml" 386 13121 13125 "Hwk6FINAL/paint.ml" 386 13121 13137
+)
+"Hwk6FINAL/paint.ml" 411 14042 14092 "Hwk6FINAL/paint.ml" 411 14042 14093
+type(
+  Gctx.color
+)
+ident(
+  int_ref x "Hwk6FINAL/paint.ml" 411 14042 14056 "Hwk6FINAL/paint.ml" 411 14042 14057
+)
+"Hwk6FINAL/paint.ml" 411 14042 14078 "Hwk6FINAL/paint.ml" 411 14042 14094
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 411 14042 14071 "Hwk6FINAL/paint.ml" 411 14042 14095
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 411 14042 14096 "Hwk6FINAL/paint.ml" 411 14042 14102
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 411 14042 14064 "Hwk6FINAL/paint.ml" 411 14042 14103
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 411 14042 14107 "Hwk6FINAL/paint.ml" 411 14042 14118
+type(
+  Gctx.color list -> Widget.t list
+)
+ident(
+  int_ref pair_colors "Hwk6FINAL/paint.ml" 407 13886 13898 "Hwk6FINAL/paint.ml" 407 13886 13909
+)
+"Hwk6FINAL/paint.ml" 411 14042 14119 "Hwk6FINAL/paint.ml" 411 14042 14120
+type(
+  Gctx.color list
+)
+ident(
+  int_ref s "Hwk6FINAL/paint.ml" 411 14042 14059 "Hwk6FINAL/paint.ml" 411 14042 14060
+)
+"Hwk6FINAL/paint.ml" 411 14042 14107 "Hwk6FINAL/paint.ml" 411 14042 14120
+call(
+  stack
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 411 14042 14064 "Hwk6FINAL/paint.ml" 411 14042 14120
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 408 13941 13949 "Hwk6FINAL/paint.ml" 412 14121 14132
+type(
+  Widget.t list
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 413 14136 14144 "Hwk6FINAL/paint.ml" 413 14136 14151
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 413 14136 14154 "Hwk6FINAL/paint.ml" 413 14136 14165
+type(
+  Gctx.color list -> Widget.t list
+)
+ident(
+  int_ref pair_colors "Hwk6FINAL/paint.ml" 407 13886 13898 "Hwk6FINAL/paint.ml" 407 13886 13909
+)
+"Hwk6FINAL/paint.ml" 413 14136 14166 "Hwk6FINAL/paint.ml" 413 14136 14172
+type(
+  Gctx.color list
+)
+ident(
+  int_ref colors "Hwk6FINAL/paint.ml" 404 13733 13741 "Hwk6FINAL/paint.ml" 404 13733 13747
+)
+"Hwk6FINAL/paint.ml" 413 14136 14154 "Hwk6FINAL/paint.ml" 413 14136 14172
+call(
+  stack
+)
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 414 14176 14180 "Hwk6FINAL/paint.ml" 414 14176 14185
+type(
+  Widget.t list -> Widget.t
+)
+ident(
+  ext_ref Widget.hlist
+)
+"Hwk6FINAL/paint.ml" 414 14176 14186 "Hwk6FINAL/paint.ml" 414 14176 14193
+type(
+  Widget.t list
+)
+ident(
+  int_ref buttons "Hwk6FINAL/paint.ml" 413 14136 14144 "Hwk6FINAL/paint.ml" 413 14136 14151
+)
+"Hwk6FINAL/paint.ml" 414 14176 14180 "Hwk6FINAL/paint.ml" 414 14176 14193
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 413 14136 14140 "Hwk6FINAL/paint.ml" 414 14176 14193
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 407 13886 13890 "Hwk6FINAL/paint.ml" 414 14176 14193
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 404 13733 13737 "Hwk6FINAL/paint.ml" 414 14176 14193
+type(
+  Widget.t
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 416 14197 14201 "Hwk6FINAL/paint.ml" 416 14197 14205
+type(
+  Widget.t
+)
+ident(
+  def wash "Hwk6FINAL/paint.ml" 418 14271 14271 --
+)
+"Hwk6FINAL/paint.ml" 416 14197 14208 "Hwk6FINAL/paint.ml" 416 14197 14213
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 416 14197 14214 "Hwk6FINAL/paint.ml" 416 14197 14219
+type(
+  Widget.t
+)
+ident(
+  int_ref modes "Hwk6FINAL/paint.ml" 377 12797 12801 "Hwk6FINAL/paint.ml" 377 12797 12806
+)
+"Hwk6FINAL/paint.ml" 416 14197 14221 "Hwk6FINAL/paint.ml" 416 14197 14226
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 416 14197 14227 "Hwk6FINAL/paint.ml" 416 14197 14233
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 416 14197 14235 "Hwk6FINAL/paint.ml" 416 14197 14240
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 416 14197 14241 "Hwk6FINAL/paint.ml" 416 14197 14254
+type(
+  Widget.t
+)
+ident(
+  int_ref color_toolbar "Hwk6FINAL/paint.ml" 403 13702 13706 "Hwk6FINAL/paint.ml" 403 13702 13719
+)
+"Hwk6FINAL/paint.ml" 416 14197 14255 "Hwk6FINAL/paint.ml" 416 14197 14267
+type(
+  Widget.t
+)
+ident(
+  int_ref paint_canvas "Hwk6FINAL/paint.ml" 160 5608 5614 "Hwk6FINAL/paint.ml" 160 5608 5626
+)
+"Hwk6FINAL/paint.ml" 416 14197 14234 "Hwk6FINAL/paint.ml" 416 14197 14268
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 416 14197 14220 "Hwk6FINAL/paint.ml" 416 14197 14269
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 416 14197 14208 "Hwk6FINAL/paint.ml" 416 14197 14269
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 418 14271 14275 "Hwk6FINAL/paint.ml" 418 14271 14284
+type(
+  Widget.t list
+)
+ident(
+  def wash_list "Hwk6FINAL/paint.ml" 419 14354 14354 --
+)
+"Hwk6FINAL/paint.ml" 418 14271 14288 "Hwk6FINAL/paint.ml" 418 14271 14300
+type(
+  Widget.t
+)
+ident(
+  int_ref paint_canvas "Hwk6FINAL/paint.ml" 160 5608 5614 "Hwk6FINAL/paint.ml" 160 5608 5626
+)
+"Hwk6FINAL/paint.ml" 418 14271 14303 "Hwk6FINAL/paint.ml" 418 14271 14308
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.vpair
+)
+"Hwk6FINAL/paint.ml" 418 14271 14309 "Hwk6FINAL/paint.ml" 418 14271 14315
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 418 14271 14316 "Hwk6FINAL/paint.ml" 418 14271 14321
+type(
+  Widget.t
+)
+ident(
+  int_ref modes "Hwk6FINAL/paint.ml" 377 12797 12801 "Hwk6FINAL/paint.ml" 377 12797 12806
+)
+"Hwk6FINAL/paint.ml" 418 14271 14302 "Hwk6FINAL/paint.ml" 418 14271 14322
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 418 14271 14325 "Hwk6FINAL/paint.ml" 418 14271 14330
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.vpair
+)
+"Hwk6FINAL/paint.ml" 418 14271 14331 "Hwk6FINAL/paint.ml" 418 14271 14337
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 418 14271 14338 "Hwk6FINAL/paint.ml" 418 14271 14351
+type(
+  Widget.t
+)
+ident(
+  int_ref color_toolbar "Hwk6FINAL/paint.ml" 403 13702 13706 "Hwk6FINAL/paint.ml" 403 13702 13719
+)
+"Hwk6FINAL/paint.ml" 418 14271 14324 "Hwk6FINAL/paint.ml" 418 14271 14352
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 418 14271 14287 "Hwk6FINAL/paint.ml" 418 14271 14353
+type(
+  Widget.t list
+)
+"Hwk6FINAL/paint.ml" 419 14354 14358 "Hwk6FINAL/paint.ml" 419 14354 14362
+type(
+  Widget.t
+)
+ident(
+  def draw "Hwk6FINAL/paint.ml" 428 14637 14637 --
+)
+"Hwk6FINAL/paint.ml" 419 14354 14365 "Hwk6FINAL/paint.ml" 419 14354 14370
+type(
+  Widget.t list -> Widget.t
+)
+ident(
+  ext_ref Widget.vlist
+)
+"Hwk6FINAL/paint.ml" 419 14354 14371 "Hwk6FINAL/paint.ml" 419 14354 14380
+type(
+  Widget.t list
+)
+ident(
+  int_ref wash_list "Hwk6FINAL/paint.ml" 418 14271 14275 "Hwk6FINAL/paint.ml" 418 14271 14284
+)
+"Hwk6FINAL/paint.ml" 419 14354 14365 "Hwk6FINAL/paint.ml" 419 14354 14380
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 428 14637 14641 "Hwk6FINAL/paint.ml" 428 14637 14653
+type(
+  Widget.t
+)
+ident(
+  def paint_widget "Hwk6FINAL/paint.ml" 437 14899 14902 --
+)
+"Hwk6FINAL/paint.ml" 428 14637 14656 "Hwk6FINAL/paint.ml" 428 14637 14661
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 428 14637 14662 "Hwk6FINAL/paint.ml" 428 14637 14667
+type(
+  Widget.t
+)
+ident(
+  int_ref modes "Hwk6FINAL/paint.ml" 377 12797 12801 "Hwk6FINAL/paint.ml" 377 12797 12806
+)
+"Hwk6FINAL/paint.ml" 429 14668 14674 "Hwk6FINAL/paint.ml" 429 14668 14679
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 429 14668 14680 "Hwk6FINAL/paint.ml" 429 14668 14686
+type(
+  Widget.t
+)
+ident(
+  int_ref spacer "Hwk6FINAL/paint.ml" 357 12195 12199 "Hwk6FINAL/paint.ml" 357 12195 12205
+)
+"Hwk6FINAL/paint.ml" 429 14668 14688 "Hwk6FINAL/paint.ml" 429 14668 14693
+type(
+  Widget.t -> Widget.t -> Widget.t
+)
+ident(
+  ext_ref Widget.hpair
+)
+"Hwk6FINAL/paint.ml" 429 14668 14694 "Hwk6FINAL/paint.ml" 429 14668 14707
+type(
+  Widget.t
+)
+ident(
+  int_ref color_toolbar "Hwk6FINAL/paint.ml" 403 13702 13706 "Hwk6FINAL/paint.ml" 403 13702 13719
+)
+"Hwk6FINAL/paint.ml" 429 14668 14708 "Hwk6FINAL/paint.ml" 429 14668 14720
+type(
+  Widget.t
+)
+ident(
+  int_ref paint_canvas "Hwk6FINAL/paint.ml" 160 5608 5614 "Hwk6FINAL/paint.ml" 160 5608 5626
+)
+"Hwk6FINAL/paint.ml" 429 14668 14687 "Hwk6FINAL/paint.ml" 429 14668 14721
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 429 14668 14673 "Hwk6FINAL/paint.ml" 429 14668 14722
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 428 14637 14656 "Hwk6FINAL/paint.ml" 429 14668 14722
+call(
+  stack
+)
+type(
+  Widget.t
+)
+"Hwk6FINAL/paint.ml" 437 14899 14902 "Hwk6FINAL/paint.ml" 437 14899 14915
+type(
+  Widget.t -> unit
+)
+ident(
+  ext_ref Eventloop.run
+)
+"Hwk6FINAL/paint.ml" 437 14899 14916 "Hwk6FINAL/paint.ml" 437 14899 14920
+type(
+  Widget.t
+)
+ident(
+  int_ref draw "Hwk6FINAL/paint.ml" 419 14354 14358 "Hwk6FINAL/paint.ml" 419 14354 14362
+)
+"Hwk6FINAL/paint.ml" 437 14899 14902 "Hwk6FINAL/paint.ml" 437 14899 14920
+call(
+  stack
+)
+type(
+  unit
+)

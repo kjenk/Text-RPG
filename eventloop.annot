@@ -1,0 +1,267 @@
+"Hwk6FINAL/eventloop.ml" 14 462 466 "Hwk6FINAL/eventloop.ml" 14 462 469
+type(
+  Widget.t -> unit
+)
+ident(
+  def run "Hwk6FINAL/eventloop.ml" 26 1006 1017 --
+)
+"Hwk6FINAL/eventloop.ml" 14 462 471 "Hwk6FINAL/eventloop.ml" 14 462 472
+type(
+  Widget.t
+)
+ident(
+  def w "Hwk6FINAL/eventloop.ml" 14 462 483 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+)
+"Hwk6FINAL/eventloop.ml" 15 492 494 "Hwk6FINAL/eventloop.ml" 15 492 513
+type(
+  string -> unit
+)
+ident(
+  ext_ref Graphics.open_graph
+)
+"Hwk6FINAL/eventloop.ml" 15 492 514 "Hwk6FINAL/eventloop.ml" 15 492 516
+type(
+  string
+)
+"Hwk6FINAL/eventloop.ml" 15 492 494 "Hwk6FINAL/eventloop.ml" 15 492 516
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 16 552 554 "Hwk6FINAL/eventloop.ml" 16 552 579
+type(
+  bool -> unit
+)
+ident(
+  ext_ref Graphics.auto_synchronize
+)
+"Hwk6FINAL/eventloop.ml" 16 552 580 "Hwk6FINAL/eventloop.ml" 16 552 585
+type(
+  bool
+)
+"Hwk6FINAL/eventloop.ml" 16 552 554 "Hwk6FINAL/eventloop.ml" 16 552 585
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 17 633 639 "Hwk6FINAL/eventloop.ml" 17 633 640
+type(
+  Gctx.t
+)
+"Hwk6FINAL/eventloop.ml" 17 633 643 "Hwk6FINAL/eventloop.ml" 17 633 654
+type(
+  unit -> Gctx.t
+)
+ident(
+  ext_ref Gctx.create
+)
+"Hwk6FINAL/eventloop.ml" 17 633 654 "Hwk6FINAL/eventloop.ml" 17 633 656
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 17 633 643 "Hwk6FINAL/eventloop.ml" 17 633 656
+call(
+  stack
+)
+type(
+  Gctx.t
+)
+"Hwk6FINAL/eventloop.ml" 19 704 714 "Hwk6FINAL/eventloop.ml" 19 704 718
+type(
+  unit -> 'a
+)
+"Hwk6FINAL/eventloop.ml" 19 704 719 "Hwk6FINAL/eventloop.ml" 19 704 721
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 20 724 728 "Hwk6FINAL/eventloop.ml" 20 724 748
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.clear_graph
+)
+"Hwk6FINAL/eventloop.ml" 20 724 749 "Hwk6FINAL/eventloop.ml" 20 724 751
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 20 724 728 "Hwk6FINAL/eventloop.ml" 20 724 751
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 21 753 757 "Hwk6FINAL/eventloop.ml" 21 753 758
+type(
+  Widget.t
+)
+ident(
+  int_ref w "Hwk6FINAL/eventloop.ml" 14 462 471 "Hwk6FINAL/eventloop.ml" 14 462 472
+)
+"Hwk6FINAL/eventloop.ml" 21 753 757 "Hwk6FINAL/eventloop.ml" 21 753 773
+type(
+  Gctx.t -> unit
+)
+"Hwk6FINAL/eventloop.ml" 21 753 774 "Hwk6FINAL/eventloop.ml" 21 753 775
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/eventloop.ml" 17 633 639 "Hwk6FINAL/eventloop.ml" 17 633 640
+)
+"Hwk6FINAL/eventloop.ml" 21 753 757 "Hwk6FINAL/eventloop.ml" 21 753 775
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 22 777 781 "Hwk6FINAL/eventloop.ml" 22 777 801
+type(
+  unit -> unit
+)
+ident(
+  ext_ref Graphics.synchronize
+)
+"Hwk6FINAL/eventloop.ml" 22 777 802 "Hwk6FINAL/eventloop.ml" 22 777 804
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 22 777 781 "Hwk6FINAL/eventloop.ml" 22 777 804
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 23 853 861 "Hwk6FINAL/eventloop.ml" 23 853 862
+type(
+  Gctx.event
+)
+"Hwk6FINAL/eventloop.ml" 23 853 865 "Hwk6FINAL/eventloop.ml" 23 853 884
+type(
+  Gctx.t -> Gctx.event
+)
+ident(
+  ext_ref Gctx.wait_for_event
+)
+"Hwk6FINAL/eventloop.ml" 23 853 885 "Hwk6FINAL/eventloop.ml" 23 853 886
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/eventloop.ml" 17 633 639 "Hwk6FINAL/eventloop.ml" 17 633 640
+)
+"Hwk6FINAL/eventloop.ml" 23 853 865 "Hwk6FINAL/eventloop.ml" 23 853 886
+call(
+  stack
+)
+type(
+  Gctx.event
+)
+"Hwk6FINAL/eventloop.ml" 24 925 931 "Hwk6FINAL/eventloop.ml" 24 925 932
+type(
+  Widget.t
+)
+ident(
+  int_ref w "Hwk6FINAL/eventloop.ml" 14 462 471 "Hwk6FINAL/eventloop.ml" 14 462 472
+)
+"Hwk6FINAL/eventloop.ml" 24 925 931 "Hwk6FINAL/eventloop.ml" 24 925 946
+type(
+  Gctx.t -> Gctx.event -> unit
+)
+"Hwk6FINAL/eventloop.ml" 24 925 947 "Hwk6FINAL/eventloop.ml" 24 925 948
+type(
+  Gctx.t
+)
+ident(
+  int_ref g "Hwk6FINAL/eventloop.ml" 17 633 639 "Hwk6FINAL/eventloop.ml" 17 633 640
+)
+"Hwk6FINAL/eventloop.ml" 24 925 949 "Hwk6FINAL/eventloop.ml" 24 925 950
+type(
+  Gctx.event
+)
+ident(
+  int_ref e "Hwk6FINAL/eventloop.ml" 23 853 861 "Hwk6FINAL/eventloop.ml" 23 853 862
+)
+"Hwk6FINAL/eventloop.ml" 24 925 931 "Hwk6FINAL/eventloop.ml" 24 925 950
+call(
+  stack
+)
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 24 925 952 "Hwk6FINAL/eventloop.ml" 24 925 956
+type(
+  unit -> 'a
+)
+ident(
+  int_ref loop "Hwk6FINAL/eventloop.ml" 19 704 714 "Hwk6FINAL/eventloop.ml" 19 704 718
+)
+"Hwk6FINAL/eventloop.ml" 24 925 957 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 24 925 952 "Hwk6FINAL/eventloop.ml" 24 925 959
+call(
+  tail
+)
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 24 925 931 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 23 853 857 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 22 777 781 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 21 753 757 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 20 724 728 "Hwk6FINAL/eventloop.ml" 24 925 959
+type(
+  'a
+)
+"Hwk6FINAL/eventloop.ml" 26 1006 1010 "Hwk6FINAL/eventloop.ml" 26 1006 1014
+type(
+  unit -> unit
+)
+ident(
+  int_ref loop "Hwk6FINAL/eventloop.ml" 19 704 714 "Hwk6FINAL/eventloop.ml" 19 704 718
+)
+"Hwk6FINAL/eventloop.ml" 26 1006 1015 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 26 1006 1010 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+call(
+  tail
+)
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 19 704 706 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 17 633 635 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 16 552 554 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+type(
+  unit
+)
+"Hwk6FINAL/eventloop.ml" 15 492 494 "Hwk6FINAL/eventloop.ml" 26 1006 1017
+type(
+  unit
+)
+type(
+  unit
+)
